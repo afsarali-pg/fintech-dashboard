@@ -5,7 +5,7 @@
 .dashboard-title{
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: #dff4ee;
+    background-color: floralwhite;
     padding: 0.5rem;
     color: darkcyan;
 }
@@ -16,4 +16,11 @@ td {
 
 .pr-link{
     width: 15rem;
+}
+.deployment-table-header{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 0.5rem;
+    color: darkblue;
 }
