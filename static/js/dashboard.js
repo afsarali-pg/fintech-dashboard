@@ -43,16 +43,18 @@ $(document).ready(function () {
 
         $.each(sampleData, function (index, deployment) {
             var prLinks = deployment.pull_requests.map(function (pr) {
-                return `<a href="${pr.url}" target="_blank">${pr.repositoryName} 
+                return `<a href="${pr.url}" target="_blank">${pr.repositoryName.replace("project-", "")}
 <!--if merged then success else warning-->
 <span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}">${pr.status}</span>
        
 </a>`;
             }).join("<br>");
+            var jiraLink = `https://propertyguru.atlassian.net/browse/${deployment.key}`
 
             var row = `
                 <tr>
-                    <td class="jira-id">${deployment.key}</td>
+                    <!--  Add Link to jira key-->
+                    <td class="jira-id"><a href="${jiraLink}" target="_blank">${deployment.key}</a></td>
                     <td>${deployment.jira_title || ''}</td>
                     <td>${deployment.dev_name}</td>
                     <td>
