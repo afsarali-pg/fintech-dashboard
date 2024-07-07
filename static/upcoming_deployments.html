@@ -1,0 +1,22 @@
+<div class="card mb-4">
+    <div class="card-header">
+        Upcoming Deployments
+        <input type="text" id="search-deployments" class="form-control" placeholder="Search deployments...">
+    </div>
+    <div class="card-body">
+        <table id="deployments-table" class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th data-sort="key">Ticket ID</th>
+                <th data-sort="jira_title">Title</th>
+                <th data-sort="dev_name">Developer</th>
+                <th data-sort="status">Status</th>
+                <th data-sort="pull_requests">Pull Requests</th>
+            </tr>
+            </thead>
+            <tbody id="upcoming-deployments">
+            <!-- Deployment tickets will be populated here -->
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Test Coverage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Last Test Run</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SonarQube Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Upcoming Deployments</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-10 main-content">
+            <h1 class="mt-4">Dashboard</h1>
+            <div class="row" id="team-information-section"></div>
+            <div class="row" id="test-coverage-section"></div>
+            <div class="row" id="last-test-run-section"></div>
+            <div class="row" id="sonarqube-health-section"></div>
+            <div class="row" id="upcoming-deployments-section"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-4">
+                        <div class="card-header">Test Coverage Trend</div>
+                        <div class="card-body">
+                            <canvas id="testCoverageChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<!-- Custom Script -->
+<script src="js/dashboard.js"></script>
+</body>
+</html>
