@@ -1,20 +1,20 @@
-$(document).ready(function(){
+$(document).ready(function () {
     // Load the upcoming deployments section and then populate the table
-    $("#upcoming-deployments-section").load("upcoming_deployments.html", function() {
-        $.getJSON("PR.json", function(data) {
+    $("#upcoming-deployments-section").load("upcoming_deployments.html", function () {
+        $.getJSON("./data/PR.json", function (data) {
             sampleData = data.jiraTickets;
             populateDeploymentsTable();
 
             // Add sort functionality
-            $("#deployments-table thead th").on("click", function() {
+            $("#deployments-table thead th").on("click", function () {
                 var sortField = $(this).data("sort");
                 sortTable(sortField);
             });
 
             // Add search functionality
-            $("#search-deployments").on("keyup", function() {
+            $("#search-deployments").on("keyup", function () {
                 var searchTerm = $(this).val().toLowerCase();
-                $("#deployments-table tbody tr").each(function() {
+                $("#deployments-table tbody tr").each(function () {
                     var rowText = $(this).text().toLowerCase();
                     $(this).toggle(rowText.includes(searchTerm));
                 });
@@ -41,20 +41,24 @@ $(document).ready(function(){
         var tbody = $("#upcoming-deployments");
         tbody.empty();
 
-        $.each(sampleData, function(index, deployment) {
-            var prLinks = deployment.pull_requests.map(function(pr) {
-                return `<a href="${pr.url}" target="_blank">${pr.repositoryName} (${pr.status})</a>`;
+        $.each(sampleData, function (index, deployment) {
+            var prLinks = deployment.pull_requests.map(function (pr) {
+                return `<a href="${pr.url}" target="_blank">${pr.repositoryName} 
+<!--if merged then success else warning-->
+<span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}">${pr.status}</span>
+       
+</a>`;
             }).join("<br>");
 
             var row = `
                 <tr>
-                    <td>${deployment.key}</td>
+                    <td class="jira-id">${deployment.key}</td>
                     <td>${deployment.jira_title || ''}</td>
                     <td>${deployment.dev_name}</td>
                     <td>
                        ${getStatus(deployment)}
                     </td>
-                    <td>${prLinks}</td>
+                    <td class="pr-link">${prLinks}</td>
                 </tr>
             `;
             tbody.append(row);
@@ -62,7 +66,7 @@ $(document).ready(function(){
     }
 
     function sortTable(sortField) {
-        sampleData.sort(function(a, b) {
+        sampleData.sort(function (a, b) {
             if (a[sortField] < b[sortField]) return -1;
             if (a[sortField] > b[sortField]) return 1;
             return 0;

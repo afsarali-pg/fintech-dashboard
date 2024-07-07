@@ -3,56 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Dashboard</title>
+    <title>Fintech Engineering Dashboard</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-2 bg-light sidebar">
+        <div class="col-md-2 bg-light sidebar pt-1">
             <div class="sidebar-sticky">
                 <ul class="nav flex-column">
+<!--                    Logo and Title-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="./images/pg-finance.jpeg" alt="Fintech Engineering" class="img-fluid">
+                        </a>
+
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team Information</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Test Coverage</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Last Test Run</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SonarQube Health</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Upcoming Deployments</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Team Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Test Coverage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Last Test Run</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">SonarQube Health</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
         <div class="col-md-10 main-content">
-            <h1 class="mt-4">Dashboard</h1>
+            <h1 class="mt-2 dashboard-title">Fintech Engineering Dashboard</h1>
+            <div class="badge bg-info text-wrap pt-1 pb-1" style="width: 12rem; color: floralwhite">
+                Upcoming Deployments
+            </div>
             <div class="row" id="team-information-section"></div>
             <div class="row" id="test-coverage-section"></div>
             <div class="row" id="last-test-run-section"></div>
             <div class="row" id="sonarqube-health-section"></div>
             <div class="row" id="upcoming-deployments-section"></div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card mb-4">
-                        <div class="card-header">Test Coverage Trend</div>
-                        <div class="card-body">
-                            <canvas id="testCoverageChart"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

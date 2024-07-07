@@ -1,13 +1,13 @@
-<div class="card mb-4">
+<div class="col-md-11">
+<div class="card mb-4 mt-2">
     <div class="card-header">
-        Upcoming Deployments
-        <input type="text" id="search-deployments" class="form-control" placeholder="Search deployments...">
+        <input type="text" id="search-deployments" class="form-control" placeholder="Search jira tickets...">
     </div>
     <div class="card-body">
         <table id="deployments-table" class="table table-striped table-bordered">
             <thead>
             <tr>
-                <th data-sort="key">Ticket ID</th>
+                <th class="jira-id" data-sort="key">Ticket ID</th>
                 <th data-sort="jira_title">Title</th>
                 <th data-sort="dev_name">Developer</th>
                 <th data-sort="status">Status</th>
@@ -19,4 +19,5 @@
             </tbody>
         </table>
     </div>
+</div>
 </div>
