@@ -45,7 +45,9 @@ $(document).ready(function () {
             var prLinks = deployment.pull_requests.map(function (pr) {
                 return `<a href="${pr.url}" target="_blank">${pr.repositoryName.replace("project-", "").replace('pg-', '')}
 <!--if merged then success else warning-->
-<span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}">${pr.status}</span>
+    <span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}">${pr.status}</span>
+<!--    If status is deployed then primary -->
+    <span class="badge badge-${pr.isDeployed ? 'primary' : ''} ">${pr.isDeployed ? 'Deployed' : ''}</span>
        
 </a>`;
             }).join("<br>");
