@@ -17,7 +17,7 @@ export class GithubService{
 
     private getHeader(){
         return {
-            Authorization: 'token ' + process.env.GITHUB_AUTH_TOKEN,
+            Authorization: 'token ' + process.env.GH_AUTH_TOKEN,
             'X-GitHub-Api-Version': '2022-11-28'
         }
     }
