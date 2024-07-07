@@ -43,7 +43,7 @@ $(document).ready(function () {
 
         $.each(sampleData, function (index, deployment) {
             var prLinks = deployment.pull_requests.map(function (pr) {
-                return `<a href="${pr.url}" target="_blank">${pr.repositoryName.replace("project-", "")}
+                return `<a href="${pr.url}" target="_blank">${pr.repositoryName.replace("project-", "").replace('pg-', '')}
 <!--if merged then success else warning-->
 <span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}">${pr.status}</span>
        
