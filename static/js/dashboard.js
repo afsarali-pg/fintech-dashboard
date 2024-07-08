@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // Load the upcoming deployments section and then populate the table
     $("#upcoming-deployments-section").load("upcoming_deployments.html", function () {
-        $.getJSON("./data/PR.json", function (data) {
+        $.getJSON("./data/data.json", function (data) {
             sampleData = data.jiraTickets;
             populateDeploymentsTable();
 
