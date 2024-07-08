@@ -8,6 +8,9 @@ env:
 jobs:
   Generate-JSON-File:
     runs-on: ubuntu-latest
+    permissions:
+        contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -48,8 +51,6 @@ jobs:
         with:
           commit_message: "updated data.json file with new data - $(date)"
           file_pattern: "static/data/data.json"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          INPUT_COMMIT_USER_NAME: afsarali-pg
-          INPUT_COMMIT_USER_EMAIL: mohammedafsar@propertyguru.com.sg
+
+
 
