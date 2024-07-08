@@ -1,8 +1,12 @@
 on:
   workflow_dispatch:
 
+env:
+  GH_AUTH_TOKEN: ${{ secrets.GH_AUTH_TOKEN }}
+  JIRA_AUTH_TOKEN: ${{ secrets.JIRA_AUTH_TOKEN }}
+
 jobs:
-  run_typescript_application:
+  Generate-JSON-File:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -31,6 +35,7 @@ jobs:
         run: |
           git config --global user.email "[email protected]"
           git config --global user.name "github-actions"
+          git status
           git add static/data/
           git commit -m "updated data.json file with new data - $(date)"
           git push origin main
