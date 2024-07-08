@@ -1,5 +1,7 @@
 name: Generate JSON file
 on:
+  schedule:
+    - cron: '0 1,7 * * 1-5'  # This runs at 9 AM and 3 PM SGT (1 AM and 7 AM UTC) from Monday to Friday
   workflow_dispatch:
 
 env:
