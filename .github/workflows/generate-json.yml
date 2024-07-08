@@ -1,0 +1,37 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  run_typescript_application:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies and run application
+        run: |
+          echo "Running typescript application..."
+          npm install
+          npm install -g typescript
+          npm install -g ts-node
+          npm run start
+
+      - name: Confirm application run
+        run: |
+          echo "Typescript application executed successfully!"
+          echo "data.json file generated successfully!"
+
+      - name: Commit JSON file
+        run: |
+          git config --global user.email "[email protected]"
+          git config --global user.name "github-actions"
+          git add static/data/
+          git commit -m "updated data.json file with new data - $(date)"
+          git push origin main
+          echo "data.json file committed successfully!"
+        
