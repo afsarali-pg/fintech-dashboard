@@ -44,7 +44,7 @@ jobs:
         run: |
           curl --location 'https://api.github.com/repos/afsarali-pg/fintech-dashboard/actions/workflows/static.yml/dispatches' \
               --header 'Accept: application/vnd.github.v3+json' \
-              --header 'Authorization: token $GH_AUTH_TOKEN' \
+              --header 'Authorization: token ${{ secrets.GH_AUTH_TOKEN }}' \
               --header 'Content-Type: application/json' \
                 --data '{
                       "ref": "refs/heads/main"
