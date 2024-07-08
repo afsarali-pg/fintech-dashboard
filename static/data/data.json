@@ -110,21 +110,21 @@
       "isSymbiosis": true,
       "pull_requests": [
         {
-          "branch_name": "FINTECH-6528",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2330",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-07-03T09:02:27.000Z",
-          "isApproved": true
-        },
-        {
           "branch_name": "FINTCH-6528",
           "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1030",
           "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-07-03T08:44:19.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6528",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2330",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-07-03T09:02:27.000Z",
           "isApproved": true
         }
       ]
