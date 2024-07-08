@@ -17,6 +17,7 @@ jobs:
         run: |
           echo "Running typescript application..."
           npm install
+          npm install @types/node --save-dev
           npm install -g typescript
           npm install -g ts-node
           npm run start
