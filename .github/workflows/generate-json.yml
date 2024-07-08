@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit JSON file
         run: |
-          git config --global user.email "mohammedafsar@proeprtyguru.com"
+          git config --global user.email "mohammedafsar@proeprtyguru.com.sg"
           git config --global user.name "afsarali-pg"
           git remote set-url origin https://x-access-token:${GH_AUTH_TOKEN}@github.com/afsarali-pg/fintech-dashboard.git
 
