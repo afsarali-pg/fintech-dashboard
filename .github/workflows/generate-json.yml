@@ -1,3 +1,4 @@
+name: Generate JSON file
 on:
   workflow_dispatch:
 
