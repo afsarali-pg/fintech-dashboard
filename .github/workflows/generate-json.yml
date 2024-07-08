@@ -34,23 +34,21 @@ jobs:
           echo "Typescript application executed successfully!"
           echo "data.json file generated successfully!"
 
-#      - name: Commit JSON file
-#        run: |
-#          git config --global user.email "mohammedafsar@propertyguru.com.sg"
-#          git config --global user.name "afsarali-pg"
-#          git remote set-url origin https://x-access-token:${GH_AUTH_TOKEN}@github.com/afsarali-pg/fintech-dashboard.git
-#
-#          git status
-#          git add static/data/
-#          git commit -m "updated data.json file with new data - $(date)"
-#          git push origin main
-#          echo "data.json file committed successfully!"
-
       - name: Auto commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "updated data.json file with new data - $(date)"
           file_pattern: "static/data/data.json"
 
-
-
+      - name: Trigger static.yml workflow
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data } = await github.actions.createWorkflowDispatch({
+              owner: 'afsarali-pg',
+              repo: 'fintech-dashboard',
+              workflow_file: '.github/workflows/static.yml',
+              ref: 'main'
+            })
+            console.log(data)
