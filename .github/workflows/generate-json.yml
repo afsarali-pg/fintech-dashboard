@@ -41,14 +41,13 @@ jobs:
           file_pattern: "static/data/data.json"
 
       - name: Trigger static.yml workflow
-        uses: actions/github-script@v4
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const { data } = await github.actions.createWorkflowDispatch({
-              owner: 'afsarali-pg',
-              repo: 'fintech-dashboard',
-              workflow_file: '.github/workflows/static.yml',
-              ref: 'main'
-            })
-            console.log(data)
+        run: |
+          curl --location 'https://api.github.com/repos/afsarali-pg/fintech-dashboard/actions/workflows/static.yml/dispatches' \
+              --header 'Accept: application/vnd.github.v3+json' \
+              --header 'Authorization: token $GH_AUTH_TOKEN' \
+              --header 'Content-Type: application/json' \
+                --data '{
+                      "ref": "refs/heads/main"
+                      }'
+          
+            echo "static.yml workflow triggered successfully!"
