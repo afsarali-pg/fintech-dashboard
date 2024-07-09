@@ -7,6 +7,30 @@
   "lastHomeOwnershipDeploymentDate": "2024-07-02T07:40:13.000Z",
   "jiraTickets": [
     {
+      "ticket_id": "1286497",
+      "key": "FINTECH-6640",
+      "jira_title": "Growth | PreQual SF | Fix auto lead gen & review report source conversion",
+      "team": "NA",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6640",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1291",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-07-09T07:09:46.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1285899",
       "key": "FINTECH-6634",
       "jira_title": "Growth | PreQual FEM | Fix auto lead gen & review report source conversion",
@@ -535,7 +559,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-06-27T02:27:30.000Z",
+          "lastUpdate": "2024-07-09T04:20:18.000Z",
           "isApproved": true
         },
         {
@@ -767,6 +791,30 @@
           "isDeployed": false,
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-07-01T04:27:10.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1262544",
+      "key": "FINTECH-6334",
+      "jira_title": "SF | Document Tab (New) Enhancement - Preview documents in preferred sequence",
+      "team": "NA",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6334",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/615",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-07-09T05:54:28.000Z",
           "isApproved": true
         }
       ]
