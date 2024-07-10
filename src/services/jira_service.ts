@@ -40,6 +40,7 @@ export class JiraService{
                 key: ticket.key,
                 jira_title: ticket.fields.summary,
                 team: ticket.fields.labels[0] || 'NA', //TODO: [0] is temporary, need to update to [1] or [2] based on the actual team label
+                reporter_name: ticket.fields.reporter.displayName,
                 dev_name: ticket.fields.assignee.displayName,
                 isDeployed: false, //  Handled in updateDeploymentStatus
                 isMerged: isMerged,

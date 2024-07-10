@@ -13,6 +13,7 @@ export interface JiraTicket {
     key: string;
     jira_title: string;
     team: string;
+    reporter_name: string;
     dev_name: string;
     isDeployed: boolean;
     isMerged: boolean;
