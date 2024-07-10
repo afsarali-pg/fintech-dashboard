@@ -7,7 +7,8 @@ export class GithubService{
             headers: this.getHeader()
         })
 
-        const lastDeployment =  response.data[0];
+        // Here i need to filter based on Tags name (v4.6.1-prerelease.0 or v4.6.1) , if tag name contains prerelease then ignore that and get the last deployment
+        const lastDeployment = response.data.find((release: any) => !release.tag_name.includes('prerelease'));
         return {
             url: lastDeployment?.url,
             tag_name: lastDeployment?.tag_name,

@@ -7,7 +7,7 @@ export class JiraService{
     public async getAllPendingJiraTickets(): Promise<any[]>{
 
         //jql = project = FINTECH AND fixversion = "Fintech Pending Deployment" ORDER BY created DESC
-        const jiraFilter= 'https://propertyguru.atlassian.net/rest/api/3/search?jql=project=FINTECH%20AND%20fixversion%20=%20%22Fintech%20Pending%20Deployment%22%20ORDER%20BY%20created%20DESC'
+        const jiraFilter= 'https://propertyguru.atlassian.net/rest/api/3/search?jql=project=FINTECH%20AND%20fixversion%20=%20%22Fintech%20Pending%20Deployment%22%20ORDER%20BY%20created%20DESC&maxResults=100'
         const response = await axios.get(jiraFilter, {
             headers: this.getHeaders()
         });
@@ -109,6 +109,14 @@ export class JiraService{
         const salesforceDeploymentDate = await githubService.getLastDeploymentDate('pg-finance-salesforce') as {url: string, tag_name: string, published_at: string};
         const homeOwnershipDeploymentDate = await githubService.getLastDeploymentDate('pg-finance-homeowner') as {url: string, tag_name: string, published_at: string};
 
+        console.log('Guruland Deployment Date:', guruLandDeploymentDate.published_at);
+        console.log('Symbiosis Deployment Date:', symbiosisDeploymentDate.published_at);
+        console.log('Frontend Deployment Date:', frontendDeploymentDate.published_at);
+        console.log('Backend Deployment Date:', backendDeploymentDate.published_at);
+        console.log('Salesforce Deployment Date:', salesforceDeploymentDate.published_at);
+        console.log('Home Ownership Deployment Date:', homeOwnershipDeploymentDate.published_at);
+
+
         const jiraStatusDto: JiraTicketDto = {
             lastGurulandDeploymentDate: new Date(guruLandDeploymentDate.published_at), // TODO: Need to get release date from Jenkins instead of Github
             lastSymbiosisDeploymentDate: new Date(symbiosisDeploymentDate.published_at),
@@ -129,19 +137,22 @@ export class JiraService{
                 if(pr.repositoryName === 'pg-finance-backend' && pr.status === 'MERGED'){
                     pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastBackendDeploymentDate;
                 } else if(pr.repositoryName === 'pg-finance-frontend' && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastFrontendDeploymentDate;
+                    //lastUpdate = "2024-07-10T07:14:07.000Z"
+                    //lastFrontendDeploymentDate = "2024-07-09T08:47:37Z"
+
+                    pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastFrontendDeploymentDate;
                 } else if(pr.repositoryName === 'pg-finance-salesforce' && jiraStatusDto.lastSalesforceDeploymentDate && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastSalesforceDeploymentDate;
+                    pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSalesforceDeploymentDate;
                 } else if(pr.repositoryName === 'pg-finance-homeowner' && pr.status === 'MERGED'){
                     pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastHomeOwnershipDeploymentDate;
                 } else if(pr.repositoryName === 'guruland' && jiraStatusDto.lastGurulandDeploymentDate && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastGurulandDeploymentDate;
+                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastGurulandDeploymentDate; // TODO: Need to get release date from Jenkins instead of Github
                 } else if(pr.repositoryName === 'project-symbiosis' && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastSymbiosisDeploymentDate;
+                    pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSymbiosisDeploymentDate;
                 }else if(pr.repositoryName === 'project-symbiosis-config' && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastSymbiosisDeploymentDate;
+                    pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSymbiosisDeploymentDate;
                 }else if(pr.repositoryName === 'hive-ui-widgets' && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastSymbiosisDeploymentDate;
+                    pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSymbiosisDeploymentDate;
                 }
             });
         });
