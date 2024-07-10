@@ -1,6 +1,7 @@
 import axios from 'axios';
 import {JiraTicket, JiraTicketDto, PullRequest} from "../dto/JiraDto";
 import {GithubService} from "./github_service";
+import * as fs from "node:fs";
 
 export class JiraService{
 
@@ -118,7 +119,7 @@ export class JiraService{
 
 
         const jiraStatusDto: JiraTicketDto = {
-            lastGurulandDeploymentDate: new Date(guruLandDeploymentDate.published_at), // TODO: Need to get release date from Jenkins instead of Github
+            lastGurulandDeploymentDate: new Date( await this.getGurulandDeploymentDate()),
             lastSymbiosisDeploymentDate: new Date(symbiosisDeploymentDate.published_at),
             lastFrontendDeploymentDate: new Date(frontendDeploymentDate.published_at),
             lastBackendDeploymentDate: new Date(backendDeploymentDate.published_at),
@@ -161,6 +162,22 @@ export class JiraService{
         for (const ticket of jiraTickets) {
             ticket.isDeployed = ticket.pull_requests.every(pr => pr.isDeployed);
         }
+    }
+
+    public async getGurulandDeploymentDate(){
+        // If current date is 2024-07-20 then the upcoming deployment date is 2024-07-31
+        // If current date is 2024-07-31 then the upcoming deployment date is 2024-07-31
+        // If current date is 2024-08-01 then the upcoming deployment date is 2024-08-14
+
+        // read json file
+        const data = fs.readFileSync('./static/data/guruland_deployment.json');
+        const deploymentDates: string[] = JSON.parse(data.toString());
+        const currentDate = new Date();
+        const formattedDate = currentDate.toISOString().split('T')[0];
+
+        // Find upcoming deployment date
+        const upcomingDate: string | undefined =  deploymentDates.find((date: string) => date > formattedDate);
+        return Date.parse(typeof upcomingDate === "string" ? upcomingDate : "");
     }
 
 }
