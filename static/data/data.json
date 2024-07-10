@@ -1,8 +1,8 @@
 {
   "lastGurulandDeploymentDate": "2022-08-12T04:35:27.000Z",
   "lastSymbiosisDeploymentDate": "2024-07-05T11:53:11.000Z",
-  "lastFrontendDeploymentDate": "2024-07-04T12:22:59.000Z",
-  "lastBackendDeploymentDate": "2024-07-04T12:11:00.000Z",
+  "lastFrontendDeploymentDate": "2024-07-09T08:47:37.000Z",
+  "lastBackendDeploymentDate": "2024-07-09T08:39:12.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-07-02T07:40:13.000Z",
   "jiraTickets": [
@@ -102,21 +102,21 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-6565",
-          "url": "https://github.com/propertyguru/guruland/pull/25988",
-          "status": "OPEN",
-          "isDeployed": false,
-          "repositoryName": "guruland",
-          "lastUpdate": "2024-07-05T07:18:34.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6565",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2164",
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-07-05T07:22:52.000Z",
           "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6565",
+          "url": "https://github.com/propertyguru/guruland/pull/25988",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "guruland",
+          "lastUpdate": "2024-07-05T07:18:34.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -248,30 +248,6 @@
           "isDeployed": false,
           "repositoryName": "hive-ui-static",
           "lastUpdate": "2024-07-01T02:14:50.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1278173",
-      "key": "FINTECH-6520",
-      "jira_title": "MY | FE | Onboard RHB and OCBC",
-      "team": "NA",
-      "dev_name": "Aditya Patel",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6520",
-          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2156",
-          "status": "MERGED",
-          "isDeployed": true,
-          "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-07-08T10:10:00.000Z",
           "isApproved": true
         }
       ]
@@ -555,15 +531,6 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-6444",
-          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2151",
-          "status": "OPEN",
-          "isDeployed": false,
-          "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-07-09T04:20:18.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6444",
           "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1018",
           "status": "OPEN",
           "isDeployed": false,
@@ -578,6 +545,15 @@
           "isDeployed": false,
           "repositoryName": "marketplace-qaautomation",
           "lastUpdate": "2024-07-01T17:55:42.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6444",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2151",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-07-09T04:20:18.000Z",
           "isApproved": true
         }
       ]
@@ -638,30 +614,6 @@
           "isDeployed": false,
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-06-26T17:59:32.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1269728",
-      "key": "FINTECH-6424",
-      "jira_title": "MY | BE | Onboard RHB and OCBC",
-      "team": "NA",
-      "dev_name": "Mritunjay Kumar Mani",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6424",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1285",
-          "status": "MERGED",
-          "isDeployed": true,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-07-08T07:59:13.000Z",
           "isApproved": true
         }
       ]
@@ -802,7 +754,7 @@
       "team": "NA",
       "dev_name": "Mritunjay Kumar Mani",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -811,10 +763,10 @@
         {
           "branch_name": "FINTECH-6334",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/615",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-07-09T05:54:28.000Z",
+          "lastUpdate": "2024-07-10T01:42:33.000Z",
           "isApproved": true
         }
       ]
@@ -909,6 +861,15 @@
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-07-08T12:40:08.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-5255_2",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/620",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-07-10T01:57:47.000Z",
+          "isApproved": false
         }
       ]
     }
