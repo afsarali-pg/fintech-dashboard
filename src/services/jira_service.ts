@@ -40,7 +40,7 @@ export class JiraService{
                 ticket_id: ticket.id,
                 key: ticket.key,
                 jira_title: ticket.fields.summary,
-                team: ticket.fields.labels[0] || 'NA', //TODO: [0] is temporary, need to update to [1] or [2] based on the actual team label
+                team: await this.getTeamName(ticket.fields.reporter.displayName), // TODO: also need to check based on Labels
                 reporter_name: ticket.fields.reporter.displayName,
                 dev_name: ticket.fields.assignee.displayName,
                 isDeployed: false, //  Handled in updateDeploymentStatus
@@ -178,6 +178,20 @@ export class JiraService{
         // Find upcoming deployment date
         const upcomingDate: string | undefined =  deploymentDates.find((date: string) => date > formattedDate);
         return Date.parse(typeof upcomingDate === "string" ? upcomingDate : "");
+    }
+
+    private async getTeamName(reporterName: string){
+        switch (reporterName) {
+            case 'Lakshmi Bhandaram':
+            case 'Sandeep Mondal':
+                return 'Growth';
+            case 'Janice Lim':
+                return 'Core';
+            case 'Khoo Shi Han':
+                return 'Internal Tools';
+            default:
+                return 'NA';
+        }
     }
 
 }
