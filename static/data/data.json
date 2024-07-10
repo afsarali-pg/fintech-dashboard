@@ -1,8 +1,8 @@
 {
   "lastGurulandDeploymentDate": "2022-08-12T04:35:27.000Z",
   "lastSymbiosisDeploymentDate": "2024-07-05T11:53:11.000Z",
-  "lastFrontendDeploymentDate": "2024-07-09T08:47:37.000Z",
-  "lastBackendDeploymentDate": "2024-07-09T08:39:12.000Z",
+  "lastFrontendDeploymentDate": "2024-07-10T06:34:54.000Z",
+  "lastBackendDeploymentDate": "2024-07-10T06:27:06.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-07-02T07:40:13.000Z",
   "jiraTickets": [
@@ -11,6 +11,7 @@
       "key": "FINTECH-6681",
       "jira_title": "SF | Update Agent Commission  (no GST)",
       "team": "NA",
+      "reporter_name": "Khoo Shi Han",
       "dev_name": "Mritunjay Kumar Mani",
       "isDeployed": false,
       "isMerged": true,
@@ -35,6 +36,7 @@
       "key": "FINTECH-6659",
       "jira_title": "Segment source access",
       "team": "NA",
+      "reporter_name": "Khoo Shi Han",
       "dev_name": "Ketan Parikh",
       "isDeployed": false,
       "isMerged": true,
@@ -59,6 +61,7 @@
       "key": "FINTECH-6645",
       "jira_title": "HO | SendHelper Banner Copy Changes",
       "team": "NA",
+      "reporter_name": "Sandeep Mondal",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
       "isMerged": false,
@@ -83,6 +86,7 @@
       "key": "FINTECH-6642",
       "jira_title": "Exp cleanup | Enquiry Form Exp | Show Next Steps",
       "team": "NA",
+      "reporter_name": "Janice Lim",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
       "isMerged": false,
@@ -93,21 +97,21 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-6642",
-          "url": "https://github.com/propertyguru/guruland/pull/25995",
-          "status": "OPEN",
-          "isDeployed": false,
-          "repositoryName": "guruland",
-          "lastUpdate": "2024-07-10T01:42:49.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6642",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2168",
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-07-09T12:59:39.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6642",
+          "url": "https://github.com/propertyguru/guruland/pull/25995",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "guruland",
+          "lastUpdate": "2024-07-10T01:42:49.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -116,8 +120,9 @@
       "key": "FINTECH-6640",
       "jira_title": "Growth | PreQual SF | Fix auto lead gen & review report source conversion",
       "team": "NA",
+      "reporter_name": "Arijit Bhaumik",
       "dev_name": "Rinkesh Golwala",
-      "isDeployed": true,
+      "isDeployed": false,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -128,7 +133,7 @@
           "branch_name": "FINTECH-6640",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1291",
           "status": "MERGED",
-          "isDeployed": true,
+          "isDeployed": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-07-10T03:45:43.000Z",
           "isApproved": true
@@ -140,6 +145,7 @@
       "key": "FINTECH-6636",
       "jira_title": "HO | CTA experiment | QA/UAT issue fix",
       "team": "NA",
+      "reporter_name": "Rinkesh Golwala",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": false,
@@ -182,8 +188,9 @@
       "key": "FINTECH-6634",
       "jira_title": "Growth | PreQual FEM | Fix auto lead gen & review report source conversion",
       "team": "NA",
+      "reporter_name": "Arijit Bhaumik",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": true,
+      "isDeployed": false,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -194,7 +201,7 @@
           "branch_name": "FINTECH-6634",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2161",
           "status": "MERGED",
-          "isDeployed": true,
+          "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-07-10T03:45:09.000Z",
           "isApproved": true
@@ -206,6 +213,7 @@
       "key": "FINTECH-6625",
       "jira_title": "PGF Page | Set up FEM base code I",
       "team": "NA",
+      "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": false,
@@ -248,6 +256,7 @@
       "key": "FINTECH-6623",
       "jira_title": "HO | CTA experiment | Implement CTA experiment in Symbiosis",
       "team": "NA",
+      "reporter_name": "Rinkesh Golwala",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": true,
@@ -281,6 +290,7 @@
       "key": "FINTECH-6619",
       "jira_title": "Growth | PreQual Landing | UAT fixes",
       "team": "NA",
+      "reporter_name": "Arijit Bhaumik",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": false,
@@ -295,7 +305,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-07-10T04:19:51.000Z",
+          "lastUpdate": "2024-07-10T06:33:23.000Z",
           "isApproved": true
         },
         {
@@ -323,6 +333,7 @@
       "key": "FINTECH-6615",
       "jira_title": " MY | Update Segment Lead event with more variables",
       "team": "NA",
+      "reporter_name": "Janice Lim",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
       "isMerged": false,
@@ -333,21 +344,21 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-6615",
-          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2167",
-          "status": "OPEN",
-          "isDeployed": false,
-          "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-07-09T06:25:55.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6615",
           "url": "https://github.com/propertyguru/guruland/pull/25994",
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "guruland",
           "lastUpdate": "2024-07-09T05:59:56.000Z",
           "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6615",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2167",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-07-09T06:25:55.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -356,6 +367,7 @@
       "key": "FINTECH-6606",
       "jira_title": "SF | Push additional datapoints to BQ",
       "team": "NA",
+      "reporter_name": "Janice Lim",
       "dev_name": "Lakshya Saini",
       "isDeployed": false,
       "isMerged": true,
@@ -380,9 +392,10 @@
       "key": "FINTECH-6598",
       "jira_title": "HO | Push Missing Valuation Addresses to BQ",
       "team": "NA",
+      "reporter_name": "Janice Lim",
       "dev_name": "Harsh Kumar Goel",
-      "isDeployed": false,
-      "isMerged": false,
+      "isDeployed": true,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -391,10 +404,10 @@
         {
           "branch_name": "FINTECH-6598",
           "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/109",
-          "status": "OPEN",
-          "isDeployed": false,
+          "status": "MERGED",
+          "isDeployed": true,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-07-10T04:13:39.000Z",
+          "lastUpdate": "2024-07-10T07:07:35.000Z",
           "isApproved": true
         }
       ]
@@ -404,6 +417,7 @@
       "key": "FINTECH-6575",
       "jira_title": "Deprecating 'Free Gift' page",
       "team": "NA",
+      "reporter_name": "Sandeep Mondal",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
       "isMerged": false,
@@ -428,6 +442,7 @@
       "key": "FINTECH-6565",
       "jira_title": "Growth | Exp Marathon Placeholder tkt 2",
       "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": false,
@@ -438,20 +453,20 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-6565",
-          "url": "https://github.com/propertyguru/guruland/pull/25988",
-          "status": "OPEN",
-          "isDeployed": false,
-          "repositoryName": "guruland",
-          "lastUpdate": "2024-07-05T07:18:34.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6565",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2164",
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-07-10T02:51:05.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6565",
+          "url": "https://github.com/propertyguru/guruland/pull/25988",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "guruland",
+          "lastUpdate": "2024-07-05T07:18:34.000Z",
           "isApproved": true
         }
       ]
@@ -461,6 +476,7 @@
       "key": "FINTECH-6528",
       "jira_title": "HO | CTA experiment | Integrate Property toolkit wrapper in symbiosis",
       "team": "NA",
+      "reporter_name": "Rinkesh Golwala",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": true,
@@ -494,6 +510,7 @@
       "key": "FINTECH-6526",
       "jira_title": "HO | CTA experiment | Setup CTA experiment in Symbiosis",
       "team": "NA",
+      "reporter_name": "Rinkesh Golwala",
       "dev_name": "Abhina S",
       "isDeployed": false,
       "isMerged": true,
@@ -527,6 +544,7 @@
       "key": "FINTECH-6525",
       "jira_title": "HO | CTA experiment | Create Coming Soon home report modal",
       "team": "NA",
+      "reporter_name": "Janice Lim",
       "dev_name": "Rinkesh Golwala",
       "isDeployed": false,
       "isMerged": true,
@@ -560,6 +578,7 @@
       "key": "FINTECH-6524",
       "jira_title": "HO | CTA experiment | Create Property Tool kit card wrapper",
       "team": "NA",
+      "reporter_name": "Janice Lim",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": true,
@@ -593,6 +612,7 @@
       "key": "FINTECH-6513",
       "jira_title": "HO | Hide Unit for Condo and HDB",
       "team": "NA",
+      "reporter_name": "Janice Lim",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
       "isMerged": false,
@@ -617,6 +637,7 @@
       "key": "FINTECH-6511",
       "jira_title": "Spike | AgentNet PGF implementation",
       "team": "NA",
+      "reporter_name": "Khoo Shi Han",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
       "isMerged": false,
@@ -641,6 +662,7 @@
       "key": "FINTECH-6502",
       "jira_title": "Growth | PreQual Landing | Use angel api to fetch popular reads for fintech navbar on symbiosis",
       "team": "NA",
+      "reporter_name": "Arijit Bhaumik",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
       "isMerged": true,
