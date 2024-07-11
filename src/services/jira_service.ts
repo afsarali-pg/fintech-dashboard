@@ -7,8 +7,8 @@ export class JiraService{
 
     public async getAllPendingJiraTickets(): Promise<any[]>{
 
-        //jql = project = FINTECH AND fixversion = "Fintech Pending Deployment" ORDER BY created DESC
-        const jiraFilter= 'https://propertyguru.atlassian.net/rest/api/3/search?jql=project=FINTECH%20AND%20fixversion%20=%20%22Fintech%20Pending%20Deployment%22%20ORDER%20BY%20created%20DESC&maxResults=100'
+        //jql = project = FINTECH AND (fixversion = "Fintech Pending Deployment" OR sprint in openSprints()) AND issuetype != Test ORDER BY created DESC
+        const jiraFilter= 'https://propertyguru.atlassian.net/rest/api/3/search?jql=project%20%3D%20FINTECH%20AND%20(fixversion%20%3D%20%22Fintech%20Pending%20Deployment%22%20OR%20sprint%20in%20openSprints())%20AND%20issuetype%20!%3D%20Test%20ORDER%20BY%20created%20DESC&maxResults=100';
         const response = await axios.get(jiraFilter, {
             headers: this.getHeaders()
         });
