@@ -7,6 +7,31 @@
   "lastHomeOwnershipDeploymentDate": "2024-07-02T07:40:13.000Z",
   "jiraTickets": [
     {
+      "ticket_id": "1288248",
+      "key": "FINTECH-6714",
+      "jira_title": "HO | Set min y axis to 0 for Area insights graph ",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6714",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2245",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-07-11T02:38:31.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1287204",
       "key": "FINTECH-6681",
       "jira_title": "SF | Update Agent Commission  (no GST)",
@@ -76,7 +101,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-07-10T13:44:33.000Z",
+          "lastUpdate": "2024-07-11T02:20:36.000Z",
           "isApproved": true
         }
       ]
@@ -327,11 +352,20 @@
         {
           "branch_name": "FINTECH-6619",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2224",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-07-10T06:33:23.000Z",
+          "lastUpdate": "2024-07-11T04:01:30.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6619",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2372",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-07-11T05:49:38.000Z",
+          "isApproved": false
         },
         {
           "branch_name": "FINTECH-6619",
@@ -345,11 +379,11 @@
         {
           "branch_name": "FINTECH-6619",
           "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1044",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-07-09T03:51:14.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-07-11T04:03:22.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -373,7 +407,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-07-10T13:12:18.000Z",
+          "lastUpdate": "2024-07-11T02:16:52.000Z",
           "isApproved": true
         },
         {
@@ -683,6 +717,31 @@
       ]
     },
     {
+      "ticket_id": "1278173",
+      "key": "FINTECH-6520",
+      "jira_title": "MY | FE | Onboard RHB and OCBC",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Aditya Patel",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6520",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2156",
+          "status": "MERGED",
+          "isDeployed": true,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-07-08T10:10:00.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1278018",
       "key": "FINTECH-6518",
       "jira_title": "HO | Add deploy sandbox workflow using GitHub Actions",
@@ -943,10 +1002,10 @@
         {
           "branch_name": "FINTECH-6458",
           "url": "https://github.com/propertyguru/guruland/pull/25976",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-07-02T02:07:48.000Z",
+          "lastUpdate": "2024-07-11T05:00:16.000Z",
           "isApproved": true
         }
       ]
@@ -1094,6 +1153,31 @@
           "isDeployed": false,
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-06-26T17:59:32.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1269728",
+      "key": "FINTECH-6424",
+      "jira_title": "MY | BE | Onboard RHB and OCBC",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6424",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1285",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-07-08T07:59:13.000Z",
           "isApproved": true
         }
       ]
@@ -1299,7 +1383,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-07-10T13:38:38.000Z",
+          "lastUpdate": "2024-07-11T03:48:58.000Z",
           "isApproved": true
         },
         {
