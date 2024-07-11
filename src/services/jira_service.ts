@@ -119,7 +119,7 @@ export class JiraService{
 
 
         const jiraStatusDto: JiraTicketDto = {
-            lastGurulandDeploymentDate: new Date( await this.getGurulandDeploymentDate()),
+            upcomingGurulandDeploymentDate: new Date( await this.getGurulandDeploymentDate()),
             lastSymbiosisDeploymentDate: new Date(symbiosisDeploymentDate.published_at),
             lastFrontendDeploymentDate: new Date(frontendDeploymentDate.published_at),
             lastBackendDeploymentDate: new Date(backendDeploymentDate.published_at),
@@ -133,6 +133,10 @@ export class JiraService{
 
     private async updateDeploymentStatus(jiraStatusDto: JiraTicketDto){
         const jiraTickets = jiraStatusDto.jiraTickets;
+
+        const upcomingGurulandDeploymentDate = new Date(jiraStatusDto.upcomingGurulandDeploymentDate);
+        const lastGurulandDeploymentDate = new Date(upcomingGurulandDeploymentDate.getTime() - 14 * 24 * 60 * 60 * 1000);
+
         jiraTickets.forEach(ticket => {
             ticket.pull_requests.forEach(pr => {
                 if(pr.repositoryName === 'pg-finance-backend' && pr.status === 'MERGED'){
@@ -145,9 +149,9 @@ export class JiraService{
                 } else if(pr.repositoryName === 'pg-finance-salesforce' && jiraStatusDto.lastSalesforceDeploymentDate && pr.status === 'MERGED'){
                     pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSalesforceDeploymentDate;
                 } else if(pr.repositoryName === 'pg-finance-homeowner' && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastHomeOwnershipDeploymentDate;
-                } else if(pr.repositoryName === 'guruland' && jiraStatusDto.lastGurulandDeploymentDate && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastGurulandDeploymentDate; // TODO: Need to get release date from Jenkins instead of Github
+                    pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastHomeOwnershipDeploymentDate;
+                } else if(pr.repositoryName === 'guruland' && lastGurulandDeploymentDate && pr.status === 'MERGED'){
+                    pr.isDeployed = pr.lastUpdate < lastGurulandDeploymentDate; // TODO: Need to get release date from Jenkins instead of Github
                 } else if(pr.repositoryName === 'project-symbiosis' && pr.status === 'MERGED'){
                     pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSymbiosisDeploymentDate;
                 }else if(pr.repositoryName === 'project-symbiosis-config' && pr.status === 'MERGED'){

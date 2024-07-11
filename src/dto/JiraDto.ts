@@ -25,7 +25,7 @@ export interface JiraTicket {
 }
 
 export interface JiraTicketDto {
-    lastGurulandDeploymentDate: Date | null;
+    upcomingGurulandDeploymentDate: Date;
     lastSymbiosisDeploymentDate: Date;
     lastFrontendDeploymentDate: Date;
     lastBackendDeploymentDate: Date;
