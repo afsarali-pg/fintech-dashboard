@@ -1,5 +1,7 @@
 $(document).ready(function () {
     // Load the upcoming deployments section and then populate the table
+
+    let sampleData = [];
     $("#upcoming-deployments-section").load("upcoming_deployments.html", function () {
         $.getJSON("./data/data.json", function (data) {
             sampleData = data.jiraTickets;
@@ -22,7 +24,20 @@ $(document).ready(function () {
         });
     });
 
-    let sampleData = [];
+    $.getJSON("./data/data.json", function(data) {
+        var date = new Date(data.upcomingGurulandDeploymentDate);
+        var options = {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'};
+
+        // Guruland deployment date
+        var glDate = date.toLocaleDateString('en-GB', options);
+        $(".gl-date").text(glDate);
+
+        // All deployment date (Guruland + 1 day)
+        date.setDate(date.getDate() + 1);
+        var allDate = date.toLocaleDateString('en-GB', options);
+        $(".all-deployment").text(allDate);
+    });
+
 
     function getStatus(deployment) {
         if (!deployment.isReviewed) {
