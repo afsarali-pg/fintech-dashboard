@@ -187,9 +187,9 @@ export class JiraService{
     private async getTeamName(reporterName: string){
         switch (reporterName) {
             case 'Lakshmi Bhandaram':
-            case 'Sandeep Mondal':
                 return 'Growth';
             case 'Janice Lim':
+            case 'Sandeep Mondal':
                 return 'Core';
             case 'Khoo Shi Han':
                 return 'Internal Tools';
