@@ -44,3 +44,15 @@ td {
     font-family: "Arial Rounded MT Bold", sans-serif;
     align-items: center;
 }
+
+.results-found-text{
+    display: flex;
+    font-size: 0.75rem;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    align-items: center;
+}
+
+.results-found-text .result{
+    margin-left: 10px;
+    color: darkblue;
+}

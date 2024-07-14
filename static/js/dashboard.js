@@ -5,7 +5,7 @@ $(document).ready(function () {
     $("#upcoming-deployments-section").load("upcoming_deployments.html", function () {
         $.getJSON("./data/data.json", function (data) {
             sampleData = data.jiraTickets;
-            populateDeploymentsTable();
+            populateDeploymentsTable(sampleData);
 
             // Add sort functionality
             $("#deployments-table thead th").on("click", function () {
@@ -20,7 +20,28 @@ $(document).ready(function () {
                     var rowText = $(this).text().toLowerCase();
                     $(this).toggle(rowText.includes(searchTerm));
                 });
+
+                // find the number of results
+                var filteredResult = $(".results-found-text .result");
+                var resultCount = $("#deployments-table tbody tr:visible").length;
+                filteredResult.text(resultCount);
             });
+
+            // Add tab click functionality
+            $('#teamTabs a').on('click', function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+                 var team = $(this).attr('id').split('-')[0]; // e.g., "core" from "core-tab"
+                if(team === 'internal'){
+                    team = 'internal tools';
+                }
+                var filteredData = team === 'all' ? sampleData : sampleData.filter(function (deployment) {
+                    return deployment.team.toLowerCase() === team;
+                });
+
+                populateDeploymentsTable(filteredData);
+            });
+
         });
     });
 
@@ -52,11 +73,13 @@ $(document).ready(function () {
         return '';
     }
 
-    function populateDeploymentsTable() {
+    function populateDeploymentsTable(filteredData) {
         var tbody = $("#upcoming-deployments");
         tbody.empty();
 
-        $.each(sampleData, function (index, deployment) {
+        var filteredResult = $(".results-found-text .result");
+        filteredResult.text(filteredData.length);
+        $.each(filteredData, function (index, deployment) {
             var prLinks = deployment.pull_requests.map(function (pr) {
                 return `<a href="${pr.url}" target="_blank">${pr.repositoryName.replace("project-", "").replace('pg-', '')}
 <!--if merged then success else warning-->
@@ -90,6 +113,6 @@ $(document).ready(function () {
             if (a[sortField] > b[sortField]) return 1;
             return 0;
         });
-        populateDeploymentsTable();
+        populateDeploymentsTable(sampleData);
     }
 });
