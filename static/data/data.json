@@ -1,5 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-07-17T00:00:00.000Z",
+  "syncDate": "2024-07-15T02:05:42.716Z",
   "lastSymbiosisDeploymentDate": "2024-07-12T02:08:29.000Z",
   "lastFrontendDeploymentDate": "2024-07-10T09:39:26.000Z",
   "lastBackendDeploymentDate": "2024-07-10T09:02:08.000Z",
@@ -1404,6 +1405,31 @@
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-07-08T07:59:13.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1266319",
+      "key": "FINTECH-6401",
+      "jira_title": "SF | Restrict Source Type Editing",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6401",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/629",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-07-15T00:29:24.000Z",
+          "isApproved": false
         }
       ]
     },

@@ -120,6 +120,7 @@ export class JiraService{
 
         const jiraStatusDto: JiraTicketDto = {
             upcomingGurulandDeploymentDate: new Date( await this.getGurulandDeploymentDate()),
+            syncDate: new Date(),
             lastSymbiosisDeploymentDate: new Date(symbiosisDeploymentDate.published_at),
             lastFrontendDeploymentDate: new Date(frontendDeploymentDate.published_at),
             lastBackendDeploymentDate: new Date(backendDeploymentDate.published_at),

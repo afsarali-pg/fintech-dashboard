@@ -31,5 +31,6 @@ export interface JiraTicketDto {
     lastBackendDeploymentDate: Date;
     lastSalesforceDeploymentDate: Date | null;
     lastHomeOwnershipDeploymentDate: Date;
+    syncDate: Date;
     jiraTickets: JiraTicket[];
 }

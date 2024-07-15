@@ -56,3 +56,11 @@ td {
     margin-left: 10px;
     color: darkblue;
 }
+
+.sync-time{
+    margin-left: 60%;
+    font-size: 0.75rem;
+    color: darkblue;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    align-items: center;
+}
