@@ -1,42 +1,138 @@
 <div class="col-md-11">
-<div class="card mb-4 mt-2">
-    <div class="card-header">
-        <input type="text" id="search-deployments" class="form-control" placeholder="Search jira tickets...">
-    </div>
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs mt-2" id="teamTabs" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="all-tab" data-toggle="tab" href="#core" role="tab" aria-controls="core" aria-selected="true">All</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="core-tab" data-toggle="tab" href="#core" role="tab" aria-controls="core" aria-selected="false">Core</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="growth-tab" data-toggle="tab" href="#growth" role="tab" aria-controls="growth" aria-selected="false">Growth</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="internal-tools-tab" href="#" tabindex="-1" aria-controls="internal-tool" aria-selected="false">Internal Tools</a>
-        </li>
-    </ul>
-    <div class="card-body">
-        <div class="results-found-text">
-         <div>Total results found</div>
-         <div class="result">0</div>
+    <div class="card mb-4 mt-2">
+        <div class="card-header">
+            <input type="text" id="search-deployments" class="form-control" placeholder="Search jira tickets...">
         </div>
-        <table id="deployments-table" class="table table-striped table-bordered">
-            <thead class="deployment-table-header">
-            <tr>
-                <th class="jira-id" data-sort="key">Jira Id</th>
-                <th data-sort="jira_title">Title</th>
-                <th data-sort="dev_name">Developer</th>
-                <th data-sort="status">Status</th>
-                <th data-sort="pull_requests">Pull Requests</th>
-            </tr>
-            </thead>
-            <tbody id="upcoming-deployments">
-            <!-- Deployment tickets will be populated here -->
-            </tbody>
-        </table>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs mt-2" id="teamTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="all-tab" data-toggle="tab" href="#core" role="tab" aria-controls="core" aria-selected="true">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="core-tab" data-toggle="tab" href="#core" role="tab" aria-controls="core" aria-selected="false">Core</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="growth-tab" data-toggle="tab" href="#growth" role="tab" aria-controls="growth" aria-selected="false">Growth</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="internal-tools-tab" href="#" tabindex="-1" aria-controls="internal-tool" aria-selected="false">Internal Tools</a>
+            </li>
+        </ul>
+        <div class="card-body">
+            <div class="results-found-text">
+                <div>Total results found</div>
+                <div class="result">0</div>
+            </div>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingPendingReview">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapsePendingReview" aria-expanded="true" aria-controls="collapsePendingReview">
+                                Pending Review
+                            </button>
+                        </h5>
+                        <p class="group-count"></p>
+                    </div>
+                    <div id="collapsePendingReview" class="collapse show" aria-labelledby="headingPendingReview" data-parent="#accordion">
+                        <div class="card-body">
+                            <table id="status-pending-review" class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th class="jira-id" data-sort="key">Jira Id</th>
+                                    <th data-sort="jira_title">Title</th>
+                                    <th data-sort="dev_name">Developer</th>
+                                    <th data-sort="pull_requests">Pull Requests</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- Rows for Pending Review will be populated here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingPendingMergeQA">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsePendingMergeQA" aria-expanded="false" aria-controls="collapsePendingMergeQA">
+                                Pending Merge/QA
+                            </button>
+                        </h5>
+                        <p class="badge group-count"></p>
+                    </div>
+                    <div id="collapsePendingMergeQA" class="collapse" aria-labelledby="headingPendingMergeQA" data-parent="#accordion">
+                        <div class="card-body">
+                            <table id="status-pending-merge-qa" class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th class="jira-id" data-sort="key">Jira Id</th>
+                                    <th data-sort="jira_title">Title</th>
+                                    <th data-sort="dev_name">Developer</th>
+                                    <th data-sort="pull_requests">Pull Requests</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- Rows for Pending Merge/QA will be populated here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingPendingDeployment">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsePendingDeployment" aria-expanded="false" aria-controls="collapsePendingDeployment">
+                                Pending Deployment
+                            </button>
+                        </h5>
+                        <p class="group-count"></p>
+                    </div>
+                    <div id="collapsePendingDeployment" class="collapse" aria-labelledby="headingPendingDeployment" data-parent="#accordion">
+                        <div class="card-body">
+                            <table id="status-pending-deployment" class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th class="jira-id" data-sort="key">Jira Id</th>
+                                    <th data-sort="jira_title">Title</th>
+                                    <th data-sort="dev_name">Developer</th>
+                                    <th data-sort="pull_requests">Pull Requests</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- Rows for Pending Deployment will be populated here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingDeployed">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDeployed" aria-expanded="false" aria-controls="collapseDeployed">
+                                Deployed
+                            </button>
+                        </h5>
+                        <p class="group-count"></p>
+                    </div>
+                    <div id="collapseDeployed" class="collapse" aria-labelledby="headingDeployed" data-parent="#accordion">
+                        <div class="card-body">
+                            <table id="status-deployed" class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th class="jira-id" data-sort="key">Jira Id</th>
+                                    <th data-sort="jira_title">Title</th>
+                                    <th data-sort="dev_name">Developer</th>
+                                    <th data-sort="pull_requests">Pull Requests</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- Rows for Deployed will be populated here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 </div>

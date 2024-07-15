@@ -56,3 +56,21 @@ td {
     margin-left: 10px;
     color: darkblue;
 }
+
+.card-header{
+    display: flex;
+    font-size: 12px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.group-count{
+    background-color: blue;
+    margin-left: 2px;
+    padding-left: 5px;
+    font-size: 1rem;
+    color: wheat;
+    width: 30px;
+    border-radius: calc(1rem / 2);
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    align-items: center;
+}
