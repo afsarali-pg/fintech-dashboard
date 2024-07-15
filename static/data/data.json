@@ -1408,6 +1408,31 @@
       ]
     },
     {
+      "ticket_id": "1266319",
+      "key": "FINTECH-6401",
+      "jira_title": "SF | Restrict Source Type Editing",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6401",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/629",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-07-15T00:29:24.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1266120",
       "key": "FINTECH-6399",
       "jira_title": "Tech | BEM | Automatic Fintech Deployment Notes",
