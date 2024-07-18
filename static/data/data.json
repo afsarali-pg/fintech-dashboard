@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-07-31T00:00:00.000Z",
-  "syncDate": "2024-07-18T02:01:23.680Z",
+  "syncDate": "2024-07-18T07:12:52.340Z",
   "lastSymbiosisDeploymentDate": "2024-07-16T00:45:56.000Z",
   "lastFrontendDeploymentDate": "2024-07-10T09:39:26.000Z",
   "lastBackendDeploymentDate": "2024-07-10T09:02:08.000Z",
@@ -28,6 +28,15 @@
           "isDeployed": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-07-17T10:18:58.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6747",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2403",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-07-18T04:32:22.000Z",
           "isApproved": true
         },
         {
@@ -515,20 +524,20 @@
         },
         {
           "branch_name": "FINTECH-6619",
-          "url": "https://github.com/propertyguru/hive-ui-static/pull/292",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "hive-ui-static",
-          "lastUpdate": "2024-07-10T02:49:43.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6619",
           "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1044",
           "status": "MERGED",
           "isDeployed": true,
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-07-11T04:03:22.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6619",
+          "url": "https://github.com/propertyguru/hive-ui-static/pull/292",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "hive-ui-static",
+          "lastUpdate": "2024-07-10T02:49:43.000Z",
           "isApproved": true
         }
       ]
@@ -677,17 +686,26 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": true,
       "pull_requests": [
+        {
+          "branch_name": "FINTECH-6593",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2265",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-07-18T04:58:00.000Z",
+          "isApproved": false
+        },
         {
           "branch_name": "FINTECH-6593",
           "url": "https://github.com/propertyguru/project-symbiosis/pull/2400",
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-07-17T08:43:29.000Z",
+          "lastUpdate": "2024-07-18T04:36:29.000Z",
           "isApproved": true
         },
         {
@@ -696,7 +714,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-07-17T08:43:02.000Z",
+          "lastUpdate": "2024-07-18T02:09:33.000Z",
           "isApproved": true
         }
       ]
@@ -1051,18 +1069,27 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": true,
       "pull_requests": [
         {
           "branch_name": "FINTECH-6518",
           "url": "https://github.com/propertyguru/project-symbiosis/pull/2377",
+          "status": "DECLINED",
+          "isDeployed": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-07-18T03:48:35.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6518_2",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2408",
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-07-15T05:06:46.000Z",
-          "isApproved": true
+          "lastUpdate": "2024-07-18T06:43:04.000Z",
+          "isApproved": false
         },
         {
           "branch_name": "FINTECH-6518",
@@ -1337,10 +1364,10 @@
         {
           "branch_name": "issue/FINTECH-6458",
           "url": "https://github.com/propertyguru/mobile-pg-consumer/pull/1273",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "mobile-pg-consumer",
-          "lastUpdate": "2024-06-28T09:02:09.000Z",
+          "lastUpdate": "2024-07-18T06:59:34.000Z",
           "isApproved": true
         },
         {
@@ -1376,7 +1403,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-07-16T17:32:45.000Z",
+          "lastUpdate": "2024-07-18T06:41:04.000Z",
           "isApproved": true
         }
       ]
@@ -1603,6 +1630,24 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-6399",
+          "url": "https://github.com/propertyguru/pg-finance-adminpanel/pull/27",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-adminpanel",
+          "lastUpdate": "2024-07-15T05:01:19.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6399",
+          "url": "https://github.com/propertyguru/pg-finance-adminpanel/pull/28",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-adminpanel",
+          "lastUpdate": "2024-07-17T06:14:48.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6399",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1298",
           "status": "MERGED",
           "isDeployed": true,
@@ -1653,24 +1698,6 @@
           "isDeployed": false,
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-07-17T06:13:22.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6399",
-          "url": "https://github.com/propertyguru/pg-finance-adminpanel/pull/27",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "pg-finance-adminpanel",
-          "lastUpdate": "2024-07-15T05:01:19.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6399",
-          "url": "https://github.com/propertyguru/pg-finance-adminpanel/pull/28",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "pg-finance-adminpanel",
-          "lastUpdate": "2024-07-17T06:14:48.000Z",
           "isApproved": true
         },
         {
