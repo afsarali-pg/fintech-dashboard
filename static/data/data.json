@@ -1,12 +1,37 @@
 {
   "upcomingGurulandDeploymentDate": "2024-07-31T00:00:00.000Z",
-  "syncDate": "2024-07-25T02:02:18.327Z",
-  "lastSymbiosisDeploymentDate": "2024-07-23T08:08:06.000Z",
+  "syncDate": "2024-07-25T07:13:42.152Z",
+  "lastSymbiosisDeploymentDate": "2024-07-25T04:41:04.000Z",
   "lastFrontendDeploymentDate": "2024-07-19T09:12:01.000Z",
   "lastBackendDeploymentDate": "2024-07-18T10:10:37.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-07-18T10:21:18.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1297491",
+      "key": "FINTECH-6806",
+      "jira_title": "Growth | Eligible properties filter console error on PG Home page",
+      "team": "NA",
+      "reporter_name": "Abhina S",
+      "dev_name": "Abhina S",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": true,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6806",
+          "url": "https://github.com/propertyguru/guruland/pull/26026",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "guruland",
+          "lastUpdate": "2024-07-25T04:20:04.000Z",
+          "isApproved": false
+        }
+      ]
+    },
     {
       "ticket_id": "1295574",
       "key": "FINTECH-6801",
@@ -257,7 +282,7 @@
       "reporter_name": "Lakshya Saini",
       "dev_name": "Lakshya Saini",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": false,
       "isGuruland": false,
@@ -284,10 +309,28 @@
         {
           "branch_name": "FINTECH-6757_2",
           "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/45",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-24T12:05:54.000Z",
+          "lastUpdate": "2024-07-25T02:38:41.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6757_3",
+          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/46",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "data-etl-ninja-scripts",
+          "lastUpdate": "2024-07-25T03:00:02.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6757_4",
+          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/47",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "data-etl-ninja-scripts",
+          "lastUpdate": "2024-07-25T04:11:15.000Z",
           "isApproved": false
         },
         {
@@ -863,20 +906,20 @@
         },
         {
           "branch_name": "FINTECH-6619",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1044",
-          "status": "MERGED",
-          "isDeployed": true,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-07-11T04:03:22.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6619",
           "url": "https://github.com/propertyguru/hive-ui-static/pull/292",
           "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "hive-ui-static",
           "lastUpdate": "2024-07-10T02:49:43.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6619",
+          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1044",
+          "status": "MERGED",
+          "isDeployed": true,
+          "repositoryName": "project-symbiosis-config",
+          "lastUpdate": "2024-07-11T04:03:22.000Z",
           "isApproved": true
         }
       ]
@@ -1390,7 +1433,7 @@
       "reporter_name": "Janice Lim",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": false,
       "isGuruland": false,
@@ -1408,10 +1451,10 @@
         {
           "branch_name": "FINTECH-6482",
           "url": "https://github.com/propertyguru/blueprints/pull/1452",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "blueprints",
-          "lastUpdate": "2024-07-24T04:40:12.000Z",
+          "lastUpdate": "2024-07-25T05:50:25.000Z",
           "isApproved": false
         },
         {
@@ -1577,92 +1620,6 @@
           "isDeployed": false,
           "repositoryName": "marketplace-qaautomation",
           "lastUpdate": "2024-07-24T03:08:13.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1271035",
-      "key": "FINTECH-6432",
-      "jira_title": "HO | FE | Update to use enums for Homeowner onboarding questions",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Abhina S",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6432",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2195",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-07-24T07:41:13.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6432",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2290",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-07-24T08:19:21.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6432",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1006",
-          "status": "MERGED",
-          "isDeployed": true,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-06-25T10:18:50.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6432-revert",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1015",
-          "status": "MERGED",
-          "isDeployed": true,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-06-26T07:15:04.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6432",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1016",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-07-24T07:22:58.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1265595",
-      "key": "FINTECH-6396",
-      "jira_title": "LCM | New CSAT surveys HTML templates",
-      "team": "Internal Tools",
-      "reporter_name": "Khoo Shi Han",
-      "dev_name": "Mritunjay Kumar Mani",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6396",
-          "url": "https://github.com/propertyguru/pg-finance-email-templates/pull/75",
-          "status": "MERGED",
-          "isDeployed": false,
-          "repositoryName": "pg-finance-email-templates",
-          "lastUpdate": "2024-07-04T02:46:58.000Z",
           "isApproved": true
         }
       ]
