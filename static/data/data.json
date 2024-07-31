@@ -1,12 +1,55 @@
 {
-  "upcomingGurulandDeploymentDate": "2024-07-31T00:00:00.000Z",
-  "syncDate": "2024-07-30T07:12:55.005Z",
+  "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
+  "syncDate": "2024-07-31T01:40:19.899Z",
   "lastSymbiosisDeploymentDate": "2024-07-26T07:55:24.000Z",
   "lastFrontendDeploymentDate": "2024-07-19T09:12:01.000Z",
   "lastBackendDeploymentDate": "2024-07-18T10:10:37.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-07-26T06:36:52.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1300688",
+      "key": "FINTECH-6828",
+      "jira_title": "BE | Enable Datadog Profiling",
+      "team": "NA",
+      "reporter_name": "Lakshya Saini",
+      "dev_name": "Lakshya Saini",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6828",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1309",
+          "status": "MERGED",
+          "isDeployed": true,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-07-30T07:26:49.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6828_1",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1310",
+          "status": "DECLINED",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-07-30T09:32:26.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6828_2",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1311",
+          "status": "MERGED",
+          "isDeployed": true,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-07-30T09:56:05.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1297782",
       "key": "FINTECH-6811",
@@ -73,7 +116,7 @@
       "team": "NA",
       "reporter_name": "Abhina S",
       "dev_name": "Abhina S",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -84,7 +127,7 @@
           "branch_name": "FINTECH-6806",
           "url": "https://github.com/propertyguru/guruland/pull/26026",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "repositoryName": "guruland",
           "lastUpdate": "2024-07-25T12:58:48.000Z",
           "isApproved": true
@@ -142,13 +185,38 @@
       ]
     },
     {
+      "ticket_id": "1295215",
+      "key": "FINTECH-6783",
+      "jira_title": "Fintech Q3 2024 Sprint 2 - Production Deployment",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Afsar Ali",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": [
+        {
+          "branch_name": "fix/homeowner",
+          "url": "https://github.com/propertyguru/marketplace-qaautomation/pull/989",
+          "status": "MERGED",
+          "isDeployed": false,
+          "repositoryName": "marketplace-qaautomation",
+          "lastUpdate": "2024-07-30T09:03:51.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1294950",
       "key": "FINTECH-6776",
       "jira_title": "FinTech Q3 2024 Sprint 2 - Production Monitoring Services & Debugging",
       "team": "NA",
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -159,7 +227,7 @@
           "branch_name": "FINTECH-6776",
           "url": "https://github.com/propertyguru/guruland/pull/26033",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "repositoryName": "guruland",
           "lastUpdate": "2024-07-26T09:49:08.000Z",
           "isApproved": true
@@ -368,10 +436,10 @@
         {
           "branch_name": "FINTECH-6770",
           "url": "https://github.com/propertyguru/guruland/pull/26031",
-          "status": "OPEN",
-          "isDeployed": false,
+          "status": "MERGED",
+          "isDeployed": true,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-07-29T06:53:12.000Z",
+          "lastUpdate": "2024-07-30T16:58:53.000Z",
           "isApproved": true
         },
         {
@@ -641,7 +709,7 @@
       "team": "Internal Tools",
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -652,7 +720,7 @@
           "branch_name": "FINTECH-6736",
           "url": "https://github.com/propertyguru/guruland/pull/26035",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "repositoryName": "guruland",
           "lastUpdate": "2024-07-29T02:37:22.000Z",
           "isApproved": true
@@ -661,7 +729,7 @@
           "branch_name": "dev",
           "url": "https://github.com/propertyguru/guruland/pull/26037",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "repositoryName": "guruland",
           "lastUpdate": "2024-07-29T06:59:02.000Z",
           "isApproved": true
@@ -703,7 +771,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": true,
       "isSymbiosis": false,
       "pull_requests": [
@@ -713,8 +781,8 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-07-26T06:47:39.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-07-30T10:07:53.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-6730",
@@ -1138,7 +1206,7 @@
       "team": "Internal Tools",
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -1149,7 +1217,7 @@
           "branch_name": "FINTECH-6624",
           "url": "https://github.com/propertyguru/guruland/pull/26003",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "repositoryName": "guruland",
           "lastUpdate": "2024-07-26T09:25:59.000Z",
           "isApproved": true
