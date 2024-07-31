@@ -1,7 +1,7 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-07-31T01:40:19.899Z",
-  "lastSymbiosisDeploymentDate": "2024-07-26T07:55:24.000Z",
+  "syncDate": "2024-07-31T07:11:47.981Z",
+  "lastSymbiosisDeploymentDate": "2024-07-31T06:00:40.000Z",
   "lastFrontendDeploymentDate": "2024-07-19T09:12:01.000Z",
   "lastBackendDeploymentDate": "2024-07-18T10:10:37.000Z",
   "lastSalesforceDeploymentDate": null,
@@ -179,7 +179,7 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-07-26T03:58:53.000Z",
+          "lastUpdate": "2024-07-31T03:38:16.000Z",
           "isApproved": false
         }
       ]
@@ -192,12 +192,21 @@
       "reporter_name": "Ketan Parikh",
       "dev_name": "Afsar Ali",
       "isDeployed": false,
-      "isMerged": true,
+      "isMerged": false,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "pull_requests": [
+        {
+          "branch_name": "FINTECH-6783-automation-id",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2200",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-07-31T03:44:35.000Z",
+          "isApproved": true
+        },
         {
           "branch_name": "fix/homeowner",
           "url": "https://github.com/propertyguru/marketplace-qaautomation/pull/989",
@@ -743,7 +752,7 @@
       "team": "Core",
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Abhina S",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -754,7 +763,7 @@
           "branch_name": "FINTECH-6735",
           "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1068",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-07-29T11:55:35.000Z",
           "isApproved": true
@@ -1896,6 +1905,21 @@
           "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1273323",
+      "key": "FINTECH-6476",
+      "jira_title": "[Home Owner][Prod] Floor dropdown is non editable",
+      "team": "NA",
+      "reporter_name": "Afsar Ali",
+      "dev_name": "Aditya Patel",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "pull_requests": []
     }
   ]
 }
