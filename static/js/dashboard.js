@@ -76,8 +76,10 @@ $(document).ready(function () {
             return '<span class="badge badge-info">Pending Merge/QA</span>';
         } else if (deployment.isReviewed && deployment.isMerged && !deployment.isDeployed) {
             return '<span class="badge badge-primary">Pending Deployment</span>';
-        } else if (deployment.isReviewed && deployment.isMerged && deployment.isDeployed) {
+        } else if (deployment.isReviewed && deployment.isMerged && deployment.isDeployed && !deployment.isChildTicket) {
             return '<span class="badge badge-success">Deployed</span>';
+        } else if (deployment.isReviewed && deployment.isMerged && deployment.isDeployed && deployment.isChildTicket) {
+            return '<span class="badge badge-success">Merged to Parent PR</span>';
         }
         return '';
     }
@@ -94,8 +96,9 @@ $(document).ready(function () {
 <!--if merged then success else warning-->
     <span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}">${pr.status}</span>
 <!--    If status is deployed then primary -->
-    <span class="badge badge-${pr.isDeployed ? 'primary' : ''} ">${pr.isDeployed ? 'Deployed' : ''}</span>
-       
+<!--Make sure even if pr.isDeployed = true, check for isChildPr, if childPr=true then in this case status is 'Merged to Parent PR'-->
+     <span class="badge badge-${pr.isDeployed  ? 'primary' : ''} ">${pr.isDeployed && !pr.isChildPr ? 'Deployed' : `${pr.isDeployed && pr.isChildPr ? 'Merged to Parent PR': ''}`}</span>
+    
 </a>`;
             }).join("<br>");
             var jiraLink = `https://propertyguru.atlassian.net/browse/${deployment.key}`

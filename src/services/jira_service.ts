@@ -31,6 +31,7 @@ export class JiraService{
             const isApproved = prDetails.every((pr: PullRequest) => pr.isApproved);
             // Check all PRs are merged
             const isMerged = prDetails.every((pr: PullRequest) => pr.status === 'MERGED');
+            const isChildTicket = prDetails.some((pr: PullRequest) => pr.isChildPr);
 
 
             // TODO: For isTested, we need to check if the linked QA ticket is resolved
@@ -49,7 +50,8 @@ export class JiraService{
                 isReviewed: isApproved,
                 isGuruland: isGuruland,
                 isSymbiosis: isSymbiosis,
-                pull_requests: prDetails
+                isChildTicket: isChildTicket,
+                pull_requests: prDetails,
             }
             jiraTickets.push(jiraTicket);
         }
@@ -74,9 +76,11 @@ export class JiraService{
         PRs.forEach(pr => {
             pullRequests.push({
                 branch_name: pr.source.branch,
+                destination_branch: pr.destination.branch,
                 url: pr.url,
                 status: pr.status,
                 isDeployed: false, //TODO: To be updated later based on deployment date
+                isChildPr: false, //TODO: To be updated later based on destination branch
                 repositoryName: pr.repositoryName.replace('propertyguru/', ''),
                 lastUpdate: new Date(pr.lastUpdate),
                 isApproved: pr.reviewers.some((reviewer: any) => reviewer.approved)
@@ -141,7 +145,7 @@ export class JiraService{
         jiraTickets.forEach(ticket => {
             ticket.pull_requests.forEach(pr => {
                 if(pr.repositoryName === 'pg-finance-backend' && pr.status === 'MERGED'){
-                    pr.isDeployed = pr.lastUpdate > jiraStatusDto.lastBackendDeploymentDate;
+                    pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastBackendDeploymentDate;
                 } else if(pr.repositoryName === 'pg-finance-frontend' && pr.status === 'MERGED'){
                     //lastUpdate = "2024-07-10T07:14:07.000Z"
                     //lastFrontendDeploymentDate = "2024-07-09T08:47:37Z"
@@ -160,6 +164,10 @@ export class JiraService{
                 }else if(pr.repositoryName === 'hive-ui-widgets' && pr.status === 'MERGED'){
                     pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSymbiosisDeploymentDate;
                 }
+
+                // Check if destination branch is other than main or dev, develop , then  set isChildPr = true
+                pr.isChildPr = !['release','master','main', 'dev', 'develop'].includes(pr.destination_branch);
+                ticket.isChildTicket = ticket.isChildTicket || pr.isChildPr;
             });
         });
 

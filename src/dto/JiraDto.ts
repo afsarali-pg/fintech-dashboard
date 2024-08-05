@@ -1,5 +1,7 @@
 export interface PullRequest {
+    isChildPr: boolean;
     branch_name: string;
+    destination_branch: string;
     url: string;
     status: string;
     isDeployed: boolean;
@@ -21,7 +23,9 @@ export interface JiraTicket {
     isReviewed: boolean;
     isGuruland: boolean;
     isSymbiosis: boolean;
+    isChildTicket: boolean;
     pull_requests: PullRequest[];
+
 }
 
 export interface JiraTicketDto {
