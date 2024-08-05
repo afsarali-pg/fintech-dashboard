@@ -6,6 +6,10 @@ $(document).ready(function () {
         lastSyncedTime();
         $.getJSON("./data/data.json", function (data) {
             sampleData = data.jiraTickets;
+            // delete ticket for jira id FINTECH-6774
+            sampleData = sampleData.filter(function (deployment) {
+                return getExcludedJiraIds().includes(deployment.key) === false;
+            });
             populateDeploymentsTable(sampleData);
 
             // Add sort functionality
@@ -32,13 +36,17 @@ $(document).ready(function () {
             $('#teamTabs a').on('click', function (e) {
                 e.preventDefault();
                 $(this).tab('show');
-                 var team = $(this).attr('id').split('-')[0]; // e.g., "core" from "core-tab"
-                if(team === 'internal'){
-                    team = 'internal tools';
+                 var tabName = $(this).attr('id').split('-')[0]; // e.g., "core" from "core-tab"
+                if(tabName === 'internal'){
+                    tabName = 'internal tools';
                 }
-                var filteredData = team === 'all' ? sampleData : sampleData.filter(function (deployment) {
-                    return deployment.team.toLowerCase() === team;
+                var filteredData = tabName === 'all' ? sampleData : sampleData.filter(function (deployment) {
+                    return deployment.team.toLowerCase() === tabName;
                 });
+
+                if(tabName === 'guruland' || tabName === 'symbiosis') {
+                    filteredData = filterBasedOnServiceName(sampleData, tabName);
+                }
 
                 populateDeploymentsTable(filteredData);
             });
@@ -152,3 +160,18 @@ $(document).ready(function () {
         populateDeploymentsTable(sampleData);
     }
 });
+
+function  filterBasedOnServiceName(sampleData, serviceNames) {
+    return sampleData.filter(function (deployment) {
+       if(serviceNames.toLowerCase() === 'guruland' && deployment.isGuruland) {
+           return true;
+       }
+       if(serviceNames.toLowerCase() === 'symbiosis' && deployment.isSymbiosis) {
+              return true;
+         }
+    });
+}
+
+function getExcludedJiraIds() {
+    return ['FINTECH-6757','FINTECH-6774','FINTECH-6490'];
+}
