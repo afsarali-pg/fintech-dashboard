@@ -159,11 +159,23 @@ $(document).ready(function () {
     }
 
     function sortTable(sortField) {
-        sampleData.sort(function (a, b) {
-            if (a[sortField] < b[sortField]) return -1;
-            if (a[sortField] > b[sortField]) return 1;
-            return 0;
-        });
+            //Pending Deployment -> Pending Merge/QA -> Pending Review -> Deployed
+            sampleData.sort(function (a, b) {
+                // Based on isDeployed, isMerged, isReviewed
+                if (sortField === 'status') {
+                    if (!a.isReviewed && b.isReviewed) return -1;
+                    if (a.isReviewed && !b.isReviewed) return 1;
+                    if (a.isReviewed && !a.isMerged && b.isMerged) return -1;
+                    if (a.isMerged && !b.isMerged) return 1;
+                    if (a.isMerged && !a.isDeployed && b.isDeployed) return -1;
+                    if (a.isDeployed && !b.isDeployed) return 1;
+                    return 0;
+                }
+
+                // Based on dev_name
+                if (a[sortField] < b[sortField]) return -1;
+            });
+
         populateDeploymentsTable(sampleData);
     }
 });
