@@ -1,7 +1,7 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-08-02T07:13:58.457Z",
-  "lastSymbiosisDeploymentDate": "2024-08-02T04:28:29.000Z",
+  "syncDate": "2024-08-05T02:05:18.174Z",
+  "lastSymbiosisDeploymentDate": "2024-08-02T09:27:58.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
   "lastSalesforceDeploymentDate": null,
@@ -192,7 +192,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": false,
       "isGuruland": false,
@@ -201,10 +201,10 @@
         {
           "branch_name": "FINTECH-6808",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2203",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-02T07:13:03.000Z",
+          "lastUpdate": "2024-08-02T07:25:50.000Z",
           "isApproved": false
         }
       ]
@@ -697,7 +697,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "pull_requests": [
@@ -716,8 +716,8 @@
           "status": "OPEN",
           "isDeployed": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-08-02T06:49:03.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-02T07:21:24.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -989,10 +989,10 @@
         {
           "branch_name": "FINTECH-6730",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2198",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-02T04:37:00.000Z",
+          "lastUpdate": "2024-08-02T07:50:07.000Z",
           "isApproved": true
         }
       ]
@@ -1266,6 +1266,40 @@
       ]
     },
     {
+      "ticket_id": "1286739",
+      "key": "FINTECH-6644",
+      "jira_title": "HO | Add more data in SF lead",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6644",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2465",
+          "status": "OPEN",
+          "isDeployed": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-08-04T14:59:02.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6644",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1315",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-08-04T14:38:04.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1286576",
       "key": "FINTECH-6642",
       "jira_title": "Exp cleanup | Enquiry Form Exp | Show Next Steps",
@@ -1510,15 +1544,6 @@
         },
         {
           "branch_name": "FINTECH-6619",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1044",
-          "status": "MERGED",
-          "isDeployed": true,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-07-11T04:03:22.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6619",
           "url": "https://github.com/propertyguru/project-symbiosis/pull/2372",
           "status": "MERGED",
           "isDeployed": true,
@@ -1533,6 +1558,15 @@
           "isDeployed": false,
           "repositoryName": "hive-ui-static",
           "lastUpdate": "2024-07-10T02:49:43.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6619",
+          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1044",
+          "status": "MERGED",
+          "isDeployed": true,
+          "repositoryName": "project-symbiosis-config",
+          "lastUpdate": "2024-07-11T04:03:22.000Z",
           "isApproved": true
         }
       ]
@@ -1613,10 +1647,10 @@
         {
           "branch_name": "FINTECH-6613",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1299",
-          "status": "OPEN",
-          "isDeployed": false,
+          "status": "MERGED",
+          "isDeployed": true,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-07-17T15:58:35.000Z",
+          "lastUpdate": "2024-08-02T12:06:38.000Z",
           "isApproved": true
         },
         {
@@ -1788,20 +1822,20 @@
         },
         {
           "branch_name": "FINTECH-6583",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1051",
-          "status": "MERGED",
-          "isDeployed": true,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-07-16T03:31:43.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6583",
           "url": "https://github.com/propertyguru/project-symbiosis/pull/2379",
           "status": "MERGED",
           "isDeployed": true,
           "repositoryName": "project-symbiosis",
           "lastUpdate": "2024-07-31T08:50:05.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6583",
+          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1051",
+          "status": "MERGED",
+          "isDeployed": true,
+          "repositoryName": "project-symbiosis-config",
+          "lastUpdate": "2024-07-16T03:31:43.000Z",
           "isApproved": true
         },
         {
