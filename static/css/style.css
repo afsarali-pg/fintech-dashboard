@@ -64,3 +64,18 @@ td {
     font-family: "Arial Rounded MT Bold", sans-serif;
     align-items: center;
 }
+
+
+/*Tooltip */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px  black; /* If you want dots under the hoverable text */
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

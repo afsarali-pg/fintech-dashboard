@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-08-05T09:39:46.302Z",
+  "syncDate": "2024-08-05T11:40:52.441Z",
   "lastSymbiosisDeploymentDate": "2024-08-02T09:27:58.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
@@ -59,9 +59,9 @@
       "reporter_name": "Kendrick",
       "dev_name": "Ketan Parikh",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -70,12 +70,12 @@
           "branch_name": "FINTECH-6840",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/669",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-08-05T09:00:59.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-05T09:57:34.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -114,14 +114,26 @@
       "team": "NA",
       "reporter_name": "Afsar Ali",
       "dev_name": "Rinkesh Golwala",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
-      "isSymbiosis": false,
+      "isSymbiosis": true,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6812",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2293",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-08-05T09:39:44.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1295574",
@@ -1008,7 +1020,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-07-11T02:20:36.000Z",
+          "lastUpdate": "2024-08-05T09:43:09.000Z",
           "isApproved": true
         }
       ]
@@ -1215,7 +1227,7 @@
       "team": "NA",
       "reporter_name": "Arijit Bhaumik",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -1250,7 +1262,7 @@
           "destination_branch": "main",
           "url": "https://github.com/propertyguru/hive-ui-static/pull/292",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "hive-ui-static",
           "lastUpdate": "2024-07-10T02:49:43.000Z",

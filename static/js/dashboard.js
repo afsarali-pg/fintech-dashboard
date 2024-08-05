@@ -56,18 +56,20 @@ $(document).ready(function () {
 
     $.getJSON("./data/data.json", function(data) {
         var date = new Date(data.upcomingGurulandDeploymentDate);
-        var options = {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'};
 
-        // Guruland deployment date
-        var glDate = date.toLocaleDateString('en-GB', options);
+        var glDate = formatDateTime(date);
         $(".gl-date").text(glDate);
 
         // All deployment date (Guruland + 1 day)
         date.setDate(date.getDate() + 1);
-        var allDate = date.toLocaleDateString('en-GB', options);
+        var allDate = formatDateTime(date);
         $(".all-deployment").text(allDate);
     });
 
+    // on hover of pr link, show tooltip
+    $(document).on('mouseover', '#tooltip', function () {
+        $(this).tooltip();
+    });
 
     function getStatus(deployment) {
         if (!deployment.isReviewed) {
@@ -93,11 +95,12 @@ $(document).ready(function () {
         $.each(filteredData, function (index, deployment) {
             var prLinks = deployment.pull_requests.map(function (pr) {
                 return `<a href="${pr.url}" target="_blank">${pr.repositoryName.replace("project-", "").replace('pg-', '')}
+               
 <!--if merged then success else warning-->
-    <span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}">${pr.status}</span>
+    <span class="badge badge-${pr.status === 'MERGED' ? 'success' : 'warning'}" >${pr.status}</span>
 <!--    If status is deployed then primary -->
 <!--Make sure even if pr.isDeployed = true, check for isChildPr, if childPr=true then in this case status is 'Merged to Parent PR'-->
-     <span class="badge badge-${pr.isDeployed  ? 'primary' : ''} ">${pr.isDeployed && !pr.isChildPr ? 'Deployed' : `${pr.isDeployed && pr.isChildPr ? 'Merged to Parent PR': ''}`}</span>
+     <span id="tooltip" class="badge badge-${pr.isDeployed  ? `primary" title="Merged on: ${formatDateTime(new Date(pr.lastUpdate))}"` : ''} ">${pr.isDeployed && !pr.isChildPr ? 'Deployed' : `${pr.isDeployed && pr.isChildPr ? 'Merged to Parent PR': ''}`}</span>
     
 </a>`;
             }).join("<br>");
@@ -117,6 +120,7 @@ $(document).ready(function () {
             `;
             tbody.append(row);
         });
+
     }
 
     function timeSince(date) {
@@ -163,6 +167,22 @@ $(document).ready(function () {
         populateDeploymentsTable(sampleData);
     }
 });
+
+function formatDateTime(date) {
+    var options = {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'};
+    return date.toLocaleDateString('en-GB', options);
+}
+
+function getDeploymentDate(serviceName, data) {
+
+    if(serviceName === 'guruland'){
+        return new Date(data.upcomingGurulandDeploymentDate);
+    }
+
+    if(serviceName.contains('symbiosis') || serviceName.contains('symbiosis-config') || serviceName.contains('hive')){
+        return new Date(data.lastSymbiosisDeploymentDate);
+    }
+}
 
 function  filterBasedOnServiceName(sampleData, serviceNames) {
     return sampleData.filter(function (deployment) {

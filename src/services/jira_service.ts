@@ -163,6 +163,8 @@ export class JiraService{
                     pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSymbiosisDeploymentDate;
                 }else if(pr.repositoryName === 'hive-ui-widgets' && pr.status === 'MERGED'){
                     pr.isDeployed = pr.lastUpdate < jiraStatusDto.lastSymbiosisDeploymentDate;
+                }else if(pr.repositoryName === 'hive-ui-static' && pr.status === 'MERGED'){
+                    pr.isDeployed = true;
                 }
 
                 // Check if destination branch is other than main or dev, develop , then  set isChildPr = true
