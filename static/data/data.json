@@ -1,12 +1,28 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-08-07T02:05:04.973Z",
+  "syncDate": "2024-08-07T07:12:34.818Z",
   "lastSymbiosisDeploymentDate": "2024-08-06T07:00:13.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-08-02T04:34:32.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1303850",
+      "key": "FINTECH-6886",
+      "jira_title": "WhatsApp Bot | Send events to Braze",
+      "team": "NA",
+      "reporter_name": "Lakshya Saini",
+      "dev_name": "Lakshya Saini",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
     {
       "ticket_id": "1303840",
       "key": "FINTECH-6885",
@@ -30,7 +46,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-08-06T07:45:31.000Z",
+          "lastUpdate": "2024-08-07T05:21:22.000Z",
           "isApproved": true
         }
       ]
@@ -42,14 +58,26 @@
       "team": "Growth",
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Dominic Arrojado",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
       "isReviewed": true,
-      "isGuruland": false,
+      "isGuruland": true,
       "isSymbiosis": false,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6730",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/guruland/pull/26032",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "guruland",
+          "lastUpdate": "2024-08-07T02:16:18.000Z",
+          "isApproved": true
+        }
+      ]
     },
     {
       "ticket_id": "1303594",
@@ -212,7 +240,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -225,10 +253,26 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-08-06T12:23:55.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-07T03:43:27.000Z",
+          "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1299791",
+      "key": "FINTECH-6822",
+      "jira_title": "SF | Agent Segmentation Attributes",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1297800",
@@ -238,7 +282,7 @@
       "reporter_name": "Afsar Ali",
       "dev_name": "Rinkesh Golwala",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -249,11 +293,11 @@
           "branch_name": "FINTECH-6812",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2293",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-08-06T04:20:05.000Z",
+          "lastUpdate": "2024-08-07T04:54:33.000Z",
           "isApproved": true
         }
       ]
@@ -925,7 +969,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-08-06T03:27:58.000Z",
+          "lastUpdate": "2024-08-07T03:41:39.000Z",
           "isApproved": true
         },
         {
@@ -936,7 +980,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-08-05T16:27:17.000Z",
+          "lastUpdate": "2024-08-07T03:41:28.000Z",
           "isApproved": true
         }
       ]
@@ -1232,7 +1276,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-06T03:00:47.000Z",
+          "lastUpdate": "2024-08-07T04:48:38.000Z",
           "isApproved": true
         }
       ]
