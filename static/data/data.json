@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-08-08T02:03:52.459Z",
+  "syncDate": "2024-08-08T07:12:47.462Z",
   "lastSymbiosisDeploymentDate": "2024-08-06T07:00:13.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
@@ -489,6 +489,62 @@
       ]
     },
     {
+      "ticket_id": "1295434",
+      "key": "FINTECH-6789",
+      "jira_title": "[FE] PGF Page | Video",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6789",
+          "destination_branch": "agentnet-landing",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2209",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-08-08T04:25:05.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1295433",
+      "key": "FINTECH-6788",
+      "jira_title": "[FE] PGF Page | Hero Banner",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6788",
+          "destination_branch": "agentnet-landing",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2208",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-08-08T04:02:38.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1294891",
       "key": "FINTECH-6775",
       "jira_title": "Tech Debt | Migrate and Test 4xx and 5xx alerts on Squadcast",
@@ -812,7 +868,7 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Abhina S",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -834,11 +890,11 @@
           "branch_name": "FINTECH-6761",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/project-symbiosis/pull/2463",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-08-07T09:18:16.000Z",
+          "lastUpdate": "2024-08-08T06:44:49.000Z",
           "isApproved": true
         }
       ]
@@ -1441,34 +1497,6 @@
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-07-08T07:54:04.000Z",
           "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1285279",
-      "key": "FINTECH-6620",
-      "jira_title": "Growth | PreQual Landing | Deployment",
-      "team": "NA",
-      "reporter_name": "Arijit Bhaumik",
-      "dev_name": "Arijit Bhaumik",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6620",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/terraform/pull/2872",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "terraform",
-          "lastUpdate": "2024-07-19T06:21:31.000Z",
-          "isApproved": true
         }
       ]
     }
