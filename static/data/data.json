@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-08-09T02:05:06.800Z",
+  "syncDate": "2024-08-09T07:12:44.840Z",
   "lastSymbiosisDeploymentDate": "2024-08-08T11:17:44.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
@@ -526,7 +526,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -539,8 +539,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-08T04:25:05.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-09T06:27:54.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -554,7 +554,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -567,8 +567,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-08T04:02:38.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-09T06:28:28.000Z",
+          "isApproved": true
         }
       ]
     },
