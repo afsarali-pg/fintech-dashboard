@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-08-09T07:12:44.840Z",
+  "syncDate": "2024-08-12T02:06:38.293Z",
   "lastSymbiosisDeploymentDate": "2024-08-08T11:17:44.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
@@ -215,6 +215,22 @@
       ]
     },
     {
+      "ticket_id": "1302764",
+      "key": "FINTECH-6844",
+      "jira_title": "HO | Symbiosis/Braze Integration | Price Insights section in LDP",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
       "ticket_id": "1302681",
       "key": "FINTECH-6842",
       "jira_title": "SF | 81 Agents Extension for Subsequent Loan Recognition",
@@ -347,6 +363,22 @@
           "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1300740",
+      "key": "FINTECH-6829",
+      "jira_title": "HO | Hive Component | Price Insights section in LDP",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1299791",
@@ -489,6 +521,38 @@
       ]
     },
     {
+      "ticket_id": "1295439",
+      "key": "FINTECH-6792",
+      "jira_title": "[FE] PGF Page | Process",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
+      "ticket_id": "1295438",
+      "key": "FINTECH-6791",
+      "jira_title": "[FE] PGF Page | Bank Swipe",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
       "ticket_id": "1295437",
       "key": "FINTECH-6790",
       "jira_title": "[FE] PGF Page | Explainer",
@@ -524,7 +588,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -535,11 +599,11 @@
           "branch_name": "FINTECH-6789",
           "destination_branch": "agentnet-landing",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2209",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-09T06:27:54.000Z",
+          "lastUpdate": "2024-08-09T07:32:52.000Z",
           "isApproved": true
         }
       ]
@@ -552,7 +616,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -563,11 +627,11 @@
           "branch_name": "FINTECH-6788",
           "destination_branch": "agentnet-landing",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2208",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-09T06:28:28.000Z",
+          "lastUpdate": "2024-08-09T07:32:35.000Z",
           "isApproved": true
         }
       ]
@@ -861,6 +925,34 @@
       ]
     },
     {
+      "ticket_id": "1293643",
+      "key": "FINTECH-6766",
+      "jira_title": "Automation for Prequal Landing New Page",
+      "team": "NA",
+      "reporter_name": "Sandeep UH",
+      "dev_name": "Sandeep UH",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "fintech-6766",
+          "destination_branch": "main",
+          "url": "https://github.com/propertyguru/marketplace-qaautomation/pull/1025",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-qaautomation",
+          "lastUpdate": "2024-08-10T05:39:13.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1293629",
       "key": "FINTECH-6764",
       "jira_title": "Growth | Home Finance Planner | FFB Tkt Breakdown",
@@ -924,6 +1016,34 @@
           "repositoryName": "project-symbiosis",
           "lastUpdate": "2024-08-08T06:44:49.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1293099",
+      "key": "FINTECH-6758",
+      "jira_title": "SF | New 'Agent Referral' Task for AST",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6758",
+          "destination_branch": "FINTECH-6612",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1329",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-08-11T21:16:05.000Z",
+          "isApproved": false
         }
       ]
     },
