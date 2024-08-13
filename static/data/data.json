@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-14T00:00:00.000Z",
-  "syncDate": "2024-08-12T07:13:26.704Z",
+  "syncDate": "2024-08-13T02:05:54.878Z",
   "lastSymbiosisDeploymentDate": "2024-08-08T11:17:44.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
@@ -181,7 +181,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-12T06:56:50.000Z",
+          "lastUpdate": "2024-08-12T11:51:09.000Z",
           "isApproved": false
         }
       ]
@@ -324,7 +324,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": true,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -337,8 +337,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-08-12T06:51:08.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-12T13:03:54.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1095,6 +1095,17 @@
           "isChildPr": true,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-08-11T21:16:05.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6758",
+          "destination_branch": "FINTECH-6612",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/681",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-08-12T09:41:59.000Z",
           "isApproved": false
         }
       ]
