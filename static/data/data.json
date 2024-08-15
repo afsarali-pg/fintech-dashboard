@@ -1,7 +1,7 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-28T00:00:00.000Z",
-  "syncDate": "2024-08-14T07:13:00.518Z",
-  "lastSymbiosisDeploymentDate": "2024-08-14T01:41:29.000Z",
+  "syncDate": "2024-08-15T01:57:26.359Z",
+  "lastSymbiosisDeploymentDate": "2024-08-14T08:42:46.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-02T04:32:47.000Z",
   "lastSalesforceDeploymentDate": null,
@@ -196,7 +196,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -209,8 +209,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-14T06:04:40.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-14T07:16:39.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -367,6 +367,45 @@
           "repositoryName": "guruland",
           "lastUpdate": "2024-08-13T06:16:26.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1300817",
+      "key": "FINTECH-6832",
+      "jira_title": "HO | GA - Viewing Events in dashboard",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6832",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2502",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-08-14T18:52:13.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6832",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1092",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "project-symbiosis-config",
+          "lastUpdate": "2024-08-14T18:25:00.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -1680,84 +1719,6 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-08-05T09:43:09.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1286739",
-      "key": "FINTECH-6644",
-      "jira_title": "HO | Add more data in SF lead",
-      "team": "Core",
-      "reporter_name": "Sandeep Mondal",
-      "dev_name": "Harsh Kumar Goel",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6644",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2465",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-08-13T16:39:29.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6644",
-          "destination_branch": "develop",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1315",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-08-13T10:49:53.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1286576",
-      "key": "FINTECH-6642",
-      "jira_title": "Exp cleanup | Enquiry Form Exp | Show Next Steps",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Dominic Arrojado",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": true,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6642",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/guruland/pull/25995",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "guruland",
-          "lastUpdate": "2024-08-06T06:30:26.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6642",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2168",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-07T04:48:38.000Z",
           "isApproved": true
         }
       ]
