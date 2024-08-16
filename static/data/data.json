@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-28T00:00:00.000Z",
-  "syncDate": "2024-08-15T07:12:41.832Z",
+  "syncDate": "2024-08-16T02:03:44.164Z",
   "lastSymbiosisDeploymentDate": "2024-08-14T08:42:46.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-15T06:11:37.000Z",
@@ -166,11 +166,11 @@
           "branch_name": "fix-test-dashboard-link",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2206",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-06T06:44:26.000Z",
+          "lastUpdate": "2024-08-15T08:37:14.000Z",
           "isApproved": true
         },
         {
@@ -408,7 +408,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -417,22 +417,22 @@
           "branch_name": "FINTECH-6832",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/project-symbiosis/pull/2502",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-08-14T18:52:13.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-15T09:55:01.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-6832",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1092",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-08-15T02:39:15.000Z",
+          "lastUpdate": "2024-08-15T09:40:43.000Z",
           "isApproved": true
         }
       ]
@@ -555,6 +555,56 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-08-07T08:15:13.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1299368",
+      "key": "FINTECH-6818",
+      "jira_title": "BE | Migration to DevTools 2.1",
+      "team": "NA",
+      "reporter_name": "Dominic Arrojado",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6818",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1334",
+          "status": "DECLINED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-08-15T08:34:04.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6818",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1335",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-08-15T09:47:43.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6818",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/blueprints/pull/1516",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "blueprints",
+          "lastUpdate": "2024-08-15T09:46:22.000Z",
           "isApproved": true
         }
       ]
