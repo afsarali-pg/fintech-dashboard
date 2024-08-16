@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-08-28T00:00:00.000Z",
-  "syncDate": "2024-08-16T02:03:44.164Z",
+  "syncDate": "2024-08-16T07:13:37.202Z",
   "lastSymbiosisDeploymentDate": "2024-08-14T08:42:46.000Z",
   "lastFrontendDeploymentDate": "2024-08-02T04:38:50.000Z",
   "lastBackendDeploymentDate": "2024-08-15T06:11:37.000Z",
@@ -237,7 +237,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-14T07:16:39.000Z",
+          "lastUpdate": "2024-08-16T04:31:17.000Z",
           "isApproved": true
         }
       ]
@@ -277,14 +277,37 @@
       "team": "Core",
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Abhina S",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
-      "isSymbiosis": false,
+      "isSymbiosis": true,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6844",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2506",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-08-16T05:00:00.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-6844",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1094",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "project-symbiosis-config",
+          "lastUpdate": "2024-08-16T04:18:35.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1302681",
@@ -494,14 +517,37 @@
       "team": "Core",
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Abhina S",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
-      "isSymbiosis": false,
+      "isSymbiosis": true,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6829",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2312",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-08-16T04:39:41.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6829",
+          "destination_branch": "main",
+          "url": "https://github.com/propertyguru/hive-ui-static/pull/311",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-static",
+          "lastUpdate": "2024-08-16T04:20:17.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1300537",
@@ -593,7 +639,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-08-15T09:47:43.000Z",
+          "lastUpdate": "2024-08-16T03:56:45.000Z",
           "isApproved": false
         },
         {
@@ -759,7 +805,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -772,8 +818,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-08-15T05:36:26.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-08-16T03:51:43.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -785,7 +831,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": true,
+      "isMerged": false,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -801,6 +847,17 @@
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-08-14T06:41:55.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6794-2",
+          "destination_branch": "agentnet-landing",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2219",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-08-16T06:52:00.000Z",
           "isApproved": true
         }
       ]
@@ -1284,7 +1341,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-qaautomation",
-          "lastUpdate": "2024-08-13T05:49:57.000Z",
+          "lastUpdate": "2024-08-16T07:00:31.000Z",
           "isApproved": false
         }
       ]
