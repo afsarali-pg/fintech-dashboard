@@ -5,9 +5,14 @@
 .dashboard-title{
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: floralwhite;
-    padding: 0.5rem;
-    color: darkcyan;
+    color: ivory;
+    text-align: center;
+}
+.title-container{
+    margin-top: 1px;
+    background-color: darkslategray;
+    margin-bottom: 60px;
+    border-radius: 5px;
 }
 
 td {
@@ -34,8 +39,8 @@ td {
 .deployment-date-card .card{
     width: 100%;
     margin: 0.5rem;
-    background-color: floralwhite;
-    border-radius: 20px;
+    box-shadow: 10px 10px;
+    max-width: fit-content;
 }
 
 .scheduled-date{
@@ -78,4 +83,34 @@ td {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+#upcoming-deployments-section{
+    margin-top: 3rem;
+}
+
+.sidebar{
+    background-color: #293b22;
+    color: ivory;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+.sidebar-sticky{
+    background-color: ghostwhite;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 30%;
+}
+
+.nav-link{
+    display: inline-block;
+}
+.nav-item.logo{
+    margin-bottom: 20px;
+}
+
+.nav-link img{
+    width: 5rem;
+    height: 5rem;
 }
