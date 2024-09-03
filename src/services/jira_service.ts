@@ -41,9 +41,9 @@ export class JiraService{
                 ticket_id: ticket.id,
                 key: ticket.key,
                 jira_title: ticket.fields.summary,
-                team: await this.getTeamName(ticket.fields.reporter.displayName), // TODO: also need to check based on Labels
-                reporter_name: ticket.fields.reporter.displayName,
-                dev_name: ticket.fields.assignee.displayName,
+                team: await this.getTeamName(ticket.fields.reporter?.displayName), // TODO: also need to check based on Labels
+                reporter_name: ticket.fields.reporter?.displayName,
+                dev_name: ticket.fields.assignee?.displayName,
                 isDeployed: false, //  Handled in updateDeploymentStatus
                 isMerged: isMerged,
                 isTested: false,
