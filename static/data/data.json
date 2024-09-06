@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-11T00:00:00.000Z",
-  "syncDate": "2024-09-05T07:13:28.166Z",
+  "syncDate": "2024-09-06T02:09:42.012Z",
   "lastSymbiosisDeploymentDate": "2024-09-04T02:42:13.000Z",
   "lastFrontendDeploymentDate": "2024-09-02T06:28:52.000Z",
-  "lastBackendDeploymentDate": "2024-09-05T06:09:34.000Z",
+  "lastBackendDeploymentDate": "2024-09-05T08:34:42.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-09-03T07:29:06.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1322114",
+      "key": "FINTECH-7067",
+      "jira_title": "Fix AgentNet task type on clicking get-started CTA in mobile app",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7067",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1361",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-09-05T10:44:49.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1320714",
       "key": "FINTECH-7056",
@@ -315,7 +343,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-04T11:30:06.000Z",
+          "lastUpdate": "2024-09-05T19:17:22.000Z",
           "isApproved": true
         }
       ]
@@ -327,14 +355,25 @@
       "team": "Core",
       "reporter_name": "Janice Lim",
       "dev_name": "Abhina S",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
-      "isSymbiosis": false,
+      "isSymbiosis": true,
       "isChildTicket": false,
       "pull_requests": [
+        {
+          "branch_name": "FINTECH-6995",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2351",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-09-05T19:27:37.000Z",
+          "isApproved": false
+        },
         {
           "branch_name": "FINTECH-6995",
           "destination_branch": "main",
@@ -615,6 +654,34 @@
       ]
     },
     {
+      "ticket_id": "1309004",
+      "key": "FINTECH-6937",
+      "jira_title": "HO | Transaction | BE | Sales Transactions Graph",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6937",
+          "destination_branch": "homeowner-v2",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/192",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-06T01:20:14.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1307658",
       "key": "FINTECH-6919",
       "jira_title": "HO | SH | FE | SendHelper Comp",
@@ -735,7 +802,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -748,8 +815,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-04T11:06:57.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-05T19:33:24.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1288,8 +1355,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-09-04T09:08:41.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-05T09:24:57.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-6627_2",
@@ -1321,7 +1388,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-05T05:20:54.000Z",
+          "lastUpdate": "2024-09-05T14:16:08.000Z",
           "isApproved": true
         }
       ]
