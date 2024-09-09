@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-11T00:00:00.000Z",
-  "syncDate": "2024-09-09T02:13:07.540Z",
+  "syncDate": "2024-09-09T07:13:52.072Z",
   "lastSymbiosisDeploymentDate": "2024-09-04T02:42:13.000Z",
   "lastFrontendDeploymentDate": "2024-09-02T06:28:52.000Z",
   "lastBackendDeploymentDate": "2024-09-05T08:34:42.000Z",
@@ -179,7 +179,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -192,8 +192,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-08T15:54:24.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-09T04:38:57.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -945,7 +945,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -956,11 +956,11 @@
           "branch_name": "FINTECH-6862",
           "destination_branch": "fbb-feat-common",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2247",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-09T01:31:18.000Z",
+          "lastUpdate": "2024-09-09T04:38:20.000Z",
           "isApproved": true
         }
       ]
@@ -1507,11 +1507,11 @@
           "branch_name": "FINTECH-6627",
           "destination_branch": "staging",
           "url": "https://github.com/propertyguru/guruland/pull/26121",
-          "status": "OPEN",
+          "status": "DECLINED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-09-06T12:27:18.000Z",
+          "lastUpdate": "2024-09-09T06:35:51.000Z",
           "isApproved": true
         },
         {
