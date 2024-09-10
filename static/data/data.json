@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-11T00:00:00.000Z",
-  "syncDate": "2024-09-09T07:13:52.072Z",
+  "syncDate": "2024-09-10T02:10:57.028Z",
   "lastSymbiosisDeploymentDate": "2024-09-04T02:42:13.000Z",
   "lastFrontendDeploymentDate": "2024-09-02T06:28:52.000Z",
   "lastBackendDeploymentDate": "2024-09-05T08:34:42.000Z",
   "lastSalesforceDeploymentDate": null,
-  "lastHomeOwnershipDeploymentDate": "2024-09-03T07:29:06.000Z",
+  "lastHomeOwnershipDeploymentDate": "2024-09-09T08:33:23.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1323411",
+      "key": "FINTECH-7076",
+      "jira_title": "HO | MongoDB Instance Creation",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7076",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/terraform/pull/3205",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "terraform",
+          "lastUpdate": "2024-09-09T09:44:59.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1322201",
       "key": "FINTECH-7069",
@@ -233,9 +261,9 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": true,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": true,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -261,6 +289,17 @@
           "repositoryName": "mobile-pg-agent",
           "lastUpdate": "2024-09-06T06:40:32.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "issue/FINTECH-7029",
+          "destination_branch": "issue/FINTECH-6627",
+          "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2216",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "mobile-pg-agent",
+          "lastUpdate": "2024-09-09T11:25:42.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -300,7 +339,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -311,11 +350,11 @@
           "branch_name": "FINTECH-7023",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2245",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-04T06:27:29.000Z",
+          "lastUpdate": "2024-09-09T10:13:28.000Z",
           "isApproved": true
         }
       ]
@@ -601,7 +640,7 @@
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/190",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
           "lastUpdate": "2024-09-05T05:25:53.000Z",
@@ -788,6 +827,34 @@
       ]
     },
     {
+      "ticket_id": "1309008",
+      "key": "FINTECH-6939",
+      "jira_title": "HO | Transaction | BE | Rental Transactions Graph ",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6937",
+          "destination_branch": "homeowner-v2",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/192",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-09T13:04:18.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1309004",
       "key": "FINTECH-6937",
       "jira_title": "HO | Transaction | BE | Sales Transactions Graph",
@@ -806,11 +873,11 @@
           "branch_name": "FINTECH-6937",
           "destination_branch": "homeowner-v2",
           "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/192",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-09-06T01:20:14.000Z",
+          "lastUpdate": "2024-09-09T13:04:18.000Z",
           "isApproved": true
         }
       ]
@@ -825,7 +892,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -838,8 +905,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-06T12:45:26.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-09T10:13:59.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-6919",
