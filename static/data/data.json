@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-11T00:00:00.000Z",
-  "syncDate": "2024-09-10T02:10:57.028Z",
+  "syncDate": "2024-09-10T07:14:35.575Z",
   "lastSymbiosisDeploymentDate": "2024-09-04T02:42:13.000Z",
   "lastFrontendDeploymentDate": "2024-09-02T06:28:52.000Z",
   "lastBackendDeploymentDate": "2024-09-05T08:34:42.000Z",
@@ -261,9 +261,9 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": true,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -294,12 +294,12 @@
           "branch_name": "issue/FINTECH-7029",
           "destination_branch": "issue/FINTECH-6627",
           "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2216",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "mobile-pg-agent",
-          "lastUpdate": "2024-09-09T11:25:42.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-10T05:52:01.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -834,7 +834,7 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -845,11 +845,11 @@
           "branch_name": "FINTECH-6937",
           "destination_branch": "homeowner-v2",
           "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/192",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-09-09T13:04:18.000Z",
+          "lastUpdate": "2024-09-10T05:46:57.000Z",
           "isApproved": true
         }
       ]
@@ -862,7 +862,7 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -873,11 +873,11 @@
           "branch_name": "FINTECH-6937",
           "destination_branch": "homeowner-v2",
           "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/192",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-09-09T13:04:18.000Z",
+          "lastUpdate": "2024-09-10T05:46:57.000Z",
           "isApproved": true
         }
       ]
@@ -905,7 +905,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-09T10:13:59.000Z",
+          "lastUpdate": "2024-09-10T02:38:47.000Z",
           "isApproved": true
         },
         {
