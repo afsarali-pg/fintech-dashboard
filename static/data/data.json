@@ -1,11 +1,11 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-25T00:00:00.000Z",
-  "syncDate": "2024-09-11T07:13:24.782Z",
+  "syncDate": "2024-09-12T02:10:06.482Z",
   "lastSymbiosisDeploymentDate": "2024-09-11T06:38:30.000Z",
   "lastFrontendDeploymentDate": "2024-09-02T06:28:52.000Z",
   "lastBackendDeploymentDate": "2024-09-05T08:34:42.000Z",
   "lastSalesforceDeploymentDate": null,
-  "lastHomeOwnershipDeploymentDate": "2024-09-11T05:59:12.000Z",
+  "lastHomeOwnershipDeploymentDate": "2024-09-11T08:30:52.000Z",
   "jiraTickets": [
     {
       "ticket_id": "1323411",
@@ -466,6 +466,50 @@
       ]
     },
     {
+      "ticket_id": "1316957",
+      "key": "FINTECH-7014",
+      "jira_title": "Growth FE Exp setup | Scheduling Appointments Feature on Contact modal and page",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Aditya Patel",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
+      "ticket_id": "1315230",
+      "key": "FINTECH-6999",
+      "jira_title": "HO | Transaction | FE | Hive - Create Past transactions Wrapper / modal",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-6999",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2363",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-09-11T09:27:05.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1315229",
       "key": "FINTECH-6998",
       "jira_title": "HO | Transaction | FE | Hive - Create HO insights filters",
@@ -695,12 +739,12 @@
           "branch_name": "FINTECH-6984_2",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/blueprints/pull/1556",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "blueprints",
-          "lastUpdate": "2024-09-11T07:09:16.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-11T07:37:19.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-6984",
@@ -751,10 +795,21 @@
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/198",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
           "lastUpdate": "2024-09-11T07:01:53.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6984_1",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/200",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-11T07:56:50.000Z",
           "isApproved": true
         }
       ]
@@ -1744,8 +1799,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-11T06:50:57.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-11T16:02:49.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -2076,7 +2131,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -2089,8 +2144,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-11T06:51:59.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-11T15:03:22.000Z",
+          "isApproved": true
         }
       ]
     }
