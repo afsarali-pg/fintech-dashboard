@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-25T00:00:00.000Z",
-  "syncDate": "2024-09-12T02:10:06.482Z",
+  "syncDate": "2024-09-12T07:13:47.147Z",
   "lastSymbiosisDeploymentDate": "2024-09-11T06:38:30.000Z",
   "lastFrontendDeploymentDate": "2024-09-02T06:28:52.000Z",
   "lastBackendDeploymentDate": "2024-09-05T08:34:42.000Z",
@@ -395,7 +395,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -406,11 +406,11 @@
           "branch_name": "FINTECH-7022",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2243",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-04T06:26:48.000Z",
+          "lastUpdate": "2024-09-12T03:11:55.000Z",
           "isApproved": true
         }
       ]
@@ -472,14 +472,26 @@
       "team": "Growth",
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Aditya Patel",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7014",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2255",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-09-12T07:01:53.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1315230",
@@ -491,7 +503,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -504,8 +516,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-11T09:27:05.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-12T05:39:36.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1773,11 +1785,11 @@
           "branch_name": "issue/FINTECH-6627",
           "destination_branch": "main",
           "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2204",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "mobile-pg-agent",
-          "lastUpdate": "2024-09-06T06:43:54.000Z",
+          "lastUpdate": "2024-09-12T05:32:49.000Z",
           "isApproved": true
         },
         {
@@ -1795,11 +1807,11 @@
           "branch_name": "FINTECH-6627-hide-navbar",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2253",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-11T16:02:49.000Z",
+          "lastUpdate": "2024-09-12T03:58:36.000Z",
           "isApproved": true
         }
       ]
@@ -2129,7 +2141,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Ketan Parikh",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -2140,11 +2152,11 @@
           "branch_name": "FINTECH-6165",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/735",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-11T15:03:22.000Z",
+          "lastUpdate": "2024-09-12T02:28:12.000Z",
           "isApproved": true
         }
       ]
