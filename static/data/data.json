@@ -1,11 +1,11 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-25T00:00:00.000Z",
-  "syncDate": "2024-09-18T02:10:58.225Z",
-  "lastSymbiosisDeploymentDate": "2024-09-16T11:19:32.000Z",
+  "syncDate": "2024-09-18T07:14:06.804Z",
+  "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-09-13T07:23:59.000Z",
   "lastBackendDeploymentDate": "2024-09-13T06:59:01.000Z",
   "lastSalesforceDeploymentDate": null,
-  "lastHomeOwnershipDeploymentDate": "2024-09-17T10:26:29.000Z",
+  "lastHomeOwnershipDeploymentDate": "2024-09-18T07:00:15.000Z",
   "jiraTickets": [
     {
       "ticket_id": "1328492",
@@ -45,7 +45,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -58,8 +58,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-17T12:05:28.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-18T05:28:53.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -249,8 +249,8 @@
       "team": "Core",
       "reporter_name": "Janice Lim",
       "dev_name": "Aditya Patel",
-      "isDeployed": false,
-      "isMerged": false,
+      "isDeployed": true,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -261,11 +261,11 @@
           "branch_name": "FINTECH-7036",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2386",
-          "status": "OPEN",
-          "isDeployed": false,
+          "status": "MERGED",
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-17T17:11:59.000Z",
+          "lastUpdate": "2024-09-18T06:53:12.000Z",
           "isApproved": true
         }
       ]
@@ -277,7 +277,7 @@
       "team": "Core",
       "reporter_name": "Janice Lim",
       "dev_name": "Abhina S",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -301,7 +301,7 @@
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2375",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-09-17T04:54:10.000Z",
@@ -478,7 +478,7 @@
       "team": "Core",
       "reporter_name": "Janice Lim",
       "dev_name": "Dominic Arrojado",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -491,7 +491,7 @@
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1132",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "project-symbiosis-config",
           "lastUpdate": "2024-09-18T01:54:52.000Z",
@@ -1002,6 +1002,17 @@
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-09-17T07:48:31.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-6953",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/742",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-09-18T06:30:15.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1123,8 +1134,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-17T18:25:14.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-18T05:19:43.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-6933",
@@ -1134,8 +1145,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-09-17T18:25:50.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-09-18T02:38:23.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-6933",
