@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-09-25T00:00:00.000Z",
-  "syncDate": "2024-09-23T02:15:31.906Z",
+  "syncDate": "2024-09-23T07:14:18.935Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-09-19T12:51:40.000Z",
   "lastBackendDeploymentDate": "2024-09-19T09:40:36.000Z",
@@ -125,7 +125,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-23T02:05:50.000Z",
+          "lastUpdate": "2024-09-23T04:50:33.000Z",
           "isApproved": true
         }
       ]
@@ -277,6 +277,45 @@
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-09-19T07:41:20.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1326346",
+      "key": "FINTECH-7090",
+      "jira_title": "HO | FE | Phase I - Hive UI | Error State component",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7090",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2409",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-09-23T05:41:58.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7090",
+          "destination_branch": "main",
+          "url": "https://github.com/propertyguru/hive-ui-static/pull/328",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-static",
+          "lastUpdate": "2024-09-23T05:28:49.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -444,6 +483,34 @@
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-09-23T02:09:04.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1321826",
+      "key": "FINTECH-7065",
+      "jira_title": "PGF Page | Update WhatsApp Community link",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Sandeep Nathuram Kundalwal",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7065",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2268",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-09-23T05:50:27.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -1479,7 +1546,7 @@
       "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": true,
-      "isChildTicket": false,
+      "isChildTicket": true,
       "pull_requests": [
         {
           "branch_name": "FINTECH-6935",
@@ -1505,13 +1572,13 @@
         },
         {
           "branch_name": "FINTECH-6935",
-          "destination_branch": "master",
+          "destination_branch": "FINTECH-7000",
           "url": "https://github.com/propertyguru/marketplace-web/pull/195",
           "status": "OPEN",
           "isDeployed": false,
-          "isChildPr": false,
+          "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-19T15:58:05.000Z",
+          "lastUpdate": "2024-09-23T05:27:29.000Z",
           "isApproved": false
         }
       ]
@@ -1557,11 +1624,11 @@
           "branch_name": "FINTECH-6933",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/project-symbiosis/pull/2600",
-          "status": "OPEN",
+          "status": "DECLINED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-09-18T02:38:23.000Z",
+          "lastUpdate": "2024-09-23T04:49:26.000Z",
           "isApproved": true
         },
         {
