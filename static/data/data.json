@@ -1,12 +1,51 @@
 {
-  "upcomingGurulandDeploymentDate": "2024-09-25T00:00:00.000Z",
-  "syncDate": "2024-09-24T07:14:10.289Z",
+  "upcomingGurulandDeploymentDate": "2024-10-09T00:00:00.000Z",
+  "syncDate": "2024-09-25T02:17:01.835Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-09-19T12:51:40.000Z",
   "lastBackendDeploymentDate": "2024-09-19T09:40:36.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-09-18T07:00:15.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1329864",
+      "key": "FINTECH-7127",
+      "jira_title": "Lead Scoring | Enhance Lead Scoring Logic to Ensure Accurate Queue Assignment",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7127",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1369",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-09-24T08:33:21.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7127",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/756",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-09-24T08:48:55.000Z",
+          "isApproved": false
+        }
+      ]
+    },
     {
       "ticket_id": "1329167",
       "key": "FINTECH-7123",
@@ -125,8 +164,36 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-24T03:54:09.000Z",
+          "lastUpdate": "2024-09-24T13:44:31.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1327765",
+      "key": "FINTECH-7111",
+      "jira_title": "MY | BE | Support more fields",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7111",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1370",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-09-24T11:53:56.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -509,7 +576,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-23T07:29:46.000Z",
+          "lastUpdate": "2024-09-24T14:38:23.000Z",
           "isApproved": true
         }
       ]
@@ -865,6 +932,38 @@
           "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1315234",
+      "key": "FINTECH-7003",
+      "jira_title": "HO | Transaction | FE | Integration - Sale Insights",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Abhina S",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
+      "ticket_id": "1315233",
+      "key": "FINTECH-7002",
+      "jira_title": "HO | Transaction | FE | Integration - Integrate HO Insights Overview Wrapper",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1315232",
