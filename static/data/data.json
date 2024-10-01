@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2024-10-09T00:00:00.000Z",
-  "syncDate": "2024-09-30T07:15:27.756Z",
+  "syncDate": "2024-10-01T02:24:26.542Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-09-19T12:51:40.000Z",
   "lastBackendDeploymentDate": "2024-09-30T04:03:34.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-09-27T08:37:51.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1337495",
+      "key": "FINTECH-7151",
+      "jira_title": "HO | FE | Phase I - Hive UI | Error State component image update",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7151",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2427",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-10-01T01:55:44.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1333444",
       "key": "FINTECH-7139",
@@ -115,6 +143,144 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
           "lastUpdate": "2024-09-25T07:50:44.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1328202",
+      "key": "FINTECH-7117",
+      "jira_title": "HO - Blueprint Change For HO Alerts",
+      "team": "NA",
+      "reporter_name": "Harsh Kumar Goel",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/blueprints/pull/1563",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "blueprints",
+          "lastUpdate": "2024-09-17T07:44:53.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/blueprints/pull/1565",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "blueprints",
+          "lastUpdate": "2024-09-18T06:03:08.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/blueprints/pull/1566",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "blueprints",
+          "lastUpdate": "2024-09-18T07:08:39.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/blueprints/pull/1568",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "blueprints",
+          "lastUpdate": "2024-09-18T07:11:09.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/203",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-17T08:56:51.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/205",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-17T09:59:47.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/207",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-17T12:42:25.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/209",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-18T05:07:43.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/211",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-18T06:12:16.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/213",
+          "status": "DECLINED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-18T09:45:37.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7117_1",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/214",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-09-18T09:47:38.000Z",
           "isApproved": true
         }
       ]
@@ -433,7 +599,7 @@
       "reporter_name": "Janice Lim",
       "dev_name": "Abhina S",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -444,22 +610,22 @@
           "branch_name": "FINTECH-7086",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2423",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-30T06:23:38.000Z",
+          "lastUpdate": "2024-09-30T07:35:46.000Z",
           "isApproved": true
         },
         {
           "branch_name": "FINTECH-7086",
           "destination_branch": "FINTECH-7000",
           "url": "https://github.com/propertyguru/marketplace-web/pull/279",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-30T06:40:27.000Z",
+          "lastUpdate": "2024-09-30T10:11:17.000Z",
           "isApproved": true
         }
       ]
@@ -1048,7 +1214,7 @@
     {
       "ticket_id": "1315234",
       "key": "FINTECH-7003",
-      "jira_title": "HO | Transaction | FE | Integration - Sale Insights",
+      "jira_title": "HO | FE | Integration - Sale Insights",
       "team": "Core",
       "reporter_name": "Janice Lim",
       "dev_name": "Abhina S",
@@ -1712,533 +1878,6 @@
           "isChildPr": true,
           "repositoryName": "pg-finance-homeowner",
           "lastUpdate": "2024-09-10T16:03:57.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1308978",
-      "key": "FINTECH-6935",
-      "jira_title": "HO | Transaction | BE + Symbiosis | Sale + Rent Insights In The Area ",
-      "team": "Core",
-      "reporter_name": "Sandeep Mondal",
-      "dev_name": "Harsh Kumar Goel",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": true,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6935",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2599",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-09-19T11:29:53.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6935",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/177",
-          "status": "DECLINED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-19T15:43:52.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6935",
-          "destination_branch": "FINTECH-7000",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/195",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": true,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-23T09:38:51.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1308262",
-      "key": "FINTECH-6933",
-      "jira_title": "HO | GA | Property Dropdown - Click Event",
-      "team": "Core",
-      "reporter_name": "Sandeep Mondal",
-      "dev_name": "Abhina S",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6933",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2390",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-19T10:00:21.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6933",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2407",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-24T06:04:38.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6933",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2600",
-          "status": "DECLINED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-09-23T04:49:26.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6933",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1134",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-09-19T09:47:56.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6933",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/176",
-          "status": "DECLINED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-19T15:43:52.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6933",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/194",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-25T11:24:34.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1307658",
-      "key": "FINTECH-6919",
-      "jira_title": "HO | SH | FE | SendHelper Comp",
-      "team": "Core",
-      "reporter_name": "Sandeep Mondal",
-      "dev_name": "Rinkesh Golwala",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6919",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2355",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-10T09:37:23.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6919",
-          "destination_branch": "main",
-          "url": "https://github.com/propertyguru/hive-ui-static/pull/320",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-static",
-          "lastUpdate": "2024-09-05T06:31:56.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1304113",
-      "key": "FINTECH-6889",
-      "jira_title": "Lead Scoring | Push to Segment ",
-      "team": "Internal Tools",
-      "reporter_name": "Khoo Shi Han",
-      "dev_name": "Ketan Parikh",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6889_1",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/751",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-18T14:58:39.000Z",
-          "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1303958",
-      "key": "FINTECH-6888",
-      "jira_title": "BE | Dependent Bot PR's",
-      "team": "NA",
-      "reporter_name": "Ketan Parikh",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6888",
-          "destination_branch": "develop",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1338",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-08-21T09:11:39.000Z",
-          "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1303348",
-      "key": "FINTECH-6856",
-      "jira_title": "Growth | BEM | 1J Dashboard | Financial Breakdown | Update Prequal Save API",
-      "team": "Growth",
-      "reporter_name": "Lakshmi Bhandaram",
-      "dev_name": "Harsh Kumar Goel",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6856",
-          "destination_branch": "develop",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1373",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-09-27T06:05:08.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1302681",
-      "key": "FINTECH-6842",
-      "jira_title": "SF | 81 Agents Extension for Subsequent Loan Recognition",
-      "team": "NA",
-      "reporter_name": "Kendrick",
-      "dev_name": "Mritunjay Kumar Mani",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6842",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/668",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-08-02T06:26:54.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1294891",
-      "key": "FINTECH-6775",
-      "jira_title": "Tech Debt | Migrate and Test 4xx and 5xx alerts on Squadcast",
-      "team": "NA",
-      "reporter_name": "Lakshya Saini",
-      "dev_name": "Lakshya Saini",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6775",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/terraform/pull/2932",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "terraform",
-          "lastUpdate": "2024-07-31T16:22:36.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1293629",
-      "key": "FINTECH-6764",
-      "jira_title": "Growth | Home Finance Planner | FFB Tkt Breakdown",
-      "team": "Growth",
-      "reporter_name": "Lakshmi Bhandaram",
-      "dev_name": "Aditya Patel",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": true,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6764",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/guruland/pull/26030",
-          "status": "DECLINED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "guruland",
-          "lastUpdate": "2024-07-26T05:09:17.000Z",
-          "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1293048",
-      "key": "FINTECH-6757",
-      "jira_title": "Tech Debt | Airflow DAGs | Migrate MY tables to BQ",
-      "team": "NA",
-      "reporter_name": "Lakshya Saini",
-      "dev_name": "Lakshya Saini",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6757",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/43",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-23T10:20:33.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6757_1",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/44",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-24T11:32:38.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6757_2",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/45",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T02:38:41.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6757_3",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/46",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T03:00:02.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6757_4",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/47",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T04:11:15.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6757_5",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/48",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T10:14:53.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6757_5",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/49",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T10:55:26.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6757_5",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/50",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T11:07:17.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6757_5",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/51",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T12:35:59.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6757_5",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/52",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2024-07-25T12:44:13.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6757",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/composer-airflow-2.5.5/pull/397",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "composer-airflow-2.5.5",
-          "lastUpdate": "2024-07-24T10:55:33.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6757_1",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/composer-airflow-2.5.5/pull/402",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "composer-airflow-2.5.5",
-          "lastUpdate": "2024-07-25T13:57:31.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1292432",
-      "key": "FINTECH-6752",
-      "jira_title": "Agentnet LDM | Add PGF entry point component to LDM web (Braze Integration)",
-      "team": "NA",
-      "reporter_name": "Arijit Bhaumik",
-      "dev_name": "Rinkesh Golwala",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6752-package-version-upgrade",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2354",
-          "status": "DECLINED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-06T08:53:54.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-6752",
-          "destination_branch": "main",
-          "url": "https://github.com/propertyguru/agent-frontend-leads/pull/305",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "agent-frontend-leads",
-          "lastUpdate": "2024-09-27T04:29:56.000Z",
           "isApproved": true
         }
       ]
