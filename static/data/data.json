@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-10-23T00:00:00.000Z",
-  "syncDate": "2024-10-11T02:15:08.370Z",
+  "syncDate": "2024-10-11T07:14:34.668Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-09T10:44:24.000Z",
   "lastBackendDeploymentDate": "2024-10-09T07:28:46.000Z",
@@ -2114,61 +2114,6 @@
           "repositoryName": "hive-ui-static",
           "lastUpdate": "2024-09-05T06:31:56.000Z",
           "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1304113",
-      "key": "FINTECH-6889",
-      "jira_title": "Lead Scoring | Push to Segment ",
-      "team": "Internal Tools",
-      "reporter_name": "Khoo Shi Han",
-      "dev_name": "Ketan Parikh",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6889_1",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/751",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-18T14:58:39.000Z",
-          "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1303958",
-      "key": "FINTECH-6888",
-      "jira_title": "BE | Dependent Bot PR's",
-      "team": "NA",
-      "reporter_name": "Ketan Parikh",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6888",
-          "destination_branch": "develop",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1338",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-08-21T09:11:39.000Z",
-          "isApproved": false
         }
       ]
     }
