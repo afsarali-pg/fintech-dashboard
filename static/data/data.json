@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-10-23T00:00:00.000Z",
-  "syncDate": "2024-10-17T02:16:05.518Z",
+  "syncDate": "2024-10-17T07:15:11.790Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-15T12:13:32.000Z",
   "lastBackendDeploymentDate": "2024-10-15T06:52:26.000Z",
@@ -244,6 +244,17 @@
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-10-16T09:01:31.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7162",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1408",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-10-17T06:54:06.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -270,7 +281,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-16T07:44:13.000Z",
+          "lastUpdate": "2024-10-17T05:09:45.000Z",
           "isApproved": false
         }
       ]
@@ -417,7 +428,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Sandeep Nathuram Kundalwal",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -428,11 +439,11 @@
           "branch_name": "FINTECH-7118",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1398",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-16T12:35:49.000Z",
+          "lastUpdate": "2024-10-17T05:58:51.000Z",
           "isApproved": true
         }
       ]
@@ -573,7 +584,7 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Sandeep Nathuram Kundalwal",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -584,11 +595,11 @@
           "branch_name": "FINTECH-7109",
           "destination_branch": "main",
           "url": "https://github.com/propertyguru/pg-finance-email-templates/pull/80",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-email-templates",
-          "lastUpdate": "2024-10-16T11:14:30.000Z",
+          "lastUpdate": "2024-10-17T06:03:40.000Z",
           "isApproved": true
         }
       ]
@@ -1608,8 +1619,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-10-15T02:32:30.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-10-17T02:48:53.000Z",
+          "isApproved": true
         }
       ]
     },
