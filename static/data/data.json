@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-10-23T00:00:00.000Z",
-  "syncDate": "2024-10-17T07:15:11.790Z",
+  "syncDate": "2024-10-18T02:16:44.765Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-15T12:13:32.000Z",
   "lastBackendDeploymentDate": "2024-10-15T06:52:26.000Z",
@@ -181,6 +181,22 @@
       ]
     },
     {
+      "ticket_id": "1339745",
+      "key": "FINTECH-7169",
+      "jira_title": "Status Enum in SF Apex",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Sandeep Nathuram Kundalwal",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
       "ticket_id": "1337650",
       "key": "FINTECH-7163",
       "jira_title": "Fintech Q4 2024 Sprint 1 - Production Deployment",
@@ -281,7 +297,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-17T05:09:45.000Z",
+          "lastUpdate": "2024-10-17T12:11:52.000Z",
           "isApproved": false
         }
       ]
@@ -1619,8 +1635,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-10-17T02:48:53.000Z",
-          "isApproved": true
+          "lastUpdate": "2024-10-17T12:57:16.000Z",
+          "isApproved": false
         }
       ]
     },
