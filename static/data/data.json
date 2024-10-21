@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-10-23T00:00:00.000Z",
-  "syncDate": "2024-10-18T07:14:20.951Z",
+  "syncDate": "2024-10-21T02:19:05.842Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-15T12:13:32.000Z",
   "lastBackendDeploymentDate": "2024-10-15T06:52:26.000Z",
@@ -82,9 +82,9 @@
       "reporter_name": "Janice Lim",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -104,12 +104,12 @@
           "branch_name": "FINTECH-7177",
           "destination_branch": "FINTECH-7000",
           "url": "https://github.com/propertyguru/marketplace-web/pull/401",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-10-18T06:55:04.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-10-18T11:57:45.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -201,7 +201,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -214,8 +214,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-10-18T03:04:12.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-10-19T02:46:10.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -320,7 +320,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-18T05:01:04.000Z",
+          "lastUpdate": "2024-10-18T10:43:12.000Z",
           "isApproved": false
         }
       ]
@@ -378,6 +378,34 @@
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-09-25T11:30:37.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1332616",
+      "key": "FINTECH-7137",
+      "jira_title": "Growth | My Mortgage Advisor on 1J Dashboard | BE results API changes",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7137",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1409",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-10-19T19:19:56.000Z",
+          "isApproved": false
         }
       ]
     },
