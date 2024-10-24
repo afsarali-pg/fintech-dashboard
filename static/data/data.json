@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-10-24T02:15:51.776Z",
+  "syncDate": "2024-10-24T07:14:46.610Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-15T12:13:32.000Z",
   "lastBackendDeploymentDate": "2024-10-15T06:52:26.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-10-23T04:49:17.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1347356",
+      "key": "FINTECH-7247",
+      "jira_title": "Github Access Review",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7247",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/envision-backstage/pull/578",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "envision-backstage",
+          "lastUpdate": "2024-10-24T06:34:41.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1346634",
       "key": "FINTECH-7245",
@@ -43,7 +71,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Abhina S",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -54,11 +82,11 @@
           "branch_name": "FINTECH-7085",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/bff-mobile/pull/674",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "bff-mobile",
-          "lastUpdate": "2024-10-24T02:14:09.000Z",
+          "lastUpdate": "2024-10-24T06:31:41.000Z",
           "isApproved": true
         }
       ]
@@ -155,6 +183,34 @@
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-10-16T08:29:37.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1342342",
+      "key": "FINTECH-7181",
+      "jira_title": "SF | Q4OB2 Shortening Auto Banker Reminder to 3 Working Days",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7181",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/796",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-10-24T02:27:06.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -372,7 +428,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Mritunjay Kumar Mani",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -383,11 +439,11 @@
           "branch_name": "issue/FINTECH-7085",
           "destination_branch": "main",
           "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2280",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "mobile-pg-agent",
-          "lastUpdate": "2024-10-09T08:13:23.000Z",
+          "lastUpdate": "2024-10-24T06:28:49.000Z",
           "isApproved": true
         },
         {
@@ -1058,7 +1114,7 @@
       "reporter_name": "Khoo Shi Han",
       "dev_name": "Abhina S",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -1069,22 +1125,22 @@
           "branch_name": "FINTECH-7085",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/bff-mobile/pull/674",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "bff-mobile",
-          "lastUpdate": "2024-10-24T02:14:09.000Z",
+          "lastUpdate": "2024-10-24T06:31:41.000Z",
           "isApproved": true
         },
         {
           "branch_name": "issue/FINTECH-7085",
           "destination_branch": "main",
           "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2280",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "mobile-pg-agent",
-          "lastUpdate": "2024-10-09T08:13:23.000Z",
+          "lastUpdate": "2024-10-24T06:28:49.000Z",
           "isApproved": true
         }
       ]
@@ -1983,73 +2039,6 @@
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-09-06T02:10:43.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1315227",
-      "key": "FINTECH-6996",
-      "jira_title": "HO | Transaction | FE | Hive - Create Property Value Card v2",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Abhina S",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6996",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2360",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-11T04:14:58.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1315226",
-      "key": "FINTECH-6995",
-      "jira_title": "HO | Transaction | FE | Hive - Create Property details accordion component v2",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Abhina S",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6995",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2351",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-06T11:49:48.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6995",
-          "destination_branch": "main",
-          "url": "https://github.com/propertyguru/hive-ui-static/pull/319",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-static",
-          "lastUpdate": "2024-09-04T07:01:38.000Z",
           "isApproved": true
         }
       ]
