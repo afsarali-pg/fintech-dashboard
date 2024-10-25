@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-10-25T02:17:38.458Z",
+  "syncDate": "2024-10-25T07:14:38.817Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-24T08:21:16.000Z",
@@ -215,6 +215,34 @@
       ]
     },
     {
+      "ticket_id": "1342276",
+      "key": "FINTECH-7178",
+      "jira_title": "Growth | SEO | PGF Home Page enhancements + Featured in section",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Sandeep Nathuram Kundalwal",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7178",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2295",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-10-25T06:56:47.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1341917",
       "key": "FINTECH-7177",
       "jira_title": "HO v2 | FE | QA & UAT Fixes",
@@ -310,6 +338,17 @@
           "isChildPr": true,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-10-22T06:00:41.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7176",
+          "destination_branch": "FINTECH-7000",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/444",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-10-25T06:21:51.000Z",
           "isApproved": true
         }
       ]
@@ -436,6 +475,17 @@
       "isChildTicket": false,
       "pull_requests": [
         {
+          "branch_name": "issue/FINTECH-7085",
+          "destination_branch": "main",
+          "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2280",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "mobile-pg-agent",
+          "lastUpdate": "2024-10-24T06:28:49.000Z",
+          "isApproved": true
+        },
+        {
           "branch_name": "FINTECH-7162",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1405",
@@ -455,17 +505,6 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-10-17T06:54:06.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "issue/FINTECH-7085",
-          "destination_branch": "main",
-          "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2280",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "mobile-pg-agent",
-          "lastUpdate": "2024-10-24T06:28:49.000Z",
           "isApproved": true
         }
       ]
@@ -527,6 +566,22 @@
       ]
     },
     {
+      "ticket_id": "1336237",
+      "key": "FINTECH-7144",
+      "jira_title": "Growth | SEO MCNG support | Make FAQs editable on all Guruland PGF pages",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
       "ticket_id": "1333444",
       "key": "FINTECH-7139",
       "jira_title": "HO | FE | APIs - Integration",
@@ -555,6 +610,34 @@
       ]
     },
     {
+      "ticket_id": "1332630",
+      "key": "FINTECH-7138",
+      "jira_title": "Growth | My Mortgage Advisor on 1J Dashboard | FE API integration + GA",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7138",
+          "destination_branch": "FINTECH-7135",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2294",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-10-25T06:36:12.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1332616",
       "key": "FINTECH-7137",
       "jira_title": "Growth | My Mortgage Advisor on 1J Dashboard | BE results API changes",
@@ -577,7 +660,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-23T10:12:30.000Z",
+          "lastUpdate": "2024-10-25T05:02:59.000Z",
           "isApproved": true
         }
       ]
@@ -1158,11 +1241,11 @@
           "branch_name": "release/2024.10.24-crash-fix",
           "destination_branch": "release/2024.10.24",
           "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2320",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "mobile-pg-agent",
-          "lastUpdate": "2024-10-24T15:47:58.000Z",
+          "lastUpdate": "2024-10-25T04:19:08.000Z",
           "isApproved": true
         }
       ]
@@ -1976,8 +2059,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-10-24T07:55:18.000Z",
-          "isApproved": true
+          "lastUpdate": "2024-10-25T06:21:53.000Z",
+          "isApproved": false
         }
       ]
     },
