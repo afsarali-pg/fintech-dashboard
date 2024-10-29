@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-10-29T02:18:12.037Z",
+  "syncDate": "2024-10-29T07:15:34.244Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
@@ -42,14 +42,26 @@
       "team": "NA",
       "reporter_name": "Afsar Ali",
       "dev_name": "Abhina S",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
-      "isSymbiosis": false,
+      "isSymbiosis": true,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7236",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2523",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-10-29T02:23:18.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1342789",
@@ -139,7 +151,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -152,8 +164,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-28T12:32:16.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-10-29T06:50:47.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -180,7 +192,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-10-28T06:23:04.000Z",
+          "lastUpdate": "2024-10-29T04:38:34.000Z",
           "isApproved": true
         }
       ]
@@ -195,7 +207,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -208,8 +220,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-10-28T17:49:17.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-10-29T06:25:18.000Z",
+          "isApproved": true
         }
       ]
     },
