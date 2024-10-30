@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-10-29T07:15:34.244Z",
+  "syncDate": "2024-10-30T02:17:01.509Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
@@ -59,6 +59,62 @@
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-10-29T02:23:18.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1345347",
+      "key": "FINTECH-7221",
+      "jira_title": "Allow Status Update to \"Reviewing Documents\" Even When Uploaded Document Exceeds 5MB",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7221",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/801",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-10-29T13:52:48.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1342808",
+      "key": "FINTECH-7209",
+      "jira_title": "SF Resurfacing 2 | Identify Loans and Resurface",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7209",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/802",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-10-29T16:50:04.000Z",
           "isApproved": false
         }
       ]
@@ -142,6 +198,34 @@
       ]
     },
     {
+      "ticket_id": "1342604",
+      "key": "FINTECH-7198",
+      "jira_title": "HO | Mortgage | BE | Update mortgage API",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7198",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/232",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-10-29T13:39:33.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1342596",
       "key": "FINTECH-7196",
       "jira_title": "HO | Mortgage | BE | Modify SmartRefi Signup API & logic",
@@ -164,7 +248,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-29T06:50:47.000Z",
+          "lastUpdate": "2024-10-29T08:04:11.000Z",
           "isApproved": true
         }
       ]
