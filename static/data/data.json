@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-10-31T02:18:23.169Z",
+  "syncDate": "2024-10-31T07:14:13.483Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
@@ -60,6 +60,34 @@
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-10-30T07:51:02.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1346215",
+      "key": "FINTECH-7240",
+      "jira_title": "Leads Scoring Enhancement 1 | Rule-based Routing",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7240",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/803",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-10-31T05:40:31.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -138,11 +166,11 @@
           "branch_name": "FINTECH-7209",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/802",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-10-30T07:58:16.000Z",
+          "lastUpdate": "2024-10-31T05:54:23.000Z",
           "isApproved": false
         }
       ]
