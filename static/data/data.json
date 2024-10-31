@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-10-30T07:14:28.618Z",
+  "syncDate": "2024-10-31T02:18:23.169Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
@@ -31,6 +31,34 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-10-28T02:56:21.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1347667",
+      "key": "FINTECH-7252",
+      "jira_title": "HO | Pixel implementation for TikTok",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7252",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/468",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-10-30T07:51:02.000Z",
           "isApproved": true
         }
       ]
@@ -114,7 +142,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-10-29T16:50:04.000Z",
+          "lastUpdate": "2024-10-30T07:58:16.000Z",
           "isApproved": false
         }
       ]
