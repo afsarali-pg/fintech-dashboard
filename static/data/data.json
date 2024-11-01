@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-11-01T02:24:10.872Z",
+  "syncDate": "2024-11-01T07:14:55.050Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
@@ -60,6 +60,34 @@
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-10-30T07:51:02.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1346231",
+      "key": "FINTECH-7242",
+      "jira_title": "Leads Scoring Enhancement 2 | Direct Score Assignment",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7242",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/804",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-11-01T07:10:00.000Z",
+          "isApproved": false
         }
       ]
     },
