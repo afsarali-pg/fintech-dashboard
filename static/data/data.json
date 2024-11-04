@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-11-01T07:14:55.050Z",
+  "syncDate": "2024-11-04T02:19:50.768Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
@@ -73,7 +73,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -86,8 +86,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-11-01T07:10:00.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-11-01T15:13:35.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -101,7 +101,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -114,8 +114,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-10-31T05:40:31.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-11-01T15:17:08.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -170,7 +170,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-10-29T13:52:48.000Z",
+          "lastUpdate": "2024-11-01T07:31:17.000Z",
           "isApproved": false
         }
       ]
@@ -198,7 +198,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-10-31T05:54:23.000Z",
+          "lastUpdate": "2024-11-01T15:08:10.000Z",
           "isApproved": false
         }
       ]
