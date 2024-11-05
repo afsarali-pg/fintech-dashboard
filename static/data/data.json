@@ -1,11 +1,11 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-06T00:00:00.000Z",
-  "syncDate": "2024-11-04T07:15:16.822Z",
+  "syncDate": "2024-11-05T02:13:58.865Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
   "lastSalesforceDeploymentDate": null,
-  "lastHomeOwnershipDeploymentDate": "2024-11-04T04:49:41.000Z",
+  "lastHomeOwnershipDeploymentDate": "2024-11-04T08:30:38.000Z",
   "jiraTickets": [
     {
       "ticket_id": "1348724",
@@ -71,7 +71,7 @@
       "reporter_name": "Kendrick",
       "dev_name": "Ketan Parikh",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -82,11 +82,11 @@
           "branch_name": "FINTECH-7242",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/804",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-11-01T15:13:35.000Z",
+          "lastUpdate": "2024-11-04T10:55:00.000Z",
           "isApproved": true
         }
       ]
@@ -148,6 +148,45 @@
       ]
     },
     {
+      "ticket_id": "1345580",
+      "key": "FINTECH-7230",
+      "jira_title": "HO | Mortgage | FE | Add the Mortgage Tab in the Navigation",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7230",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2536",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-11-04T14:24:06.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "revert-2536-FINTECH-7230",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2537",
+          "status": "DECLINED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-11-04T15:40:55.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1345347",
       "key": "FINTECH-7221",
       "jira_title": "Allow Status Update to \"Reviewing Documents\" Even When Uploaded Document Exceeds 5MB",
@@ -155,9 +194,9 @@
       "reporter_name": "Ketan Parikh",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -166,12 +205,12 @@
           "branch_name": "FINTECH-7221",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/801",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-11-01T07:31:17.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-11-04T10:22:50.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -198,7 +237,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-11-04T03:55:45.000Z",
+          "lastUpdate": "2024-11-04T08:00:29.000Z",
           "isApproved": false
         }
       ]
@@ -360,7 +399,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-10-29T04:38:34.000Z",
+          "lastUpdate": "2024-11-04T08:51:56.000Z",
           "isApproved": true
         }
       ]
