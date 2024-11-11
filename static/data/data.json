@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-20T00:00:00.000Z",
-  "syncDate": "2024-11-08T07:13:47.710Z",
+  "syncDate": "2024-11-11T02:15:39.774Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-10-24T08:30:22.000Z",
   "lastBackendDeploymentDate": "2024-10-28T03:55:08.000Z",
@@ -282,7 +282,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-11-07T09:38:01.000Z",
+          "lastUpdate": "2024-11-08T08:43:15.000Z",
           "isApproved": true
         }
       ]
@@ -377,7 +377,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-11-07T19:08:39.000Z",
+          "lastUpdate": "2024-11-08T12:50:50.000Z",
           "isApproved": false
         }
       ]
@@ -409,6 +409,22 @@
           "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1345513",
+      "key": "FINTECH-7224",
+      "jira_title": "HO | Mortgage | FE | Create a Mortgage Tracking Card",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1345347",
@@ -567,6 +583,34 @@
       ]
     },
     {
+      "ticket_id": "1342650",
+      "key": "FINTECH-7206",
+      "jira_title": "Growth | Symbiosis MCNG support | Add FAQ section in Symbiosis",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7206",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/502",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-11-08T11:56:25.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1342644",
       "key": "FINTECH-7205",
       "jira_title": "Growth | MCNG support | Fintech Frontend FAQ cleanup",
@@ -652,23 +696,23 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Rinkesh Golwala",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": false,
-      "isChildTicket": false,
+      "isChildTicket": true,
       "pull_requests": [
         {
           "branch_name": "FINTECH-7200",
-          "destination_branch": "master",
+          "destination_branch": "ho-mortgage",
           "url": "https://github.com/propertyguru/marketplace-web/pull/493",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
-          "isChildPr": false,
+          "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-11-07T12:19:13.000Z",
-          "isApproved": true
+          "lastUpdate": "2024-11-08T08:58:15.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -723,7 +767,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-11-07T12:13:22.000Z",
+          "lastUpdate": "2024-11-08T07:34:04.000Z",
           "isApproved": true
         }
       ]
@@ -1745,6 +1789,45 @@
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-09-04T05:24:22.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1320173",
+      "key": "FINTECH-7044",
+      "jira_title": "Prequal DAG | Push Prequal data to BQ ",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7044",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/111",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "data-etl-ninja-scripts",
+          "lastUpdate": "2024-11-08T17:03:03.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7044",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/composer-airflow-2.5.5/pull/905",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "composer-airflow-2.5.5",
+          "lastUpdate": "2024-11-08T10:34:14.000Z",
+          "isApproved": false
         }
       ]
     },
