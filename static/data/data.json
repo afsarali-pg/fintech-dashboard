@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-20T00:00:00.000Z",
-  "syncDate": "2024-11-13T02:14:29.174Z",
+  "syncDate": "2024-11-13T07:14:02.487Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-11-12T02:16:07.000Z",
   "lastBackendDeploymentDate": "2024-11-12T02:10:59.000Z",
@@ -222,9 +222,9 @@
       "reporter_name": "Janice Lim",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -233,12 +233,12 @@
           "branch_name": "FINTECH-7216",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2303",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-13T01:55:16.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-11-13T06:57:16.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -743,6 +743,17 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-7044",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1420",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-11-13T06:34:37.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7044",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/111",
           "status": "OPEN",
@@ -1107,139 +1118,6 @@
           "isChildPr": true,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-10-02T02:24:08.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1315232",
-      "key": "FINTECH-7001",
-      "jira_title": "HO | Transaction | FE | Integration - Integrate Tab navigation",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Dominic Arrojado",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7001",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1132",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis-config",
-          "lastUpdate": "2024-09-18T01:54:52.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1315231",
-      "key": "FINTECH-7000",
-      "jira_title": "HO | Transaction | FE | Integration - Implement React router for Tab navigation",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Dominic Arrojado",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7000",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2529",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-10-29T09:56:11.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7000",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2595",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-09-18T01:57:22.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7000",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/terraform/pull/3269",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "terraform",
-          "lastUpdate": "2024-09-17T08:32:53.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7000",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/terraform/pull/3272",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "terraform",
-          "lastUpdate": "2024-09-17T11:19:58.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7000",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/181",
-          "status": "DECLINED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-09-19T15:43:54.000Z",
-          "isApproved": false
-        },
-        {
-          "branch_name": "FINTECH-7000",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/199",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-10-30T06:08:40.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "rev/FINTECH-7000",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/477",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-11-04T07:48:14.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7000-webview-fix",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/480",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-11-05T05:12:42.000Z",
           "isApproved": true
         }
       ]
