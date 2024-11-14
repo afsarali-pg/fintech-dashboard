@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-20T00:00:00.000Z",
-  "syncDate": "2024-11-14T02:15:12.005Z",
+  "syncDate": "2024-11-14T07:14:30.637Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-11-12T02:16:07.000Z",
   "lastBackendDeploymentDate": "2024-11-13T08:24:25.000Z",
@@ -31,6 +31,34 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-11-12T09:29:45.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1354448",
+      "key": "FINTECH-7313",
+      "jira_title": "Growth | Weekend Appointments Feature | Cleanup and implementation",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7313",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2306",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-11-14T04:30:51.000Z",
           "isApproved": false
         }
       ]
@@ -293,7 +321,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-13T18:08:14.000Z",
+          "lastUpdate": "2024-11-14T04:13:18.000Z",
           "isApproved": true
         },
         {
@@ -466,7 +494,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-23T02:17:01.000Z",
+          "lastUpdate": "2024-11-14T04:22:38.000Z",
           "isApproved": true
         }
       ]
@@ -823,6 +851,17 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-11-13T08:22:45.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7044_5",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1424",
+          "status": "DECLINED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-11-14T03:52:22.000Z",
           "isApproved": false
         },
         {
@@ -1191,6 +1230,34 @@
           "isChildPr": true,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-10-02T02:24:08.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1315232",
+      "key": "FINTECH-7001",
+      "jira_title": "HO | Transaction | FE | Integration - Integrate Tab navigation",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7001",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/project-symbiosis-config/pull/1132",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "project-symbiosis-config",
+          "lastUpdate": "2024-09-18T01:54:52.000Z",
           "isApproved": true
         }
       ]
