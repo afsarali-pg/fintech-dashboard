@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-11-20T00:00:00.000Z",
-  "syncDate": "2024-11-19T02:21:34.721Z",
+  "syncDate": "2024-11-19T07:14:50.429Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-11-12T02:16:07.000Z",
   "lastBackendDeploymentDate": "2024-11-18T07:16:12.000Z",
@@ -97,7 +97,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-18T03:53:36.000Z",
+          "lastUpdate": "2024-11-19T02:37:21.000Z",
           "isApproved": false
         }
       ]
@@ -118,14 +118,14 @@
       "isChildTicket": true,
       "pull_requests": [
         {
-          "branch_name": "FINTECH-7332",
+          "branch_name": "FINTECH-7331",
           "destination_branch": "FINTECH-7313",
-          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2313",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2315",
           "status": "DRAFT",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-18T03:53:36.000Z",
+          "lastUpdate": "2024-11-19T02:38:15.000Z",
           "isApproved": false
         }
       ]
@@ -181,7 +181,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-18T02:13:02.000Z",
+          "lastUpdate": "2024-11-19T05:25:28.000Z",
           "isApproved": true
         }
       ]
@@ -393,7 +393,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-11-18T11:27:17.000Z",
+          "lastUpdate": "2024-11-19T07:07:38.000Z",
           "isApproved": false
         }
       ]
@@ -490,9 +490,9 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": true,
@@ -512,12 +512,12 @@
           "branch_name": "FINTECH-7226",
           "destination_branch": "homeowner-mortgage",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2584",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-11-18T12:49:26.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-11-19T03:37:32.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -672,13 +672,13 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-7205",
-          "destination_branch": "release",
+          "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2302",
           "status": "OPEN",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-08T06:48:41.000Z",
+          "lastUpdate": "2024-11-19T03:53:21.000Z",
           "isApproved": true
         }
       ]
@@ -869,7 +869,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": true,
@@ -880,11 +880,11 @@
           "branch_name": "FINTECH-7144-2",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/guruland/pull/26211",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-11-08T05:18:38.000Z",
+          "lastUpdate": "2024-11-19T03:52:07.000Z",
           "isApproved": true
         }
       ]
