@@ -1,6 +1,6 @@
 {
-  "upcomingGurulandDeploymentDate": "2024-11-20T00:00:00.000Z",
-  "syncDate": "2024-11-19T07:14:50.429Z",
+  "upcomingGurulandDeploymentDate": "2024-12-04T00:00:00.000Z",
+  "syncDate": "2024-11-20T02:20:38.258Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-11-12T02:16:07.000Z",
   "lastBackendDeploymentDate": "2024-11-18T07:16:12.000Z",
@@ -75,6 +75,34 @@
       ]
     },
     {
+      "ticket_id": "1355228",
+      "key": "FINTECH-7333",
+      "jira_title": "HO | Address Info pulled incorrectly when editing prop",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7333",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/241",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2024-11-19T09:48:45.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1355218",
       "key": "FINTECH-7332",
       "jira_title": "Growth | Weekend Appointments Feature | My mortgage advisor",
@@ -93,11 +121,11 @@
           "branch_name": "FINTECH-7332",
           "destination_branch": "FINTECH-7313",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2313",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-19T02:37:21.000Z",
+          "lastUpdate": "2024-11-20T02:18:31.000Z",
           "isApproved": false
         }
       ]
@@ -121,11 +149,11 @@
           "branch_name": "FINTECH-7331",
           "destination_branch": "FINTECH-7313",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2315",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-19T02:38:15.000Z",
+          "lastUpdate": "2024-11-20T02:19:37.000Z",
           "isApproved": false
         }
       ]
@@ -393,7 +421,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-11-19T07:07:38.000Z",
+          "lastUpdate": "2024-11-19T08:57:59.000Z",
           "isApproved": false
         }
       ]
@@ -422,6 +450,34 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-11-11T06:26:57.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1345589",
+      "key": "FINTECH-7232",
+      "jira_title": "HO | Mortgage | FE | Create a Mortgage Tracking wrapper in Symbiosis",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7232",
+          "destination_branch": "homeowner-mortgage",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2589",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-11-19T11:58:17.000Z",
           "isApproved": true
         }
       ]
@@ -868,7 +924,7 @@
       "team": "Growth",
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -881,7 +937,7 @@
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/guruland/pull/26211",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "guruland",
           "lastUpdate": "2024-11-19T03:52:07.000Z",
@@ -994,17 +1050,6 @@
       "isChildTicket": true,
       "pull_requests": [
         {
-          "branch_name": "FINTECH-7085",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/bff-mobile/pull/674",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "bff-mobile",
-          "lastUpdate": "2024-10-24T06:31:41.000Z",
-          "isApproved": true
-        },
-        {
           "branch_name": "issue/FINTECH-7085",
           "destination_branch": "main",
           "url": "https://github.com/propertyguru/mobile-pg-agent/pull/2280",
@@ -1046,6 +1091,17 @@
           "isChildPr": false,
           "repositoryName": "mobile-pg-agent",
           "lastUpdate": "2024-10-28T07:36:28.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7085",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/bff-mobile/pull/674",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "bff-mobile",
+          "lastUpdate": "2024-10-24T06:31:41.000Z",
           "isApproved": true
         }
       ]
