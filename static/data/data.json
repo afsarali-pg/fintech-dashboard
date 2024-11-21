@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-12-04T00:00:00.000Z",
-  "syncDate": "2024-11-21T02:20:49.513Z",
+  "syncDate": "2024-11-21T07:14:38.781Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-11-12T02:16:07.000Z",
   "lastBackendDeploymentDate": "2024-11-18T07:16:12.000Z",
@@ -864,7 +864,7 @@
       "reporter_name": "Janice Lim",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -897,11 +897,11 @@
           "branch_name": "FINTECH-7185_1",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2314",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-18T09:15:47.000Z",
+          "lastUpdate": "2024-11-21T03:35:41.000Z",
           "isApproved": true
         }
       ]
@@ -942,7 +942,7 @@
       "reporter_name": "Janice Lim",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -975,11 +975,11 @@
           "branch_name": "FINTECH-7160_1",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1438",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-11-18T06:52:39.000Z",
+          "lastUpdate": "2024-11-21T04:32:15.000Z",
           "isApproved": true
         }
       ]
