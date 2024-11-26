@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2024-12-04T00:00:00.000Z",
-  "syncDate": "2024-11-26T02:22:20.970Z",
+  "syncDate": "2024-11-26T07:15:17.856Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-11-21T08:23:08.000Z",
   "lastBackendDeploymentDate": "2024-11-21T08:14:36.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-11-05T06:46:08.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1358090",
+      "key": "FINTECH-7384",
+      "jira_title": "Add fields to DAG for MY Bank Matching",
+      "team": "NA",
+      "reporter_name": "Mritunjay Kumar Mani",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7384",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/115",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "data-etl-ninja-scripts",
+          "lastUpdate": "2024-11-26T07:03:16.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1355228",
       "key": "FINTECH-7333",
@@ -58,7 +86,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-11-25T08:39:39.000Z",
+          "lastUpdate": "2024-11-26T04:53:57.000Z",
           "isApproved": false
         }
       ]
@@ -71,7 +99,7 @@
       "reporter_name": "Abhina S",
       "dev_name": "Sandeep Nathuram Kundalwal",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -82,11 +110,11 @@
           "branch_name": "FINTECH-7317",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2311",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-11-25T06:06:41.000Z",
+          "lastUpdate": "2024-11-26T04:45:15.000Z",
           "isApproved": true
         }
       ]
@@ -114,7 +142,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-11-26T01:29:29.000Z",
+          "lastUpdate": "2024-11-26T04:49:29.000Z",
           "isApproved": false
         }
       ]
@@ -1011,6 +1039,34 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-09-02T04:14:53.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1318195",
+      "key": "FINTECH-7028",
+      "jira_title": "SF | E2E Flow (removal)",
+      "team": "NA",
+      "reporter_name": "Eunice",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7028",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/727",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-09-02T05:08:22.000Z",
           "isApproved": false
         }
       ]
