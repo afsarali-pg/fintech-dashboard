@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-12-04T00:00:00.000Z",
-  "syncDate": "2024-11-29T02:23:47.636Z",
+  "syncDate": "2024-11-29T07:14:59.830Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-11-21T08:23:08.000Z",
   "lastBackendDeploymentDate": "2024-11-27T04:48:31.000Z",
@@ -208,6 +208,17 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-7325",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1456",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2024-11-29T05:51:49.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7325",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-adminpanel/pull/34",
           "status": "DRAFT",
@@ -352,7 +363,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": true,
@@ -365,8 +376,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-11-29T02:13:38.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-11-29T07:05:29.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -504,7 +515,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-11-28T06:56:33.000Z",
+          "lastUpdate": "2024-11-29T02:42:13.000Z",
           "isApproved": true
         }
       ]
