@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2024-12-18T00:00:00.000Z",
-  "syncDate": "2024-12-06T02:25:26.287Z",
+  "syncDate": "2024-12-06T07:15:04.697Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
-  "lastFrontendDeploymentDate": "2024-11-21T08:23:08.000Z",
+  "lastFrontendDeploymentDate": "2024-12-06T02:49:42.000Z",
   "lastBackendDeploymentDate": "2024-12-03T07:17:26.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1363263",
+      "key": "FINTECH-7453",
+      "jira_title": "[Meta Composer] Make FAQ section optional in Meta Composer Modal",
+      "team": "NA",
+      "reporter_name": "Afsar Ali",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7453",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2325",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-12-06T05:13:56.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1362390",
       "key": "FINTECH-7436",
@@ -170,6 +198,22 @@
       ]
     },
     {
+      "ticket_id": "1359201",
+      "key": "FINTECH-7412",
+      "jira_title": "Acunetix - Unchecked GraphQL Query Length: Potential Denial of Service Vulnerability",
+      "team": "NA",
+      "reporter_name": "Rinkesh Golwala",
+      "dev_name": "Sandeep Nathuram Kundalwal",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
       "ticket_id": "1359186",
       "key": "FINTECH-7408",
       "jira_title": "SF | Agent Account Status Update Issue",
@@ -205,6 +249,17 @@
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-12-06T02:11:15.000Z",
           "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7408",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/845",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-12-06T02:37:38.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -215,7 +270,7 @@
       "team": "Core",
       "reporter_name": "Janice Lim",
       "dev_name": "Aditya Patel",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -228,7 +283,7 @@
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2320",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-11-29T14:51:51.000Z",
@@ -254,23 +309,23 @@
         {
           "branch_name": "FINTECH-7397",
           "destination_branch": "master",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/649",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-04T10:07:38.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7397",
-          "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2616",
           "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-12-04T06:53:58.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7397",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/649",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-12-04T10:07:38.000Z",
           "isApproved": true
         }
       ]
@@ -282,7 +337,7 @@
       "team": "NA",
       "reporter_name": "Aditya Patel",
       "dev_name": "Aditya Patel",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -295,7 +350,7 @@
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2321",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-11-29T15:23:31.000Z",
@@ -334,7 +389,7 @@
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2322",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-12-05T14:40:23.000Z",
@@ -421,7 +476,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-12-06T01:42:18.000Z",
+          "lastUpdate": "2024-12-06T07:04:52.000Z",
           "isApproved": false
         }
       ]
@@ -473,11 +528,11 @@
           "branch_name": "FINTECH-7341",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1463",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-12-05T14:42:04.000Z",
+          "lastUpdate": "2024-12-06T03:36:12.000Z",
           "isApproved": false
         }
       ]
@@ -662,7 +717,7 @@
       "team": "NA",
       "reporter_name": "Abhina S",
       "dev_name": "Sandeep Nathuram Kundalwal",
-      "isDeployed": false,
+      "isDeployed": true,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
@@ -675,7 +730,7 @@
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2311",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-11-26T04:45:15.000Z",
@@ -938,7 +993,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -951,8 +1006,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-12-05T16:02:44.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-12-06T05:51:58.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-7273",
@@ -962,7 +1017,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-06T01:50:59.000Z",
+          "lastUpdate": "2024-12-06T06:00:03.000Z",
           "isApproved": true
         }
       ]
@@ -990,7 +1045,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-12-03T03:32:32.000Z",
+          "lastUpdate": "2024-12-06T02:50:36.000Z",
           "isApproved": true
         }
       ]
@@ -1003,7 +1058,7 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Abhina S",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -1014,22 +1069,22 @@
           "branch_name": "FINTECH-7234",
           "destination_branch": "homeowner-mortgage",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2624",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-12-06T01:53:14.000Z",
+          "lastUpdate": "2024-12-06T03:46:18.000Z",
           "isApproved": true
         },
         {
           "branch_name": "FINTECH-7234",
           "destination_branch": "ho-mortgage",
           "url": "https://github.com/propertyguru/marketplace-web/pull/679",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-06T01:53:51.000Z",
+          "lastUpdate": "2024-12-06T03:46:44.000Z",
           "isApproved": true
         }
       ]
@@ -1141,34 +1196,6 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-12-05T03:08:39.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1342644",
-      "key": "FINTECH-7205",
-      "jira_title": "Growth | MCNG support | Fintech Frontend FAQ cleanup",
-      "team": "Growth",
-      "reporter_name": "Lakshmi Bhandaram",
-      "dev_name": "Arijit Bhaumik",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7205",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2302",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-12-03T05:55:15.000Z",
           "isApproved": true
         }
       ]
@@ -1654,34 +1681,6 @@
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-09-16T08:37:43.000Z",
           "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1321351",
-      "key": "FINTECH-7062",
-      "jira_title": "MY | BE | Bank Matching Logic",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Aditya Patel",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7062",
-          "destination_branch": "develop",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1375",
-          "status": "DECLINED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-10-23T03:06:21.000Z",
-          "isApproved": false
         }
       ]
     }
