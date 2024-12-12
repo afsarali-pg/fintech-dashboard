@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2024-12-18T00:00:00.000Z",
-  "syncDate": "2024-12-12T02:25:46.376Z",
+  "syncDate": "2024-12-12T07:15:36.690Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-10T05:00:40.000Z",
   "lastBackendDeploymentDate": "2024-12-10T04:48:18.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1364969",
+      "key": "FINTECH-7476",
+      "jira_title": "Growth | App | Fix eligibility broken flow in app LDP",
+      "team": "NA",
+      "reporter_name": "Abhina S",
+      "dev_name": "Abhina S",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "issue/FINTECH-7476",
+          "destination_branch": "release/2024.12.11",
+          "url": "https://github.com/propertyguru/mobile-pg-consumer/pull/1659",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "mobile-pg-consumer",
+          "lastUpdate": "2024-12-12T07:09:12.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1364719",
       "key": "FINTECH-7471",
@@ -43,7 +71,7 @@
       "reporter_name": "Janice Lim",
       "dev_name": "Mritunjay Kumar Mani",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -54,11 +82,11 @@
           "branch_name": "FINTECH-7467",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1476",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-12-11T10:04:36.000Z",
+          "lastUpdate": "2024-12-12T05:05:44.000Z",
           "isApproved": true
         }
       ]
@@ -71,7 +99,7 @@
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": true,
@@ -82,11 +110,11 @@
           "branch_name": "FINTECH-7464",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/guruland/pull/26239",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2024-12-11T09:16:57.000Z",
+          "lastUpdate": "2024-12-12T05:47:12.000Z",
           "isApproved": true
         },
         {
@@ -149,7 +177,7 @@
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
-      "isMerged": true,
+      "isMerged": false,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -176,6 +204,28 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-12-12T02:24:16.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7424",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/740",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-12-12T06:37:50.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7424",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/742",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-12-12T07:07:22.000Z",
           "isApproved": true
         }
       ]
@@ -331,7 +381,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-12T01:35:54.000Z",
+          "lastUpdate": "2024-12-12T06:52:03.000Z",
           "isApproved": false
         }
       ]
@@ -640,7 +690,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -653,8 +703,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2024-12-11T13:05:47.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-12-12T06:05:31.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1428,34 +1478,6 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-09-02T05:56:09.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1316963",
-      "key": "FINTECH-7019",
-      "jira_title": "SF | Update new instruction for Digi tools ",
-      "team": "NA",
-      "reporter_name": "Eunice",
-      "dev_name": "Aditya Patel",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7019",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2257",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-09-13T08:05:38.000Z",
           "isApproved": true
         }
       ]
