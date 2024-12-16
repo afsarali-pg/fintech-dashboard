@@ -1,9 +1,9 @@
 {
   "upcomingGurulandDeploymentDate": "2024-12-18T00:00:00.000Z",
-  "syncDate": "2024-12-16T02:28:48.988Z",
+  "syncDate": "2024-12-16T07:16:23.417Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-10T05:00:40.000Z",
-  "lastBackendDeploymentDate": "2024-12-12T07:49:05.000Z",
+  "lastBackendDeploymentDate": "2024-12-16T07:15:01.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
@@ -66,7 +66,7 @@
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1478",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-12-13T06:14:50.000Z",
@@ -198,6 +198,34 @@
           "isChildPr": true,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-12-10T03:05:57.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1362638",
+      "key": "FINTECH-7439",
+      "jira_title": "SF | Revert Agent Account Status when Agent is removed from Loan",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Ketan Parikh",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7439",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/854",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2024-12-16T03:26:41.000Z",
           "isApproved": false
         }
       ]
@@ -471,11 +499,11 @@
           "branch_name": "FINTECH-7347",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/marketplace-web/pull/759",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-16T02:26:20.000Z",
+          "lastUpdate": "2024-12-16T04:03:47.000Z",
           "isApproved": false
         }
       ]
@@ -538,11 +566,11 @@
           "branch_name": "FINTECH-7342_1",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/851",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-12-13T10:19:29.000Z",
+          "lastUpdate": "2024-12-16T07:12:42.000Z",
           "isApproved": true
         }
       ]
@@ -1093,7 +1121,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-15T16:58:20.000Z",
+          "lastUpdate": "2024-12-16T02:31:57.000Z",
           "isApproved": false
         }
       ]
@@ -1201,6 +1229,34 @@
           "repositoryName": "guruland",
           "lastUpdate": "2024-11-19T03:52:07.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1328112",
+      "key": "FINTECH-7116",
+      "jira_title": "HO | Exp cleanup | Property Toolkit experiment",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7116",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/765",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-12-16T07:13:27.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -1662,6 +1718,34 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
           "lastUpdate": "2024-09-02T05:56:09.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1316963",
+      "key": "FINTECH-7019",
+      "jira_title": "SF | Update new instruction for Digi tools ",
+      "team": "NA",
+      "reporter_name": "Eunice",
+      "dev_name": "Aditya Patel",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7019",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2257",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-09-13T08:05:38.000Z",
           "isApproved": true
         }
       ]
