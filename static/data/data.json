@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2024-12-18T00:00:00.000Z",
-  "syncDate": "2024-12-17T02:25:18.304Z",
+  "syncDate": "2024-12-17T07:15:34.043Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-10T05:00:40.000Z",
   "lastBackendDeploymentDate": "2024-12-16T07:15:01.000Z",
@@ -231,6 +231,34 @@
       ]
     },
     {
+      "ticket_id": "1362970",
+      "key": "FINTECH-7448",
+      "jira_title": "FE | Refactor Repayment Calculator components",
+      "team": "NA",
+      "reporter_name": "Dominic Arrojado",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7448",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2334",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-12-17T03:16:16.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1362638",
       "key": "FINTECH-7439",
       "jira_title": "SF | Revert Agent Account Status when Agent is removed from Loan",
@@ -325,7 +353,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-16T08:56:41.000Z",
+          "lastUpdate": "2024-12-17T06:46:46.000Z",
           "isApproved": true
         }
       ]
@@ -338,7 +366,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -349,11 +377,11 @@
           "branch_name": "FINTECH-7418",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2319",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-12-10T09:40:08.000Z",
+          "lastUpdate": "2024-12-17T06:46:26.000Z",
           "isApproved": true
         }
       ]
@@ -849,6 +877,17 @@
           "isChildPr": false,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-12-03T10:14:22.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7311",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/774",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-12-17T04:54:57.000Z",
           "isApproved": false
         }
       ]
@@ -1602,162 +1641,6 @@
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-10-23T03:06:21.000Z",
           "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1319808",
-      "key": "FINTECH-7037",
-      "jira_title": "HO | Transaction | FE | Hive - Create Property Summary Wrapper v2",
-      "team": "Core",
-      "reporter_name": "Janice Lim",
-      "dev_name": "Abhina S",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": true,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7037",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2356",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-09-12T08:46:57.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7037",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2581",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-09-13T02:39:04.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1319487",
-      "key": "FINTECH-7033",
-      "jira_title": "Agent Concierge Service Campaign",
-      "team": "NA",
-      "reporter_name": "Kendrick",
-      "dev_name": "Ketan Parikh",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7033",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/726",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-02T04:14:53.000Z",
-          "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1318195",
-      "key": "FINTECH-7028",
-      "jira_title": "SF | E2E Flow (removal)",
-      "team": "NA",
-      "reporter_name": "Eunice",
-      "dev_name": "Ketan Parikh",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7028",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/727",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-02T05:08:22.000Z",
-          "isApproved": false
-        }
-      ]
-    },
-    {
-      "ticket_id": "1316965",
-      "key": "FINTECH-7020",
-      "jira_title": "Growth | BE Flow to fulfill Scheduling Appointments Feature",
-      "team": "Growth",
-      "reporter_name": "Lakshmi Bhandaram",
-      "dev_name": "Harsh Kumar Goel",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7020",
-          "destination_branch": "develop",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1346",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-09-02T06:54:47.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7020_1",
-          "destination_branch": "develop",
-          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1372",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-09-27T05:27:01.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7020",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/725",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-02T04:19:16.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7020_1",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/731",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-02T05:56:09.000Z",
-          "isApproved": true
         }
       ]
     }
