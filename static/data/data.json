@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-01T00:00:00.000Z",
-  "syncDate": "2024-12-24T02:15:12.387Z",
+  "syncDate": "2024-12-24T07:13:49.808Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-19T06:47:26.000Z",
@@ -227,6 +227,34 @@
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-12-19T03:29:30.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1362965",
+      "key": "FINTECH-7445",
+      "jira_title": "FE | Deprecate Affordability Calculator Form/Results components",
+      "team": "NA",
+      "reporter_name": "Dominic Arrojado",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7445",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2343",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-12-24T04:27:07.000Z",
+          "isApproved": false
         }
       ]
     },
