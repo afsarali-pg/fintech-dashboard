@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-01T00:00:00.000Z",
-  "syncDate": "2024-12-25T02:13:42.416Z",
+  "syncDate": "2024-12-25T07:13:51.277Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-19T06:47:26.000Z",
@@ -1087,23 +1087,23 @@
         {
           "branch_name": "FINTECH-7037",
           "destination_branch": "master",
-          "url": "https://github.com/propertyguru/project-symbiosis/pull/2581",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "project-symbiosis",
-          "lastUpdate": "2024-09-13T02:39:04.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7037",
-          "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2356",
           "status": "MERGED",
           "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-09-12T08:46:57.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7037",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/project-symbiosis/pull/2581",
+          "status": "MERGED",
+          "isDeployed": true,
+          "isChildPr": false,
+          "repositoryName": "project-symbiosis",
+          "lastUpdate": "2024-09-13T02:39:04.000Z",
           "isApproved": true
         }
       ]
