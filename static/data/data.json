@@ -1,12 +1,51 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-01T00:00:00.000Z",
-  "syncDate": "2024-12-27T02:15:18.816Z",
+  "syncDate": "2024-12-27T07:14:37.302Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1368707",
+      "key": "FINTECH-7512",
+      "jira_title": "FE | Deprecate LDP widget related code",
+      "team": "NA",
+      "reporter_name": "Dominic Arrojado",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": true,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7512",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/guruland/pull/26242",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "guruland",
+          "lastUpdate": "2024-12-27T04:07:59.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7512",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2347",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-12-27T03:29:56.000Z",
+          "isApproved": false
+        }
+      ]
+    },
     {
       "ticket_id": "1367688",
       "key": "FINTECH-7498",
@@ -171,6 +210,34 @@
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-12-20T06:00:06.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1362972",
+      "key": "FINTECH-7449",
+      "jira_title": "FE | Refactor Stamp Duty Calculator components",
+      "team": "NA",
+      "reporter_name": "Dominic Arrojado",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7449",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2346",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2024-12-27T03:17:41.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -448,6 +515,17 @@
           "isChildPr": false,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-12-17T08:53:22.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7424",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/811",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-12-27T05:50:29.000Z",
           "isApproved": true
         }
       ]
@@ -1421,17 +1499,6 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-7003",
-          "destination_branch": "FINTECH-7000",
-          "url": "https://github.com/propertyguru/marketplace-web/pull/305",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": true,
-          "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-10-04T06:19:07.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7003",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2446",
           "status": "MERGED",
@@ -1439,6 +1506,17 @@
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2024-10-04T06:45:12.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7003",
+          "destination_branch": "FINTECH-7000",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/305",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-10-04T06:19:07.000Z",
           "isApproved": true
         }
       ]
@@ -1868,78 +1946,6 @@
           "isChildPr": false,
           "repositoryName": "blueprints",
           "lastUpdate": "2024-09-03T03:12:20.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1311425",
-      "key": "FINTECH-6953",
-      "jira_title": "Braze Canvas Setup | Agent 'Welcome' WhatsApp Message",
-      "team": "Internal Tools",
-      "reporter_name": "Khoo Shi Han",
-      "dev_name": "Mritunjay Kumar Mani",
-      "isDeployed": false,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-6953",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/740",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-17T07:48:31.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6953",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/742",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-18T06:30:15.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6953",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/747",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-18T10:47:53.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6953",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/749",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-18T11:41:15.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-6953_2",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/753",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2024-09-19T06:17:14.000Z",
           "isApproved": true
         }
       ]
