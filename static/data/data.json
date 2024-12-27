@@ -1,9 +1,9 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-01T00:00:00.000Z",
-  "syncDate": "2024-12-26T07:13:55.752Z",
+  "syncDate": "2024-12-27T02:15:18.816Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
-  "lastBackendDeploymentDate": "2024-12-19T06:47:26.000Z",
+  "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
@@ -14,10 +14,10 @@
       "team": "Growth",
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Harsh Kumar Goel",
-      "isDeployed": false,
-      "isMerged": false,
+      "isDeployed": true,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -26,12 +26,12 @@
           "branch_name": "FINTECH-7498",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1500",
-          "status": "OPEN",
-          "isDeployed": false,
+          "status": "MERGED",
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-12-26T06:56:15.000Z",
-          "isApproved": false
+          "lastUpdate": "2024-12-26T07:40:19.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -182,7 +182,7 @@
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -193,11 +193,11 @@
           "branch_name": "FINTECH-7448",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2334",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-12-18T04:38:16.000Z",
+          "lastUpdate": "2024-12-26T08:13:13.000Z",
           "isApproved": true
         }
       ]
@@ -210,7 +210,7 @@
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -221,11 +221,11 @@
           "branch_name": "FINTECH-7447",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2341",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-12-23T08:47:51.000Z",
+          "lastUpdate": "2024-12-26T09:58:33.000Z",
           "isApproved": true
         }
       ]
@@ -266,9 +266,9 @@
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -277,11 +277,39 @@
           "branch_name": "FINTECH-7445",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2343",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2024-12-24T04:27:07.000Z",
+          "lastUpdate": "2024-12-26T07:31:09.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1362272",
+      "key": "FINTECH-7434",
+      "jira_title": "BigQuery Change For PreQual DAG For Account Info",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7434",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/123",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "data-etl-ninja-scripts",
+          "lastUpdate": "2024-12-26T09:44:08.000Z",
           "isApproved": false
         }
       ]
@@ -1393,17 +1421,6 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-7003",
-          "destination_branch": "master",
-          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2446",
-          "status": "MERGED",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2024-10-04T06:45:12.000Z",
-          "isApproved": true
-        },
-        {
-          "branch_name": "FINTECH-7003",
           "destination_branch": "FINTECH-7000",
           "url": "https://github.com/propertyguru/marketplace-web/pull/305",
           "status": "MERGED",
@@ -1411,6 +1428,17 @@
           "isChildPr": true,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2024-10-04T06:19:07.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7003",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2446",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2024-10-04T06:45:12.000Z",
           "isApproved": true
         }
       ]
