@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-01T00:00:00.000Z",
-  "syncDate": "2024-12-30T02:17:35.779Z",
+  "syncDate": "2024-12-30T07:15:36.118Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
@@ -42,6 +42,45 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-12-27T03:29:56.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1367691",
+      "key": "FINTECH-7499",
+      "jira_title": "SG App | Login issue on PreQual webview",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "issue/FINTECH-7499",
+          "destination_branch": "main",
+          "url": "https://github.com/propertyguru/mobile-pg-consumer/pull/1681",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "mobile-pg-consumer",
+          "lastUpdate": "2024-12-30T05:28:21.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7499",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/816",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2024-12-30T05:37:41.000Z",
           "isApproved": false
         }
       ]
