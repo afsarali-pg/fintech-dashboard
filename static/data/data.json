@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-02T02:14:26.737Z",
+  "syncDate": "2025-01-02T07:13:56.745Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
@@ -624,8 +624,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2024-12-27T05:50:29.000Z",
-          "isApproved": true
+          "lastUpdate": "2025-01-02T05:07:17.000Z",
+          "isApproved": false
         }
       ]
     },
