@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-01T07:14:34.693Z",
+  "syncDate": "2025-01-02T02:14:26.737Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
@@ -45,6 +45,22 @@
           "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1367695",
+      "key": "FINTECH-7501",
+      "jira_title": "SG Cons | SRP | GA events for eligible properties",
+      "team": "Growth",
+      "reporter_name": "Lakshmi Bhandaram",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1367691",
