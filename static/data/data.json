@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-02T07:13:56.745Z",
+  "syncDate": "2025-01-03T02:15:32.509Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
@@ -620,12 +620,12 @@
           "branch_name": "FINTECH-7424",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/marketplace-web/pull/811",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-02T05:07:17.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-02T09:19:12.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -654,6 +654,34 @@
           "repositoryName": "terraform",
           "lastUpdate": "2024-12-24T10:44:52.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1356813",
+      "key": "FINTECH-7352",
+      "jira_title": "New Markets | HIVE | MY Loans Page | Implement Filter Modal",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7352",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/832",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-02T18:55:49.000Z",
+          "isApproved": false
         }
       ]
     },
