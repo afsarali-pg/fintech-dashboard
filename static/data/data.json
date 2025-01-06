@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-03T07:13:53.812Z",
+  "syncDate": "2025-01-06T02:19:34.572Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2024-12-19T06:53:51.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
@@ -304,7 +304,7 @@
       "reporter_name": "Mritunjay Kumar Mani",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -315,11 +315,11 @@
           "branch_name": "FINTECH-7450",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1498",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2024-12-20T06:00:06.000Z",
+          "lastUpdate": "2025-01-06T00:51:42.000Z",
           "isApproved": true
         }
       ]
@@ -489,6 +489,34 @@
           "repositoryName": "data-etl-ninja-scripts",
           "lastUpdate": "2024-12-26T09:44:08.000Z",
           "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1361790",
+      "key": "FINTECH-7430",
+      "jira_title": "AgentNet | Update Masthead for CNY Campaign ",
+      "team": "Internal Tools",
+      "reporter_name": "Khoo Shi Han",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7430",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2354",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-01-03T10:51:54.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -670,6 +698,34 @@
       ]
     },
     {
+      "ticket_id": "1356832",
+      "key": "FINTECH-7354",
+      "jira_title": "New Markets | HIVE | MY Loans Page | Implement Enquiry Success Modal",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7354",
+          "destination_branch": "FINTECH-7352",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/838",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-03T09:18:39.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1356813",
       "key": "FINTECH-7352",
       "jira_title": "New Markets | HIVE | MY Loans Page | Implement Filter Modal",
@@ -693,6 +749,34 @@
           "isChildPr": false,
           "repositoryName": "marketplace-web",
           "lastUpdate": "2025-01-02T18:55:49.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1356795",
+      "key": "FINTECH-7348",
+      "jira_title": "New Markets | HIVE | MY Loans Page | Implement Error States for Loan Card Container",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7348",
+          "destination_branch": "FINTECH-7354",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/840",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-03T19:12:18.000Z",
           "isApproved": false
         }
       ]
