@@ -1,12 +1,68 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-07T02:16:25.273Z",
+  "syncDate": "2025-01-07T07:14:10.298Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-06T07:22:35.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1370800",
+      "key": "FINTECH-7525",
+      "jira_title": "FinTech Q1 2025 Sprint 1 - Production Monitoring Services & Debugging",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7525",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2651",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2025-01-07T05:51:28.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1370030",
+      "key": "FINTECH-7517",
+      "jira_title": "MY| FE | Update SourceConverted Value for BankMatching Tile",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7517",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2358",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-01-07T05:58:07.000Z",
+          "isApproved": false
+        }
+      ]
+    },
     {
       "ticket_id": "1367695",
       "key": "FINTECH-7501",
@@ -30,7 +86,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-06T04:48:40.000Z",
+          "lastUpdate": "2025-01-07T03:32:30.000Z",
           "isApproved": false
         },
         {
@@ -41,8 +97,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-06T04:42:19.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-07T03:34:23.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -273,7 +329,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -297,8 +353,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-06T09:25:54.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-07T05:47:37.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -726,7 +782,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-06T11:28:33.000Z",
+          "lastUpdate": "2025-01-07T06:07:04.000Z",
           "isApproved": false
         }
       ]
@@ -741,7 +797,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -754,8 +810,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-06T12:04:51.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-07T07:00:09.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -821,7 +877,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-06T10:08:05.000Z",
+          "lastUpdate": "2025-01-07T06:43:34.000Z",
           "isApproved": false
         }
       ]
@@ -864,7 +920,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -877,8 +933,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2025-01-06T14:20:35.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-07T03:36:52.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -905,7 +961,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-06T16:47:39.000Z",
+          "lastUpdate": "2025-01-07T03:34:56.000Z",
           "isApproved": true
         },
         {
@@ -916,7 +972,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-06T16:22:55.000Z",
+          "lastUpdate": "2025-01-07T03:45:14.000Z",
           "isApproved": false
         }
       ]
