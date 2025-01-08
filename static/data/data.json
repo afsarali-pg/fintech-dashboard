@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-08T02:14:57.424Z",
+  "syncDate": "2025-01-08T07:13:42.206Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-06T07:22:35.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
@@ -15,9 +15,9 @@
       "reporter_name": "Abhina S",
       "dev_name": "Abhina S",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -26,23 +26,23 @@
           "branch_name": "FINTECH-7549",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2653",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-07T08:47:24.000Z",
+          "lastUpdate": "2025-01-08T03:10:18.000Z",
           "isApproved": true
         },
         {
           "branch_name": "FINTECH-7549",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/marketplace-web/pull/864",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-07T12:20:20.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-08T04:40:23.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -54,7 +54,7 @@
       "reporter_name": "Ketan Parikh",
       "dev_name": "Afsar Ali",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -65,14 +65,30 @@
           "branch_name": "sandbox-automation",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1505",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-08T01:08:53.000Z",
+          "lastUpdate": "2025-01-08T03:43:18.000Z",
           "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1370848",
+      "key": "FINTECH-7528",
+      "jira_title": "HO | Mortgage | QA & UAT fixes",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1370800",
@@ -140,7 +156,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -153,8 +169,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-08T01:25:09.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-08T05:14:57.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-7501",
@@ -210,17 +226,17 @@
       "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
-      "isChildTicket": false,
+      "isChildTicket": true,
       "pull_requests": [
         {
           "branch_name": "issue/FINTECH-7499",
-          "destination_branch": "main",
+          "destination_branch": "release/2025.1.7",
           "url": "https://github.com/propertyguru/mobile-pg-consumer/pull/1681",
           "status": "OPEN",
           "isDeployed": false,
-          "isChildPr": false,
+          "isChildPr": true,
           "repositoryName": "mobile-pg-consumer",
-          "lastUpdate": "2025-01-06T09:45:01.000Z",
+          "lastUpdate": "2025-01-08T07:03:55.000Z",
           "isApproved": true
         },
         {
@@ -371,7 +387,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Sandeep Nathuram Kundalwal",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -382,11 +398,11 @@
           "branch_name": "FINTECH-7469",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1502",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-06T09:59:30.000Z",
+          "lastUpdate": "2025-01-08T05:30:08.000Z",
           "isApproved": true
         }
       ]
@@ -464,7 +480,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-07T05:47:37.000Z",
+          "lastUpdate": "2025-01-08T07:11:15.000Z",
           "isApproved": true
         }
       ]
@@ -1029,7 +1045,7 @@
       "reporter_name": "Afsar Ali",
       "dev_name": "Sandeep Nathuram Kundalwal",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -1040,11 +1056,11 @@
           "branch_name": "FINTECH-7327",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2357",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2025-01-07T18:15:34.000Z",
+          "lastUpdate": "2025-01-08T06:33:30.000Z",
           "isApproved": true
         }
       ]
@@ -1083,7 +1099,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-07T12:51:40.000Z",
+          "lastUpdate": "2025-01-08T02:27:43.000Z",
           "isApproved": false
         }
       ]
