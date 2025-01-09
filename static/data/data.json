@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-09T02:47:06.724Z",
+  "syncDate": "2025-01-09T07:14:11.526Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-06T07:22:35.000Z",
   "lastBackendDeploymentDate": "2024-12-26T08:36:57.000Z",
@@ -43,6 +43,34 @@
           "repositoryName": "marketplace-web",
           "lastUpdate": "2025-01-08T04:40:23.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1371323",
+      "key": "FINTECH-7548",
+      "jira_title": "[Enquiry Modal] Weekend Schedule Enquiry Modal Issue",
+      "team": "NA",
+      "reporter_name": "Afsar Ali",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7548",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2361",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-01-09T06:21:11.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -112,7 +140,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": true,
@@ -125,8 +153,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-08T18:02:33.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-09T05:50:49.000Z",
+          "isApproved": true
         },
         {
           "branch_name": "FINTECH-7528",
@@ -136,8 +164,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-08T17:59:45.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-09T05:49:20.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -203,7 +231,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2025-01-08T18:08:44.000Z",
+          "lastUpdate": "2025-01-09T07:12:59.000Z",
           "isApproved": false
         }
       ]
@@ -231,7 +259,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-08T11:22:06.000Z",
+          "lastUpdate": "2025-01-09T05:45:50.000Z",
           "isApproved": true
         },
         {
@@ -283,7 +311,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": true,
+      "isMerged": false,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -299,6 +327,17 @@
           "isChildPr": true,
           "repositoryName": "mobile-pg-consumer",
           "lastUpdate": "2025-01-08T07:16:20.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "release/2025.1.7",
+          "destination_branch": "main",
+          "url": "https://github.com/propertyguru/mobile-pg-consumer/pull/1699",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "mobile-pg-consumer",
+          "lastUpdate": "2025-01-09T07:13:02.000Z",
           "isApproved": true
         },
         {
@@ -493,7 +532,7 @@
       "reporter_name": "Ketan Parikh",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -515,11 +554,11 @@
           "branch_name": "FINTECH-7461_1",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-backend/pull/1504",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-08T12:15:12.000Z",
+          "lastUpdate": "2025-01-09T06:34:01.000Z",
           "isApproved": true
         }
       ]
@@ -644,9 +683,9 @@
       "reporter_name": "Lakshya Saini",
       "dev_name": "Lakshya Saini",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -655,12 +694,12 @@
           "branch_name": "FINTECH-7442",
           "destination_branch": "adminNetMigration",
           "url": "https://github.com/propertyguru/pg-finance-adminpanel/pull/36",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-adminpanel",
-          "lastUpdate": "2025-01-07T15:58:51.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-09T05:59:01.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -700,9 +739,9 @@
       "reporter_name": "Ketan Parikh",
       "dev_name": "Mritunjay Kumar Mani",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -711,12 +750,12 @@
           "branch_name": "FINTECH-7428",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/868",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2025-01-07T11:06:13.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-09T06:47:36.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -838,7 +877,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-08T16:18:09.000Z",
+          "lastUpdate": "2025-01-09T07:08:39.000Z",
           "isApproved": true
         }
       ]
@@ -961,7 +1000,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-08T11:21:28.000Z",
+          "lastUpdate": "2025-01-09T05:45:03.000Z",
           "isApproved": true
         }
       ]
