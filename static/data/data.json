@@ -1,9 +1,9 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-14T02:10:19.879Z",
+  "syncDate": "2025-01-14T07:13:21.109Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-13T10:52:14.000Z",
-  "lastBackendDeploymentDate": "2025-01-13T08:22:27.000Z",
+  "lastBackendDeploymentDate": "2025-01-14T05:19:58.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
@@ -353,7 +353,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-13T14:30:08.000Z",
+          "lastUpdate": "2025-01-14T02:20:47.000Z",
           "isApproved": false
         }
       ]
@@ -1089,7 +1089,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-13T14:31:08.000Z",
+          "lastUpdate": "2025-01-14T02:22:16.000Z",
           "isApproved": true
         }
       ]
