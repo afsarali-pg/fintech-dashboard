@@ -1,9 +1,9 @@
 {
-  "upcomingGurulandDeploymentDate": "2025-01-15T00:00:00.000Z",
-  "syncDate": "2025-01-14T07:13:21.109Z",
+  "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
+  "syncDate": "2025-01-15T02:12:24.352Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-13T10:52:14.000Z",
-  "lastBackendDeploymentDate": "2025-01-14T05:19:58.000Z",
+  "lastBackendDeploymentDate": "2025-01-14T09:10:57.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2024-12-02T07:26:09.000Z",
   "jiraTickets": [
@@ -147,7 +147,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-13T07:19:17.000Z",
+          "lastUpdate": "2025-01-14T14:16:26.000Z",
           "isApproved": false
         }
       ]
