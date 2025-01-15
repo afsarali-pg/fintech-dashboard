@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-15T02:12:24.352Z",
+  "syncDate": "2025-01-15T07:13:23.734Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-13T10:52:14.000Z",
   "lastBackendDeploymentDate": "2025-01-14T09:10:57.000Z",
@@ -1074,7 +1074,7 @@
       "reporter_name": "Aditya Patel",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -1085,11 +1085,11 @@
           "branch_name": "FINTECH-7362",
           "destination_branch": "my-loans-page-common",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2666",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-14T02:22:16.000Z",
+          "lastUpdate": "2025-01-15T03:37:49.000Z",
           "isApproved": true
         }
       ]
