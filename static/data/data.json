@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-15T07:13:23.734Z",
+  "syncDate": "2025-01-16T02:11:02.265Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-13T10:52:14.000Z",
   "lastBackendDeploymentDate": "2025-01-14T09:10:57.000Z",
@@ -134,7 +134,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -147,8 +147,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-14T14:16:26.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-15T08:13:03.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -294,9 +294,9 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Abhina S",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": true,
@@ -316,11 +316,11 @@
           "branch_name": "FINTECH-7528",
           "destination_branch": "homeowner-mortgage",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2661",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-13T04:57:50.000Z",
+          "lastUpdate": "2025-01-15T10:36:08.000Z",
           "isApproved": true
         },
         {
@@ -349,12 +349,12 @@
           "branch_name": "FINTECH-7528",
           "destination_branch": "ho-mortgage",
           "url": "https://github.com/propertyguru/marketplace-web/pull/909",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-14T02:20:47.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-15T10:44:25.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -616,6 +616,34 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2025-01-06T10:31:51.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1367607",
+      "key": "FINTECH-7496",
+      "jira_title": "BE | Resolve Security Hotspots found in Sonarqube dashboard",
+      "team": "NA",
+      "reporter_name": "Ketan Parikh",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7496",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-backend/pull/1529",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-backend",
+          "lastUpdate": "2025-01-15T11:55:05.000Z",
           "isApproved": true
         }
       ]
@@ -1386,6 +1414,17 @@
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2025-01-10T07:01:09.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7306",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/terraform/pull/4000",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "terraform",
+          "lastUpdate": "2025-01-16T00:49:19.000Z",
+          "isApproved": false
         }
       ]
     },
