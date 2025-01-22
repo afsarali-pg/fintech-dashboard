@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-22T02:13:55.849Z",
+  "syncDate": "2025-01-22T07:13:39.425Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -112,7 +112,7 @@
       "isDeployed": false,
       "isMerged": true,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": true,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -127,6 +127,17 @@
           "repositoryName": "guruland",
           "lastUpdate": "2025-01-20T08:45:21.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7597",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2379",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-01-22T06:19:44.000Z",
+          "isApproved": false
         },
         {
           "branch_name": "FINTECH-7597",
@@ -443,7 +454,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-adminpanel",
-          "lastUpdate": "2025-01-21T13:05:33.000Z",
+          "lastUpdate": "2025-01-22T04:20:51.000Z",
           "isApproved": false
         }
       ]
@@ -640,11 +651,11 @@
           "branch_name": "FINTECH-7501",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2646",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-09T05:45:50.000Z",
+          "lastUpdate": "2025-01-22T03:01:51.000Z",
           "isApproved": true
         },
         {
@@ -655,7 +666,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-20T06:45:17.000Z",
+          "lastUpdate": "2025-01-22T06:05:49.000Z",
           "isApproved": false
         }
       ]
@@ -1280,7 +1291,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
-          "lastUpdate": "2025-01-21T10:53:09.000Z",
+          "lastUpdate": "2025-01-22T04:42:04.000Z",
           "isApproved": true
         }
       ]
