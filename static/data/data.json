@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-22T07:13:39.425Z",
+  "syncDate": "2025-01-23T02:11:56.547Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -141,6 +141,28 @@
         },
         {
           "branch_name": "FINTECH-7597",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2381",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-01-22T08:22:53.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7597",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2383",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-01-22T08:52:35.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7597",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/blueprints/pull/1783",
           "status": "MERGED",
@@ -162,7 +184,7 @@
       "isDeployed": false,
       "isMerged": true,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -210,6 +232,17 @@
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2025-01-21T06:27:05.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7596",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2384",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-01-22T09:14:12.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -307,7 +340,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -320,10 +353,26 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2025-01-21T10:58:27.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-22T10:03:23.000Z",
+          "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1375155",
+      "key": "FINTECH-7576",
+      "jira_title": "HO | Add Profiler In Datadog",
+      "team": "NA",
+      "reporter_name": "Harsh Kumar Goel",
+      "dev_name": "Sandeep Nathuram Kundalwal",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1374905",
@@ -441,7 +490,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -454,8 +503,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-adminpanel",
-          "lastUpdate": "2025-01-22T04:20:51.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-22T10:08:55.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -494,6 +543,62 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2025-01-21T04:14:34.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1370899",
+      "key": "FINTECH-7536",
+      "jira_title": "HO | Alerts | BE | Migrations of current alerts",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Harsh Kumar Goel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7536",
+          "destination_branch": "FINTECH-7352",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/260",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2025-01-22T12:09:52.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
+      "ticket_id": "1370890",
+      "key": "FINTECH-7533",
+      "jira_title": "HO | Alerts | BE | Implement the updatePropertyAlerts mutation and the UpdatePropertyAlerts API on the Symbiosis side",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7533",
+          "destination_branch": "homeowner-alerts",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1009",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-22T11:06:22.000Z",
           "isApproved": true
         }
       ]
@@ -948,7 +1053,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-21T16:40:19.000Z",
+          "lastUpdate": "2025-01-22T13:08:52.000Z",
           "isApproved": false
         }
       ]
