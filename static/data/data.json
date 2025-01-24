@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-23T07:13:33.334Z",
+  "syncDate": "2025-01-24T02:12:27.172Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -103,6 +103,34 @@
       ]
     },
     {
+      "ticket_id": "1376331",
+      "key": "FINTECH-7604",
+      "jira_title": "Fix failing automation script",
+      "team": "NA",
+      "reporter_name": "Afsar Ali",
+      "dev_name": "Afsar Ali",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "fix/enquiry-tests",
+          "destination_branch": "main",
+          "url": "https://github.com/propertyguru/marketplace-qaautomation/pull/1264",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-qaautomation",
+          "lastUpdate": "2025-01-23T07:59:47.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1376225",
       "key": "FINTECH-7597",
       "jira_title": "FE | Reduce minimum pods for FinTech Webtools",
@@ -182,7 +210,7 @@
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": false,
       "isGuruland": false,
@@ -248,11 +276,11 @@
           "branch_name": "FINTECH-7596",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2386",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2025-01-23T06:14:08.000Z",
+          "lastUpdate": "2025-01-23T08:01:54.000Z",
           "isApproved": true
         }
       ]
@@ -293,7 +321,7 @@
       "reporter_name": "Dominic Arrojado",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -304,11 +332,11 @@
           "branch_name": "FINTECH-7582",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2378",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
-          "lastUpdate": "2025-01-23T05:51:36.000Z",
+          "lastUpdate": "2025-01-23T09:27:56.000Z",
           "isApproved": true
         }
       ]
@@ -376,14 +404,26 @@
       "team": "NA",
       "reporter_name": "Harsh Kumar Goel",
       "dev_name": "Sandeep Nathuram Kundalwal",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7576",
+          "destination_branch": "develop",
+          "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/262",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-homeowner",
+          "lastUpdate": "2025-01-23T16:51:18.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1374905",
@@ -514,7 +554,35 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-adminpanel",
-          "lastUpdate": "2025-01-23T05:25:20.000Z",
+          "lastUpdate": "2025-01-24T01:43:15.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1372073",
+      "key": "FINTECH-7558",
+      "jira_title": "PGF Navbar | Implement hover on dropdown on hive pgf nav bar variant",
+      "team": "NA",
+      "reporter_name": "Arijit Bhaumik",
+      "dev_name": "Rinkesh Golwala",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": true,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7558",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2682",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2025-01-24T01:37:27.000Z",
           "isApproved": true
         }
       ]
@@ -860,7 +928,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2025-01-23T05:42:51.000Z",
+          "lastUpdate": "2025-01-24T01:53:23.000Z",
           "isApproved": true
         }
       ]
@@ -917,6 +985,17 @@
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2025-01-23T02:44:39.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7483",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1028",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-24T01:44:15.000Z",
           "isApproved": true
         }
       ]
