@@ -1,12 +1,51 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-28T02:11:46.925Z",
+  "syncDate": "2025-01-28T07:13:41.419Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2025-01-20T04:08:34.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1380068",
+      "key": "FINTECH-7647",
+      "jira_title": "GenAI | Loan Recommendation Repo Setup ",
+      "team": "NA",
+      "reporter_name": "Lakshya Saini",
+      "dev_name": "Lakshya Saini",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7647",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/terraform/pull/4097",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "terraform",
+          "lastUpdate": "2025-01-28T07:03:28.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7647",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/envision-backstage/pull/685",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "envision-backstage",
+          "lastUpdate": "2025-01-28T07:05:39.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1377407",
       "key": "FINTECH-7628",
@@ -962,7 +1001,7 @@
       "reporter_name": "Lakshmi Bhandaram",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -984,11 +1023,11 @@
           "branch_name": "FINTECH-7501",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/marketplace-web/pull/845",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-24T07:20:30.000Z",
+          "lastUpdate": "2025-01-28T05:29:53.000Z",
           "isApproved": true
         }
       ]
@@ -1122,7 +1161,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-23T02:44:39.000Z",
+          "lastUpdate": "2025-01-28T03:30:49.000Z",
           "isApproved": true
         },
         {
@@ -1211,7 +1250,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-21T13:28:37.000Z",
+          "lastUpdate": "2025-01-28T06:53:25.000Z",
           "isApproved": false
         }
       ]
@@ -1322,7 +1361,7 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-24T08:01:43.000Z",
+          "lastUpdate": "2025-01-28T06:11:03.000Z",
           "isApproved": true
         }
       ]
@@ -1845,34 +1884,6 @@
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-11-21T03:35:41.000Z",
           "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1342357",
-      "key": "FINTECH-7182",
-      "jira_title": "SF | Q4OB2: Display Number of Pending Applications P1",
-      "team": "NA",
-      "reporter_name": "Kendrick",
-      "dev_name": "Sandeep Nathuram Kundalwal",
-      "isDeployed": false,
-      "isMerged": false,
-      "isTested": false,
-      "isReviewed": false,
-      "isGuruland": false,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7182",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/870",
-          "status": "OPEN",
-          "isDeployed": false,
-          "isChildPr": false,
-          "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2025-01-27T14:21:27.000Z",
-          "isApproved": false
         }
       ]
     }
