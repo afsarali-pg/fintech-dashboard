@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-27T07:14:18.176Z",
+  "syncDate": "2025-01-28T02:11:46.925Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -30,7 +30,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2025-01-27T07:06:48.000Z",
+          "lastUpdate": "2025-01-27T09:53:20.000Z",
           "isApproved": true
         },
         {
@@ -86,6 +86,17 @@
           "isChildPr": false,
           "repositoryName": "fintech-static-html",
           "lastUpdate": "2025-01-27T06:58:47.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7628",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/fintech-static-html/pull/15",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "fintech-static-html",
+          "lastUpdate": "2025-01-28T00:56:30.000Z",
           "isApproved": true
         }
       ]
@@ -1270,7 +1281,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -1283,8 +1294,8 @@
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-27T06:57:52.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-27T11:02:54.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1860,7 +1871,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2025-01-27T06:49:12.000Z",
+          "lastUpdate": "2025-01-27T14:21:27.000Z",
           "isApproved": false
         }
       ]
