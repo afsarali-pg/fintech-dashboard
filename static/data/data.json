@@ -1,6 +1,6 @@
 {
-  "upcomingGurulandDeploymentDate": "2025-01-29T00:00:00.000Z",
-  "syncDate": "2025-01-28T07:13:41.419Z",
+  "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
+  "syncDate": "2025-01-29T02:11:16.321Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -15,7 +15,7 @@
       "reporter_name": "Lakshya Saini",
       "dev_name": "Lakshya Saini",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -37,11 +37,11 @@
           "branch_name": "FINTECH-7647",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/envision-backstage/pull/685",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "envision-backstage",
-          "lastUpdate": "2025-01-28T07:05:39.000Z",
+          "lastUpdate": "2025-01-28T11:20:05.000Z",
           "isApproved": true
         }
       ]
@@ -176,7 +176,7 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": true,
+      "isMerged": false,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -192,6 +192,17 @@
           "isChildPr": true,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2025-01-24T09:18:17.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7612",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/terraform/pull/4103",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "terraform",
+          "lastUpdate": "2025-01-29T02:02:26.000Z",
           "isApproved": true
         }
       ]
@@ -311,7 +322,7 @@
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/guruland/pull/26265",
           "status": "MERGED",
-          "isDeployed": false,
+          "isDeployed": true,
           "isChildPr": false,
           "repositoryName": "guruland",
           "lastUpdate": "2025-01-20T08:45:21.000Z",
@@ -1213,9 +1224,9 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -1224,11 +1235,11 @@
           "branch_name": "FINTECH-7481",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2676",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-20T14:41:03.000Z",
+          "lastUpdate": "2025-01-28T10:07:05.000Z",
           "isApproved": true
         },
         {
@@ -1246,12 +1257,12 @@
           "branch_name": "FINTECH-7481",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/marketplace-web/pull/961",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-28T06:53:25.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-28T13:29:46.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1318,7 +1329,7 @@
       "reporter_name": "Aditya Patel",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -1329,11 +1340,11 @@
           "branch_name": "FINTECH-7370",
           "destination_branch": "my-loans-page-common_2",
           "url": "https://github.com/propertyguru/marketplace-web/pull/1045",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-27T11:02:54.000Z",
+          "lastUpdate": "2025-01-28T10:53:59.000Z",
           "isApproved": true
         }
       ]
@@ -1346,7 +1357,7 @@
       "reporter_name": "Aditya Patel",
       "dev_name": "Arijit Bhaumik",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -1357,12 +1368,40 @@
           "branch_name": "FINTECH-7368",
           "destination_branch": "my-loans-page-common_2",
           "url": "https://github.com/propertyguru/marketplace-web/pull/1036",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-28T06:11:03.000Z",
+          "lastUpdate": "2025-01-28T07:26:04.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1356923",
+      "key": "FINTECH-7366",
+      "jira_title": "New Markets | SYM | MY Loans Page | Import Loan Card",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7366",
+          "destination_branch": "my-loans-page-common_2",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1056",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-28T10:55:45.000Z",
+          "isApproved": false
         }
       ]
     },
