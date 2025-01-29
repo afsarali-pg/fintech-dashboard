@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-01-29T02:11:16.321Z",
+  "syncDate": "2025-01-29T07:13:47.228Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -1159,7 +1159,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -1183,8 +1183,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-24T10:16:14.000Z",
-          "isApproved": true
+          "lastUpdate": "2025-01-29T04:22:26.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -1385,9 +1385,9 @@
       "reporter_name": "Aditya Patel",
       "dev_name": "Aditya Patel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": true,
@@ -1396,12 +1396,12 @@
           "branch_name": "FINTECH-7366",
           "destination_branch": "my-loans-page-common_2",
           "url": "https://github.com/propertyguru/marketplace-web/pull/1056",
-          "status": "DRAFT",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-28T10:55:45.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-29T05:01:07.000Z",
+          "isApproved": true
         }
       ]
     },
