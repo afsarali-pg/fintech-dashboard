@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-01-30T02:10:10.720Z",
+  "syncDate": "2025-01-30T07:13:14.987Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -608,7 +608,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2025-01-24T09:31:24.000Z",
+          "lastUpdate": "2025-01-30T03:51:05.000Z",
           "isApproved": true
         }
       ]
@@ -755,9 +755,9 @@
       "reporter_name": "Arijit Bhaumik",
       "dev_name": "Rinkesh Golwala",
       "isDeployed": false,
-      "isMerged": true,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -783,6 +783,17 @@
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2025-01-29T13:49:12.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7558-1",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1061",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-30T05:59:39.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -1186,7 +1197,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -1210,8 +1221,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-29T04:22:26.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-30T03:35:33.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1383,14 +1394,26 @@
       "team": "NA",
       "reporter_name": "Aditya Patel",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": true,
+      "isDeployed": false,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": []
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7369",
+          "destination_branch": "my-loans-page-common_2",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1062",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-30T06:48:23.000Z",
+          "isApproved": true
+        }
+      ]
     },
     {
       "ticket_id": "1356930",
@@ -1427,14 +1450,26 @@
       "team": "NA",
       "reporter_name": "Aditya Patel",
       "dev_name": "Arijit Bhaumik",
-      "isDeployed": true,
+      "isDeployed": false,
       "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": []
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7367",
+          "destination_branch": "my-loans-page-common_2",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1060",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-30T03:15:30.000Z",
+          "isApproved": true
+        }
+      ]
     },
     {
       "ticket_id": "1356923",
@@ -2008,7 +2043,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2025-01-29T16:58:48.000Z",
+          "lastUpdate": "2025-01-30T05:16:37.000Z",
           "isApproved": true
         }
       ]
