@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-01-29T07:13:47.228Z",
+  "syncDate": "2025-01-30T02:10:10.720Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -176,7 +176,7 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -198,11 +198,11 @@
           "branch_name": "FINTECH-7612",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/terraform/pull/4103",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "terraform",
-          "lastUpdate": "2025-01-29T02:02:26.000Z",
+          "lastUpdate": "2025-01-29T08:42:54.000Z",
           "isApproved": true
         }
       ]
@@ -772,6 +772,17 @@
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2025-01-27T04:51:27.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7558-1",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/hive-ui-widgets/pull/2696",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "hive-ui-widgets",
+          "lastUpdate": "2025-01-29T13:49:12.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1122,6 +1133,22 @@
       ]
     },
     {
+      "ticket_id": "1366498",
+      "key": "FINTECH-7488",
+      "jira_title": "HO | Dashboard First Impression | Sell & Rent tabs",
+      "team": "Core",
+      "reporter_name": "Sandeep Mondal",
+      "dev_name": "Abhina S",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
       "ticket_id": "1366431",
       "key": "FINTECH-7486",
       "jira_title": "QA | FE | Refactor ContactWidget component in Finance Landing page",
@@ -1272,7 +1299,7 @@
       "jira_title": "SF | Blacklisted Agent Account Status",
       "team": "NA",
       "reporter_name": "Ong Jian Wei",
-      "dev_name": "Ketan Parikh",
+      "dev_name": "Harsh Kumar Goel",
       "isDeployed": true,
       "isMerged": true,
       "isTested": false,
@@ -1350,6 +1377,22 @@
       ]
     },
     {
+      "ticket_id": "1356932",
+      "key": "FINTECH-7369",
+      "jira_title": "New Markets | SYM | MY Loans Page | Integrate Enquiry API",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
+    },
+    {
       "ticket_id": "1356930",
       "key": "FINTECH-7368",
       "jira_title": "New Markets | SYM | MY Loans Page | Import Enquiry & Success Modal",
@@ -1376,6 +1419,22 @@
           "isApproved": true
         }
       ]
+    },
+    {
+      "ticket_id": "1356928",
+      "key": "FINTECH-7367",
+      "jira_title": "New Markets | SYM | MY Loans Page | Import Boost Approval Card",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": true,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": []
     },
     {
       "ticket_id": "1356923",
@@ -1922,6 +1981,34 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-frontend",
           "lastUpdate": "2024-11-21T03:35:41.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1342357",
+      "key": "FINTECH-7182",
+      "jira_title": "SF | Q4OB2: Display Number of Pending Applications P1",
+      "team": "NA",
+      "reporter_name": "Kendrick",
+      "dev_name": "Sandeep Nathuram Kundalwal",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7182",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/870",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2025-01-29T16:58:48.000Z",
           "isApproved": true
         }
       ]
