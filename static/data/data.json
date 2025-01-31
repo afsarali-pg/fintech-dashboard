@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-01-30T07:13:14.987Z",
+  "syncDate": "2025-01-31T02:11:58.427Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -757,7 +757,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": true,
       "isChildTicket": false,
@@ -792,8 +792,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-30T05:59:39.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-31T01:33:42.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1221,7 +1221,7 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-30T03:35:33.000Z",
+          "lastUpdate": "2025-01-31T01:33:16.000Z",
           "isApproved": true
         }
       ]
@@ -1311,14 +1311,26 @@
       "team": "NA",
       "reporter_name": "Ong Jian Wei",
       "dev_name": "Harsh Kumar Goel",
-      "isDeployed": true,
-      "isMerged": true,
+      "isDeployed": false,
+      "isMerged": false,
       "isTested": false,
-      "isReviewed": true,
+      "isReviewed": false,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
-      "pull_requests": []
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7475",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/892",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-salesforce",
+          "lastUpdate": "2025-01-30T10:39:34.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1357417",
@@ -2028,7 +2040,7 @@
       "reporter_name": "Kendrick",
       "dev_name": "Sandeep Nathuram Kundalwal",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -2039,11 +2051,11 @@
           "branch_name": "FINTECH-7182",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/pg-finance-salesforce/pull/870",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-salesforce",
-          "lastUpdate": "2025-01-30T05:16:37.000Z",
+          "lastUpdate": "2025-01-30T12:06:08.000Z",
           "isApproved": true
         }
       ]
