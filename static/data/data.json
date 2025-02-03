@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-01-31T07:13:23.807Z",
+  "syncDate": "2025-02-03T02:13:08.086Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -497,6 +497,34 @@
       ]
     },
     {
+      "ticket_id": "1376187",
+      "key": "FINTECH-7595",
+      "jira_title": "New Markets | SYM | MY Loans Page | Add Bahasa Support",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7595",
+          "destination_branch": "FINTECH-7650",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1074",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-31T07:42:03.000Z",
+          "isApproved": false
+        }
+      ]
+    },
+    {
       "ticket_id": "1376124",
       "key": "FINTECH-7592",
       "jira_title": "Guruland | Fix EnquiryV2 variable in Mortgage Controllers",
@@ -632,7 +660,7 @@
       "reporter_name": "Harsh Kumar Goel",
       "dev_name": "Sandeep Nathuram Kundalwal",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": false,
@@ -643,11 +671,11 @@
           "branch_name": "FINTECH-7576",
           "destination_branch": "develop",
           "url": "https://github.com/propertyguru/pg-finance-homeowner/pull/262",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2025-01-30T03:51:05.000Z",
+          "lastUpdate": "2025-01-31T08:29:09.000Z",
           "isApproved": true
         }
       ]
@@ -866,6 +894,17 @@
           "repositoryName": "marketplace-web",
           "lastUpdate": "2025-01-31T01:33:42.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7558-2",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1072",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-01-31T08:01:02.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -974,7 +1013,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -998,8 +1037,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "pg-finance-homeowner",
-          "lastUpdate": "2025-01-31T07:11:16.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-01-31T07:17:07.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1251,6 +1290,17 @@
           "repositoryName": "hive-ui-widgets",
           "lastUpdate": "2025-01-31T06:16:39.000Z",
           "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7488",
+          "destination_branch": "FINTECH-7483",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1077",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-02-03T01:46:36.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -1450,19 +1500,19 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "hive-ui-widgets",
-          "lastUpdate": "2025-01-31T04:15:49.000Z",
+          "lastUpdate": "2025-01-31T09:27:05.000Z",
           "isApproved": false
         },
         {
           "branch_name": "FINTECH-7391",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/marketplace-web/pull/1066",
-          "status": "DRAFT",
+          "status": "OPEN",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-01-31T04:43:00.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-02-03T01:41:30.000Z",
+          "isApproved": true
         }
       ]
     },
