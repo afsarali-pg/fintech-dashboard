@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-02-04T02:11:57.149Z",
+  "syncDate": "2025-02-04T07:14:03.035Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-01-21T04:19:20.000Z",
@@ -15,7 +15,7 @@
       "reporter_name": "Ketan Parikh",
       "dev_name": "Dominic Arrojado",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
       "isReviewed": true,
       "isGuruland": true,
@@ -26,12 +26,40 @@
           "branch_name": "FINTECH-7670",
           "destination_branch": "dev",
           "url": "https://github.com/propertyguru/guruland/pull/26302",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "guruland",
-          "lastUpdate": "2025-02-03T10:19:43.000Z",
+          "lastUpdate": "2025-02-04T04:39:00.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1380612",
+      "key": "FINTECH-7661",
+      "jira_title": "New Markets | SYM | MY Loans Page | QA & UAT fixes",
+      "team": "NA",
+      "reporter_name": "Aditya Patel",
+      "dev_name": "Aditya Patel",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7661",
+          "destination_branch": "my-loans-page-common_2",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1096",
+          "status": "DRAFT",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-02-04T05:58:56.000Z",
+          "isApproved": false
         }
       ]
     },
@@ -50,6 +78,34 @@
       "isSymbiosis": false,
       "isChildTicket": false,
       "pull_requests": []
+    },
+    {
+      "ticket_id": "1380590",
+      "key": "FINTECH-7653",
+      "jira_title": "PGF AI bot | Categorisation of user intent",
+      "team": "NA",
+      "reporter_name": "Mritunjay Kumar Mani",
+      "dev_name": "Mritunjay Kumar Mani",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7653",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/pg-finance-ai-chatbot/pull/6",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-ai-chatbot",
+          "lastUpdate": "2025-02-04T06:26:05.000Z",
+          "isApproved": false
+        }
+      ]
     },
     {
       "ticket_id": "1380290",
@@ -89,7 +145,7 @@
       "isDeployed": false,
       "isMerged": false,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -102,8 +158,8 @@
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-02-03T17:59:21.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-02-04T03:10:54.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -115,9 +171,9 @@
       "reporter_name": "Sandeep Mondal",
       "dev_name": "Harsh Kumar Goel",
       "isDeployed": false,
-      "isMerged": false,
+      "isMerged": true,
       "isTested": false,
-      "isReviewed": false,
+      "isReviewed": true,
       "isGuruland": false,
       "isSymbiosis": false,
       "isChildTicket": false,
@@ -126,23 +182,34 @@
           "branch_name": "FINTECH-7624",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/126",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "data-etl-ninja-scripts",
-          "lastUpdate": "2025-02-03T11:24:24.000Z",
+          "lastUpdate": "2025-02-04T06:10:19.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7624",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/data-etl-ninja-scripts/pull/127",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "data-etl-ninja-scripts",
+          "lastUpdate": "2025-02-04T06:53:16.000Z",
           "isApproved": true
         },
         {
           "branch_name": "FINTECH-7624",
           "destination_branch": "master",
           "url": "https://github.com/propertyguru/composer-airflow-2.5.5/pull/1169",
-          "status": "OPEN",
+          "status": "MERGED",
           "isDeployed": false,
           "isChildPr": false,
           "repositoryName": "composer-airflow-2.5.5",
-          "lastUpdate": "2025-02-03T11:29:31.000Z",
-          "isApproved": false
+          "lastUpdate": "2025-02-04T06:10:33.000Z",
+          "isApproved": true
         }
       ]
     },
@@ -571,6 +638,34 @@
       ]
     },
     {
+      "ticket_id": "1359246",
+      "key": "FINTECH-7416",
+      "jira_title": "New Markets | GA | Implement GA events",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Arijit Bhaumik",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": true,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7416",
+          "destination_branch": "my-loans-page-common_2",
+          "url": "https://github.com/propertyguru/marketplace-web/pull/1092",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": true,
+          "repositoryName": "marketplace-web",
+          "lastUpdate": "2025-02-04T05:54:12.000Z",
+          "isApproved": true
+        }
+      ]
+    },
+    {
       "ticket_id": "1355228",
       "key": "FINTECH-7333",
       "jira_title": "HO | Address Info pulled incorrectly when editing prop",
@@ -772,34 +867,6 @@
           "isChildPr": false,
           "repositoryName": "pg-finance-backend",
           "lastUpdate": "2024-11-21T04:32:15.000Z",
-          "isApproved": true
-        }
-      ]
-    },
-    {
-      "ticket_id": "1336237",
-      "key": "FINTECH-7144",
-      "jira_title": "Growth | SEO MCNG support | Make FAQs editable on all Guruland PGF pages",
-      "team": "Growth",
-      "reporter_name": "Lakshmi Bhandaram",
-      "dev_name": "Arijit Bhaumik",
-      "isDeployed": true,
-      "isMerged": true,
-      "isTested": false,
-      "isReviewed": true,
-      "isGuruland": true,
-      "isSymbiosis": false,
-      "isChildTicket": false,
-      "pull_requests": [
-        {
-          "branch_name": "FINTECH-7144-2",
-          "destination_branch": "dev",
-          "url": "https://github.com/propertyguru/guruland/pull/26211",
-          "status": "MERGED",
-          "isDeployed": true,
-          "isChildPr": false,
-          "repositoryName": "guruland",
-          "lastUpdate": "2024-11-19T03:52:07.000Z",
           "isApproved": true
         }
       ]
