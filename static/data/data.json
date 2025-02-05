@@ -1,12 +1,40 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-02-05T02:13:35.621Z",
+  "syncDate": "2025-02-05T07:13:41.007Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-02-04T09:15:49.000Z",
   "lastSalesforceDeploymentDate": null,
   "lastHomeOwnershipDeploymentDate": "2025-01-20T04:08:34.000Z",
   "jiraTickets": [
+    {
+      "ticket_id": "1380939",
+      "key": "FINTECH-7680",
+      "jira_title": "[FEM] New Architecture Deployment",
+      "team": "NA",
+      "reporter_name": "Afsar Ali",
+      "dev_name": "Afsar Ali",
+      "isDeployed": false,
+      "isMerged": true,
+      "isTested": false,
+      "isReviewed": true,
+      "isGuruland": false,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7680",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/terraform/pull/4169",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "terraform",
+          "lastUpdate": "2025-02-05T05:37:03.000Z",
+          "isApproved": true
+        }
+      ]
+    },
     {
       "ticket_id": "1380736",
       "key": "FINTECH-7670",
@@ -209,6 +237,17 @@
           "isChildPr": false,
           "repositoryName": "composer-airflow-2.5.5",
           "lastUpdate": "2025-02-04T06:10:33.000Z",
+          "isApproved": true
+        },
+        {
+          "branch_name": "FINTECH-7624",
+          "destination_branch": "master",
+          "url": "https://github.com/propertyguru/composer-airflow-2.5.5/pull/1179",
+          "status": "MERGED",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "composer-airflow-2.5.5",
+          "lastUpdate": "2025-02-05T04:16:45.000Z",
           "isApproved": true
         }
       ]
@@ -676,13 +715,13 @@
       "pull_requests": [
         {
           "branch_name": "FINTECH-7416",
-          "destination_branch": "my-loans-page-common_2",
+          "destination_branch": "FINTECH-7661",
           "url": "https://github.com/propertyguru/marketplace-web/pull/1092",
           "status": "OPEN",
           "isDeployed": false,
           "isChildPr": true,
           "repositoryName": "marketplace-web",
-          "lastUpdate": "2025-02-04T05:54:12.000Z",
+          "lastUpdate": "2025-02-05T05:35:04.000Z",
           "isApproved": true
         }
       ]
