@@ -1,6 +1,6 @@
 {
   "upcomingGurulandDeploymentDate": "2025-02-12T00:00:00.000Z",
-  "syncDate": "2025-02-06T02:13:56.371Z",
+  "syncDate": "2025-02-06T07:14:15.224Z",
   "lastSymbiosisDeploymentDate": "2024-09-18T07:11:19.000Z",
   "lastFrontendDeploymentDate": "2025-01-21T07:48:15.000Z",
   "lastBackendDeploymentDate": "2025-02-05T09:35:31.000Z",
@@ -76,6 +76,45 @@
           "repositoryName": "guruland",
           "lastUpdate": "2025-02-04T04:39:00.000Z",
           "isApproved": true
+        }
+      ]
+    },
+    {
+      "ticket_id": "1380654",
+      "key": "FINTECH-7662",
+      "jira_title": "SG | BUC Marketing Page",
+      "team": "Core",
+      "reporter_name": "Janice Lim",
+      "dev_name": "Dominic Arrojado",
+      "isDeployed": false,
+      "isMerged": false,
+      "isTested": false,
+      "isReviewed": false,
+      "isGuruland": true,
+      "isSymbiosis": false,
+      "isChildTicket": false,
+      "pull_requests": [
+        {
+          "branch_name": "FINTECH-7662",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/guruland/pull/26312",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "guruland",
+          "lastUpdate": "2025-02-06T07:13:01.000Z",
+          "isApproved": false
+        },
+        {
+          "branch_name": "FINTECH-7662",
+          "destination_branch": "dev",
+          "url": "https://github.com/propertyguru/pg-finance-frontend/pull/2401",
+          "status": "OPEN",
+          "isDeployed": false,
+          "isChildPr": false,
+          "repositoryName": "pg-finance-frontend",
+          "lastUpdate": "2025-02-06T07:12:49.000Z",
+          "isApproved": false
         }
       ]
     },
